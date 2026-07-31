@@ -1,0 +1,1316 @@
+{
+  "schemaVersion": 1,
+  "slug": "skyoobguide",
+  "name": "skyoobguide",
+  "fullName": "ForestOfLight/skyoobguide",
+  "description": "A documentation of tricks and glitches in Sky: Children of the Light.",
+  "homepage": "https://forestoflight.github.io/skyoobguide/",
+  "repositoryUrl": "https://github.com/ForestOfLight/skyoobguide",
+  "defaultBranch": "main",
+  "language": "SCSS",
+  "license": "MIT",
+  "fork": false,
+  "archived": true,
+  "createdAt": "2022-10-26T09:43:42Z",
+  "updatedAt": "2026-06-03T18:21:07Z",
+  "pushedAt": "2024-10-19T21:17:42Z",
+  "stars": 9,
+  "forks": 0,
+  "openIssues": 4,
+  "topics": [
+    "children-of-the-light",
+    "glitches",
+    "guide",
+    "out-of-bounds",
+    "sky",
+    "tgc",
+    "thatgamecompany",
+    "tricks"
+  ],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "pmarsceill",
+      "contributions": 646,
+      "profileUrl": "https://github.com/pmarsceill",
+      "avatar": "/_archive-media/contributors/pmarsceill.png",
+      "type": "User"
+    },
+    {
+      "login": "SgtSilvio",
+      "contributions": 120,
+      "profileUrl": "https://github.com/SgtSilvio",
+      "avatar": "/_archive-media/contributors/sgtsilvio.png",
+      "type": "User"
+    },
+    {
+      "login": "pdmosses",
+      "contributions": 109,
+      "profileUrl": "https://github.com/pdmosses",
+      "avatar": "/_archive-media/contributors/pdmosses.png",
+      "type": "User"
+    },
+    {
+      "login": "ForestOfLight",
+      "contributions": 98,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    },
+    {
+      "login": "mattxwang",
+      "contributions": 79,
+      "profileUrl": "https://github.com/mattxwang",
+      "avatar": "/_archive-media/contributors/mattxwang.png",
+      "type": "User"
+    },
+    {
+      "login": "dependabot-preview[bot]",
+      "contributions": 31,
+      "profileUrl": "https://github.com/apps/dependabot-preview",
+      "avatar": "/_archive-media/contributors/dependabot-preview-bot.png",
+      "type": "Bot"
+    },
+    {
+      "login": "BrianCassriel",
+      "contributions": 22,
+      "profileUrl": "https://github.com/BrianCassriel",
+      "avatar": "/_archive-media/contributors/briancassriel.png",
+      "type": "User"
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 14,
+      "profileUrl": "https://github.com/apps/dependabot",
+      "avatar": "/_archive-media/contributors/dependabot-bot.png",
+      "type": "Bot"
+    },
+    {
+      "login": "dependabot-support",
+      "contributions": 10,
+      "profileUrl": "https://github.com/dependabot-support",
+      "avatar": "/_archive-media/contributors/dependabot-support.png",
+      "type": "User"
+    },
+    {
+      "login": "EricFromCanada",
+      "contributions": 7,
+      "profileUrl": "https://github.com/EricFromCanada",
+      "avatar": "/_archive-media/contributors/ericfromcanada.png",
+      "type": "User"
+    },
+    {
+      "login": "stefanoborini",
+      "contributions": 7,
+      "profileUrl": "https://github.com/stefanoborini",
+      "avatar": "/_archive-media/contributors/stefanoborini.png",
+      "type": "User"
+    },
+    {
+      "login": "daviddarnes",
+      "contributions": 4,
+      "profileUrl": "https://github.com/daviddarnes",
+      "avatar": "/_archive-media/contributors/daviddarnes.png",
+      "type": "User"
+    },
+    {
+      "login": "dougaitken",
+      "contributions": 4,
+      "profileUrl": "https://github.com/dougaitken",
+      "avatar": "/_archive-media/contributors/dougaitken.png",
+      "type": "User"
+    },
+    {
+      "login": "gebeto",
+      "contributions": 4,
+      "profileUrl": "https://github.com/gebeto",
+      "avatar": "/_archive-media/contributors/gebeto.png",
+      "type": "User"
+    },
+    {
+      "login": "hvianna",
+      "contributions": 4,
+      "profileUrl": "https://github.com/hvianna",
+      "avatar": "/_archive-media/contributors/hvianna.png",
+      "type": "User"
+    },
+    {
+      "login": "r-brown",
+      "contributions": 4,
+      "profileUrl": "https://github.com/r-brown",
+      "avatar": "/_archive-media/contributors/r-brown.png",
+      "type": "User"
+    },
+    {
+      "login": "burner1024",
+      "contributions": 3,
+      "profileUrl": "https://github.com/burner1024",
+      "avatar": "/_archive-media/contributors/burner1024.png",
+      "type": "User"
+    },
+    {
+      "login": "CodeSandwich",
+      "contributions": 3,
+      "profileUrl": "https://github.com/CodeSandwich",
+      "avatar": "/_archive-media/contributors/codesandwich.png",
+      "type": "User"
+    },
+    {
+      "login": "max06",
+      "contributions": 3,
+      "profileUrl": "https://github.com/max06",
+      "avatar": "/_archive-media/contributors/max06.png",
+      "type": "User"
+    },
+    {
+      "login": "nathanjessen",
+      "contributions": 3,
+      "profileUrl": "https://github.com/nathanjessen",
+      "avatar": "/_archive-media/contributors/nathanjessen.png",
+      "type": "User"
+    },
+    {
+      "login": "pdebruic",
+      "contributions": 3,
+      "profileUrl": "https://github.com/pdebruic",
+      "avatar": "/_archive-media/contributors/pdebruic.png",
+      "type": "User"
+    },
+    {
+      "login": "plancomps-admin",
+      "contributions": 3,
+      "profileUrl": "https://github.com/plancomps-admin",
+      "avatar": "/_archive-media/contributors/plancomps-admin.png",
+      "type": "User"
+    },
+    {
+      "login": "alyssais",
+      "contributions": 2,
+      "profileUrl": "https://github.com/alyssais",
+      "avatar": "/_archive-media/contributors/alyssais.png",
+      "type": "User"
+    },
+    {
+      "login": "henryiii",
+      "contributions": 2,
+      "profileUrl": "https://github.com/henryiii",
+      "avatar": "/_archive-media/contributors/henryiii.png",
+      "type": "User"
+    },
+    {
+      "login": "iamcarrico",
+      "contributions": 2,
+      "profileUrl": "https://github.com/iamcarrico",
+      "avatar": "/_archive-media/contributors/iamcarrico.png",
+      "type": "User"
+    },
+    {
+      "login": "iridazzle",
+      "contributions": 2,
+      "profileUrl": "https://github.com/iridazzle",
+      "avatar": "/_archive-media/contributors/iridazzle.png",
+      "type": "User"
+    },
+    {
+      "login": "JeffGuKang",
+      "contributions": 2,
+      "profileUrl": "https://github.com/JeffGuKang",
+      "avatar": "/_archive-media/contributors/jeffgukang.png",
+      "type": "User"
+    },
+    {
+      "login": "JPrevost",
+      "contributions": 2,
+      "profileUrl": "https://github.com/JPrevost",
+      "avatar": "/_archive-media/contributors/jprevost.png",
+      "type": "User"
+    },
+    {
+      "login": "KasparEtter",
+      "contributions": 2,
+      "profileUrl": "https://github.com/KasparEtter",
+      "avatar": "/_archive-media/contributors/kasparetter.png",
+      "type": "User"
+    },
+    {
+      "login": "phillipcutter",
+      "contributions": 2,
+      "profileUrl": "https://github.com/phillipcutter",
+      "avatar": "/_archive-media/contributors/phillipcutter.png",
+      "type": "User"
+    },
+    {
+      "login": "waldyrious",
+      "contributions": 2,
+      "profileUrl": "https://github.com/waldyrious",
+      "avatar": "/_archive-media/contributors/waldyrious.png",
+      "type": "User"
+    },
+    {
+      "login": "alexsegura",
+      "contributions": 1,
+      "profileUrl": "https://github.com/alexsegura",
+      "avatar": "/_archive-media/contributors/alexsegura.png",
+      "type": "User"
+    },
+    {
+      "login": "blawqchain",
+      "contributions": 1,
+      "profileUrl": "https://github.com/blawqchain",
+      "avatar": "/_archive-media/contributors/blawqchain.png",
+      "type": "User"
+    },
+    {
+      "login": "bmann",
+      "contributions": 1,
+      "profileUrl": "https://github.com/bmann",
+      "avatar": "/_archive-media/contributors/bmann.png",
+      "type": "User"
+    },
+    {
+      "login": "Eisverygoodletter",
+      "contributions": 1,
+      "profileUrl": "https://github.com/Eisverygoodletter",
+      "avatar": "/_archive-media/contributors/eisverygoodletter.png",
+      "type": "User"
+    },
+    {
+      "login": "flut1",
+      "contributions": 1,
+      "profileUrl": "https://github.com/flut1",
+      "avatar": "/_archive-media/contributors/flut1.png",
+      "type": "User"
+    },
+    {
+      "login": "fogfish",
+      "contributions": 1,
+      "profileUrl": "https://github.com/fogfish",
+      "avatar": "/_archive-media/contributors/fogfish.png",
+      "type": "User"
+    },
+    {
+      "login": "folbert",
+      "contributions": 1,
+      "profileUrl": "https://github.com/folbert",
+      "avatar": "/_archive-media/contributors/folbert.png",
+      "type": "User"
+    },
+    {
+      "login": "ghabs",
+      "contributions": 1,
+      "profileUrl": "https://github.com/ghabs",
+      "avatar": "/_archive-media/contributors/ghabs.png",
+      "type": "User"
+    },
+    {
+      "login": "gnarea",
+      "contributions": 1,
+      "profileUrl": "https://github.com/gnarea",
+      "avatar": "/_archive-media/contributors/gnarea.png",
+      "type": "User"
+    },
+    {
+      "login": "iefserge",
+      "contributions": 1,
+      "profileUrl": "https://github.com/iefserge",
+      "avatar": "/_archive-media/contributors/iefserge.png",
+      "type": "User"
+    },
+    {
+      "login": "ilivewithian",
+      "contributions": 1,
+      "profileUrl": "https://github.com/ilivewithian",
+      "avatar": "/_archive-media/contributors/ilivewithian.png",
+      "type": "User"
+    },
+    {
+      "login": "ivanskodje",
+      "contributions": 1,
+      "profileUrl": "https://github.com/ivanskodje",
+      "avatar": "/_archive-media/contributors/ivanskodje.png",
+      "type": "User"
+    },
+    {
+      "login": "jacobherrington",
+      "contributions": 1,
+      "profileUrl": "https://github.com/jacobherrington",
+      "avatar": "/_archive-media/contributors/jacobherrington.png",
+      "type": "User"
+    },
+    {
+      "login": "jacobhq",
+      "contributions": 1,
+      "profileUrl": "https://github.com/jacobhq",
+      "avatar": "/_archive-media/contributors/jacobhq.png",
+      "type": "User"
+    },
+    {
+      "login": "jakebresnehan",
+      "contributions": 1,
+      "profileUrl": "https://github.com/jakebresnehan",
+      "avatar": "/_archive-media/contributors/jakebresnehan.png",
+      "type": "User"
+    },
+    {
+      "login": "jmertic",
+      "contributions": 1,
+      "profileUrl": "https://github.com/jmertic",
+      "avatar": "/_archive-media/contributors/jmertic.png",
+      "type": "User"
+    },
+    {
+      "login": "JoeNyland",
+      "contributions": 1,
+      "profileUrl": "https://github.com/JoeNyland",
+      "avatar": "/_archive-media/contributors/joenyland.png",
+      "type": "User"
+    },
+    {
+      "login": "joesb",
+      "contributions": 1,
+      "profileUrl": "https://github.com/joesb",
+      "avatar": "/_archive-media/contributors/joesb.png",
+      "type": "User"
+    },
+    {
+      "login": "koppor",
+      "contributions": 1,
+      "profileUrl": "https://github.com/koppor",
+      "avatar": "/_archive-media/contributors/koppor.png",
+      "type": "User"
+    },
+    {
+      "login": "m3nu",
+      "contributions": 1,
+      "profileUrl": "https://github.com/m3nu",
+      "avatar": "/_archive-media/contributors/m3nu.png",
+      "type": "User"
+    },
+    {
+      "login": "manuelhenke",
+      "contributions": 1,
+      "profileUrl": "https://github.com/manuelhenke",
+      "avatar": "/_archive-media/contributors/manuelhenke.png",
+      "type": "User"
+    },
+    {
+      "login": "marksie1988",
+      "contributions": 1,
+      "profileUrl": "https://github.com/marksie1988",
+      "avatar": "/_archive-media/contributors/marksie1988.png",
+      "type": "User"
+    },
+    {
+      "login": "MichelleBlanchette",
+      "contributions": 1,
+      "profileUrl": "https://github.com/MichelleBlanchette",
+      "avatar": "/_archive-media/contributors/michelleblanchette.png",
+      "type": "User"
+    },
+    {
+      "login": "mscoutermarsh",
+      "contributions": 1,
+      "profileUrl": "https://github.com/mscoutermarsh",
+      "avatar": "/_archive-media/contributors/mscoutermarsh.png",
+      "type": "User"
+    },
+    {
+      "login": "nascosto",
+      "contributions": 1,
+      "profileUrl": "https://github.com/nascosto",
+      "avatar": "/_archive-media/contributors/nascosto.png",
+      "type": "User"
+    },
+    {
+      "login": "nergmada",
+      "contributions": 1,
+      "profileUrl": "https://github.com/nergmada",
+      "avatar": "/_archive-media/contributors/nergmada.png",
+      "type": "User"
+    },
+    {
+      "login": "novelistparty",
+      "contributions": 1,
+      "profileUrl": "https://github.com/novelistparty",
+      "avatar": "/_archive-media/contributors/novelistparty.png",
+      "type": "User"
+    },
+    {
+      "login": "olgarithms",
+      "contributions": 1,
+      "profileUrl": "https://github.com/olgarithms",
+      "avatar": "/_archive-media/contributors/olgarithms.png",
+      "type": "User"
+    },
+    {
+      "login": "PierrickMartos",
+      "contributions": 1,
+      "profileUrl": "https://github.com/PierrickMartos",
+      "avatar": "/_archive-media/contributors/pierrickmartos.png",
+      "type": "User"
+    },
+    {
+      "login": "robinpokorny",
+      "contributions": 1,
+      "profileUrl": "https://github.com/robinpokorny",
+      "avatar": "/_archive-media/contributors/robinpokorny.png",
+      "type": "User"
+    },
+    {
+      "login": "RoiArthurB",
+      "contributions": 1,
+      "profileUrl": "https://github.com/RoiArthurB",
+      "avatar": "/_archive-media/contributors/roiarthurb.png",
+      "type": "User"
+    },
+    {
+      "login": "sehilyi",
+      "contributions": 1,
+      "profileUrl": "https://github.com/sehilyi",
+      "avatar": "/_archive-media/contributors/sehilyi.png",
+      "type": "User"
+    },
+    {
+      "login": "SPGoding",
+      "contributions": 1,
+      "profileUrl": "https://github.com/SPGoding",
+      "avatar": "/_archive-media/contributors/spgoding.png",
+      "type": "User"
+    },
+    {
+      "login": "stephenedmondson",
+      "contributions": 1,
+      "profileUrl": "https://github.com/stephenedmondson",
+      "avatar": "/_archive-media/contributors/stephenedmondson.png",
+      "type": "User"
+    },
+    {
+      "login": "tiaitsch85",
+      "contributions": 1,
+      "profileUrl": "https://github.com/tiaitsch85",
+      "avatar": "/_archive-media/contributors/tiaitsch85.png",
+      "type": "User"
+    },
+    {
+      "login": "UnclassedPenguin",
+      "contributions": 1,
+      "profileUrl": "https://github.com/UnclassedPenguin",
+      "avatar": "/_archive-media/contributors/unclassedpenguin.png",
+      "type": "User"
+    },
+    {
+      "login": "woernfl",
+      "contributions": 1,
+      "profileUrl": "https://github.com/woernfl",
+      "avatar": "/_archive-media/contributors/woernfl.png",
+      "type": "User"
+    },
+    {
+      "login": "yavorg",
+      "contributions": 1,
+      "profileUrl": "https://github.com/yavorg",
+      "avatar": "/_archive-media/contributors/yavorg.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "activateNav",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 539,
+      "exported": false
+    },
+    {
+      "name": "addHighlightedText",
+      "kind": "function",
+      "signature": "(parent, text, start, end, positions)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 397,
+      "exported": false
+    },
+    {
+      "name": "addResult",
+      "kind": "function",
+      "signature": "(resultsList, result)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 241,
+      "exported": false
+    },
+    {
+      "name": "addResults",
+      "kind": "function",
+      "signature": "(resultsList, results, start, batchSize, batchMillis, searchIndex)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 226,
+      "exported": false
+    },
+    {
+      "name": "disableHeadStyleSheets",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var i in docs)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 113,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var j in metadata)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 282,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var k in positions)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 286,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var k in positions)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 292,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var k = 0; k < {{ site.search.preview_words_before | default: 5 }}; k++)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 298,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var k = 0; k < {{ site.search.preview_words_after | default: 10 }}; k++)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 313,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var j = 1; j < contentPositions.length; j++)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 352,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var i in positions)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 400,
+      "exported": false
+    },
+    {
+      "name": "hideSearch",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(headNav)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(activation)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(request.status >= 200 && request.status < 400)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(input === '')",
+      "file": "assets/js/just-the-docs.js",
+      "line": 173,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(input === currentInput)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 181,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(input === '')",
+      "file": "assets/js/just-the-docs.js",
+      "line": 186,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(tokens.length > 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 204,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(results.length == 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 212,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(searchIndex != currentSearchIndex)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 228,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(i == results.length)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 232,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(doc.doc != doc.title)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 269,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(meta.title)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 284,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(meta.content)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 290,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nextSpace < 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nextSpace < 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 321,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(titlePositions.length > 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 336,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(contentPositions.length > 0)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 342,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(previewPosition.previewEnd < contentPosition.previewStart)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 354,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(position.ellipsesBefore)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 379,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(position.ellipsesAfter)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 384,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(active)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 440,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(active.parentElement.previousSibling)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 442,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(active)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 451,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(active.parentElement.nextSibling)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 452,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(next)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 459,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(active)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 467,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(first)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 471,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(e.target != searchInput)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 480,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(navLink)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 506,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(pathname != '/')",
+      "file": "assets/js/just-the-docs.js",
+      "line": 516,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(navLink)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 519,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(targetLink)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 531,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 542,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 549,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!window.isSecureContext)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 575,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(timeout === null)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 596,
+      "exported": false
+    },
+    {
+      "name": "initNav",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "initSearch",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "navLink",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 501,
+      "exported": false
+    },
+    {
+      "name": "scrollNav",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 528,
+      "exported": false
+    },
+    {
+      "name": "searchLoaded",
+      "kind": "function",
+      "signature": "(index, docs)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "setTimeout",
+      "kind": "method",
+      "signature": "(function()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 179,
+      "exported": false
+    },
+    {
+      "name": "setTimeout",
+      "kind": "method",
+      "signature": "(function()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 237,
+      "exported": false
+    },
+    {
+      "name": "showSearch",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 160,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(e.keyCode)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 422,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(e.keyCode)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 436,
+      "exported": false
+    },
+    {
+      "name": "update",
+      "kind": "function",
+      "signature": "()",
+      "file": "assets/js/just-the-docs.js",
+      "line": 168,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "assets/js/just-the-docs.js",
+      "line": 545,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:docs/advanced.md",
+      "title": "Advanced Tricks",
+      "headings": [
+        "Advanced Tricks",
+        "Table of contents",
+        "Advanced Rocketing",
+        "Sonic / Supersonic Drive",
+        "Table Fling v2",
+        "Legging Clip / Advanced Chibi Clip"
+      ],
+      "bytes": 10635
+    },
+    {
+      "source": "repository:index.md",
+      "title": "An out-of-bounds documentation of Sky",
+      "headings": [
+        "An out-of-bounds documentation of Sky",
+        "Getting started",
+        "Crediting",
+        "About the project"
+      ],
+      "bytes": 2744
+    },
+    {
+      "source": "repository:docs/clipping.md",
+      "title": "Clipping",
+      "headings": [
+        "Clipping",
+        "Table of contents",
+        "Chibi Clip / Chibi Fall",
+        "Rocket",
+        "Spasm v2",
+        "Instrument Spasm",
+        "Piggy Emote Clip",
+        "Table Uber",
+        "Campfire Clip / Table Ceiling Clip",
+        "Memory Candle Clip",
+        "General Table Clip",
+        "General Clipping"
+      ],
+      "bytes": 11988
+    },
+    {
+      "source": "repository:CODE_OF_CONDUCT.md",
+      "title": "Contributor Covenant Code of Conduct",
+      "headings": [
+        "Contributor Covenant Code of Conduct",
+        "Our Pledge",
+        "Our Standards",
+        "Enforcement Responsibilities",
+        "Scope",
+        "Enforcement",
+        "Enforcement Guidelines",
+        "1. Correction",
+        "2. Warning",
+        "3. Temporary Ban",
+        "4. Permanent Ban",
+        "Attribution"
+      ],
+      "bytes": 5492
+    },
+    {
+      "source": "repository:docs/cosmetic.md",
+      "title": "Cosmetic",
+      "headings": [
+        "Cosmetic",
+        "Table of contents",
+        "Crawl / Oreo Imitation",
+        "Ghost Effect",
+        "Drone",
+        "Black Mask",
+        "Firework Suspension",
+        "Hold Smuggling",
+        "Capeless"
+      ],
+      "bytes": 13456
+    },
+    {
+      "source": "repository:MIGRATION.md",
+      "title": "Migrating and Upgrading",
+      "headings": [
+        "Migrating and Upgrading",
+        "v0.9.x - v0.10.0",
+        "v0.8.x - v0.9.0",
+        "v0.7.x - v0.8.0",
+        "v0.6.x - v0.7.0",
+        "POTENTIALLY-BREAKING CHANGES in v0.7.0",
+        "Moved Include",
+        "New Script IDs",
+        "v0.5.x - v0.6.0",
+        "POTENTIALLY-BREAKING CHANGES in v0.6.0",
+        "New Includes",
+        "Removed #main-content-wrap",
+        "New $color-scheme variable",
+        "Cached favicon",
+        "v0.4.x - v0.5.0",
+        "POTENTIALLY-BREAKING CHANGES in v0.5.0",
+        "v0.3.3 … v0.4.x",
+        "REPOSITORY CHANGES",
+        "Just the Docs",
+        "Deploy previews",
+        "Just the Docs Template",
+        "Just the Docs Tests",
+        "POTENTIALLY-BREAKING CHANGES in v0.4.0",
+        "New includes and SCSS",
+        "favicons",
+        "Custom callout colors",
+        "Pages and collections",
+        "Relative URLs",
+        "Navigation order",
+        "DEPRECATIONS",
+        "Jekyll 3",
+        "Footer content configuration",
+        "THEME WEBSITE CHANGES",
+        "Home page",
+        "CHANGELOG",
+        "NON-BREAKING CHANGES OUTLINE ONLY",
+        "Accessibility",
+        "Configuration",
+        "Customization",
+        "Custom Includes",
+        "Modular Components",
+        "Navigation",
+        "Search",
+        "Styling"
+      ],
+      "bytes": 25674
+    },
+    {
+      "source": "repository:docs/miscellaneous.md",
+      "title": "Miscellaneous",
+      "headings": [
+        "Miscellaneous",
+        "Table of contents",
+        "Flight Regen",
+        "Portrait Mode",
+        "Efficient Candle Collection",
+        "Multi-Piggy"
+      ],
+      "bytes": 3332
+    },
+    {
+      "source": "repository:docs/movement/movement.md",
+      "title": "Movement",
+      "headings": [
+        "Movement"
+      ],
+      "bytes": 319
+    },
+    {
+      "source": "repository:docs/movement/multi-player.md",
+      "title": "Multi-Player movement",
+      "headings": [
+        "Multi-Player movement",
+        "Table of contents",
+        "Directional Rocket",
+        "Table Drive",
+        "Deanport",
+        "Ground Warp",
+        "Levitation / Stall",
+        "Follow Stall",
+        "Poof Warp v2"
+      ],
+      "bytes": 8563
+    },
+    {
+      "source": "repository:docs/patched/patched.md",
+      "title": "Patched",
+      "headings": [
+        "Patched"
+      ],
+      "bytes": 325
+    },
+    {
+      "source": "repository:docs/movement/single-player.md",
+      "title": "Single-Player Movement",
+      "headings": [
+        "Single-Player Movement",
+        "Table of contents",
+        "Fast Fall / Sliding Fall",
+        "Emote Fall / Sustained Emote Fall",
+        "Midair Prop Placement",
+        "Vertical Flight"
+      ],
+      "bytes": 4397
+    },
+    {
+      "source": "repository:README.md",
+      "title": "Sky OOB Guide",
+      "headings": [
+        "Sky OOB Guide"
+      ],
+      "bytes": 328
+    },
+    {
+      "source": "repository:docs/terms-and-methods.md",
+      "title": "Terms and Methods",
+      "headings": [
+        "Terms and Methods",
+        "Table of contents",
+        "Out of Bounds",
+        "Glide/Flight Mode",
+        "Sustained Emotes",
+        "Legging",
+        "Props",
+        "Graphics and FPS",
+        "Collision Boxes",
+        "Reset Walls and Loading Zones",
+        "Freezing",
+        "The Origin",
+        "Servers"
+      ],
+      "bytes": 8313
+    },
+    {
+      "source": "repository:docs/patched/0.15.0-0.19.1.md",
+      "title": "Tricks Patched from 0.15.0 to 0.19.1",
+      "headings": [
+        "Tricks Patched from 0.15.0 to 0.19.1",
+        "Table of contents",
+        "Spiral v2",
+        "Memory Candle Wrong Warp",
+        "Advanced Spiraling",
+        "Spasm / Follow Clip",
+        "Offset Rocket",
+        "Infinite Flight Regeneration / Air Regen",
+        "Spell Saver",
+        "Reset Wall Removal / Immortality",
+        "Loading Zone Hop",
+        "Why 0.15.0 to 0.19.1?"
+      ],
+      "bytes": 10574
+    },
+    {
+      "source": "repository:docs/patched/0.19.5-0.20.5.md",
+      "title": "Tricks Patched from 0.19.5 to 0.20.5",
+      "headings": [
+        "Tricks Patched from 0.19.5 to 0.20.5",
+        "Table of contents",
+        "Using the Force / Holding Props",
+        "Rainbow Bridge",
+        "Pushing Through Water"
+      ],
+      "bytes": 4161
+    },
+    {
+      "source": "repository:docs/patched/pre-0.14.5.md",
+      "title": "Tricks Patched prior to 0.14.5",
+      "headings": [
+        "Tricks Patched prior to 0.14.5",
+        "Table of contents",
+        "Pushing Into Wind Walls",
+        "Table Cooldown Skip",
+        "Poof Warp / Disconnect Warp",
+        "Checkpoint / Table Teleport",
+        "Table Fling / Table Yeet",
+        "Spiral / Piggy Spiral",
+        "Advanced Spiral Techniques",
+        "Zoom Out",
+        "Rainbow Checkpoint / Rainbow Table Teleport",
+        "Rainbow Teleport",
+        "Bicycle / Directional Rocket",
+        "Why 0.14.5?"
+      ],
+      "bytes": 15297
+    },
+    {
+      "source": "repository:CHANGELOG.md",
+      "title": "v2.0.6, Sky 0.21.1",
+      "headings": [
+        "v2.0.6, Sky 0.21.1",
+        "v2.0.5, Sky 0.20.5",
+        "v2.0.4, Sky 0.19.5",
+        "v2.0.3, Sky 0.19.1",
+        "v2.0.2, Sky 0.19.1",
+        "v2.0.1, Sky 0.19.1",
+        "v2.0.0"
+      ],
+      "bytes": 1678
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 69,
+    "functions": 63,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 17
+  }
+}

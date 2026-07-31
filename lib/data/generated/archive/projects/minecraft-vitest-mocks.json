@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "minecraft-vitest-mocks",
+  "name": "minecraft-vitest-mocks",
+  "fullName": "ForestOfLight/minecraft-vitest-mocks",
+  "description": "A template library for mocking the Minecraft Bedrock Script API modules with Vitest.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/minecraft-vitest-mocks",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2026-04-25T08:51:49Z",
+  "updatedAt": "2026-07-08T22:31:07Z",
+  "pushedAt": "2026-07-08T22:31:03Z",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 16,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "makeEquippable",
+      "kind": "function",
+      "signature": "(items = {})",
+      "file": "server-gametest.js",
+      "line": 3,
+      "exported": true
+    },
+    {
+      "name": "advanceTicks",
+      "kind": "method",
+      "signature": "(n = 1)",
+      "file": "Scheduler.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "DynamicPropertyStore.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "DynamicPropertyStore.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(runId)",
+      "file": "Scheduler.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < n; i++)",
+      "file": "Scheduler.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < this.size; i++)",
+      "file": "server.js",
+      "line": 196,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < toContainer.size; i++)",
+      "file": "server.js",
+      "line": 239,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "DynamicPropertyStore.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "getIds",
+      "kind": "method",
+      "signature": "()",
+      "file": "DynamicPropertyStore.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "getInstance",
+      "kind": "method",
+      "signature": "()",
+      "file": "DynamicPropertyStore.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "getInstance",
+      "kind": "method",
+      "signature": "()",
+      "file": "Scheduler.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "getMax",
+      "kind": "method",
+      "signature": "()",
+      "file": "server.js",
+      "line": 272,
+      "exported": false
+    },
+    {
+      "name": "getMin",
+      "kind": "method",
+      "signature": "()",
+      "file": "server.js",
+      "line": 271,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "DynamicPropertyStore.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(entry.nextTick <= this.currentTick)",
+      "file": "Scheduler.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!this.#slots[i])",
+      "file": "server.js",
+      "line": 197,
+      "exported": false
+    },
+    {
+      "name": "reset",
+      "kind": "method",
+      "signature": "()",
+      "file": "Scheduler.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "scheduleDelay",
+      "kind": "method",
+      "signature": "(callback, tickDelay = 1)",
+      "file": "Scheduler.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "scheduleInterval",
+      "kind": "method",
+      "signature": "(callback, tickInterval = 1)",
+      "file": "Scheduler.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(name, value)",
+      "file": "DynamicPropertyStore.js",
+      "line": 20,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "minecraft-vitest-mocks",
+      "headings": [
+        "minecraft-vitest-mocks",
+        "Scheduler",
+        "Dynamic property management"
+      ],
+      "bytes": 1631
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 1,
+    "functions": 21,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

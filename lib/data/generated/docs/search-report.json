@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "projects": 15,
+  "entries": 392,
+  "indexBytes": 560827,
+  "workerBytes": 17575,
+  "workerHash": "c70d643fb3e7ccf2bfb443832dd13c8a839679ed6e45f35caa3283d2fe70946a",
+  "verifiedQueries": [
+    {
+      "query": "commands",
+      "matches": 60,
+      "topProject": "boreal",
+      "topSection": "Commands"
+    },
+    {
+      "query": "installation",
+      "matches": 14,
+      "topProject": "canopy",
+      "topSection": "Installation"
+    },
+    {
+      "query": "extensions",
+      "matches": 11,
+      "topProject": "canopy",
+      "topSection": "What are Extensions?"
+    },
+    {
+      "query": "rules",
+      "matches": 90,
+      "topProject": "statistic-display",
+      "topSection": "Rules"
+    },
+    {
+      "query": "display",
+      "matches": 62,
+      "topProject": "canopy",
+      "topSection": "InfoDisplay Rule Setting"
+    },
+    {
+      "query": "api",
+      "matches": 38,
+      "topProject": "addon-api-kit",
+      "topSection": "Calling an API"
+    }
+  ],
+  "benchmarkQueries": 300,
+  "benchmarkMs": 15310.944,
+  "browserTest": {
+    "primaryQuery": "commands",
+    "secondaryQuery": "installation",
+    "projectId": "canopy"
+  },
+  "passed": true
+}

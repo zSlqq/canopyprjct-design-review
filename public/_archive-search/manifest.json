@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "file": "/_archive-search/archive.e6765c25197b8d35.json",
+  "sha256": "e6765c25197b8d35c16aee8b383678b95bcebba7f8b40185d01fcc552d38acdd",
+  "bytes": 1649761,
+  "entries": 4673,
+  "projects": 15,
+  "kinds": {
+    "command": 118,
+    "contributor": 129,
+    "document": 47,
+    "download": 305,
+    "function": 3841,
+    "project": 15,
+    "release": 100,
+    "rule": 118
+  },
+  "passed": true,
+  "downloadsLocalized": 305,
+  "downloadPolicy": "same-origin"
+}

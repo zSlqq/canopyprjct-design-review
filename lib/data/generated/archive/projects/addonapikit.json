@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "slug": "addonapikit",
+  "name": "AddonAPIKit",
+  "fullName": "ForestOfLight/AddonAPIKit",
+  "description": "Expose APIs from your Minecraft Bedrock Addons",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/AddonAPIKit",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2026-05-29T22:28:33Z",
+  "updatedAt": "2026-06-19T14:28:37Z",
+  "pushedAt": "2026-06-04T15:44:49Z",
+  "stars": 3,
+  "forks": 0,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [
+    {
+      "tag": "1.0.0",
+      "name": "1.0.0",
+      "publishedAt": "2026-06-04T09:08:58Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "This is the first release.",
+      "htmlUrl": "https://github.com/ForestOfLight/AddonAPIKit/releases/tag/1.0.0",
+      "assets": [
+        {
+          "name": "AddonAPIKit.js",
+          "downloadUrl": "https://github.com/ForestOfLight/AddonAPIKit/releases/download/1.0.0/AddonAPIKit.js",
+          "bytes": 28154,
+          "downloads": 11,
+          "contentType": "text/javascript"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/AddonAPIKit/archive/refs/tags/1.0.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/AddonAPIKit/archive/refs/tags/1.0.0.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 15,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(strings: string[])",
+      "file": "src/MCBE-IPC/ipc.d.ts",
+      "line": 96,
+      "exported": true
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(buffer: PROTO.Buffer, max_size?: number)",
+      "file": "src/MCBE-IPC/ipc.d.ts",
+      "line": 95,
+      "exported": true
+    },
+    {
+      "name": "addEndpoint",
+      "kind": "method",
+      "signature": "(endpoint, callback, parameterModel, returnModel)",
+      "file": "src/APIController.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "Array",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 314,
+      "exported": false
+    },
+    {
+      "name": "Cached",
+      "kind": "function",
+      "signature": "(s, depth = 16)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 409,
+      "exported": false
+    },
+    {
+      "name": "call",
+      "kind": "method",
+      "signature": "(endpoint, parameterMapModel, parameterMap, returnDataModel)",
+      "file": "src/AddonAPICaller.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "catch",
+      "kind": "method",
+      "signature": "(e)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 521,
+      "exported": false
+    },
+    {
+      "name": "consume",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(str: string)",
+      "file": "src/MCBE-IPC/ipc.d.ts",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "ensure_capacity",
+      "kind": "method",
+      "signature": "(size)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < hex_str.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let size = 0; size < 5; size++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 217,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < value.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 256,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 264,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 300,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of value)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 318,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 325,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < s.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 336,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < s.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 342,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const [k, v] of value)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 371,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 379,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const v of set)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 393,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 400,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 458,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < strings.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 483,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let j = 0; j < str.length; j++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 485,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const listener of [...listeners])",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 517,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < serialized_packets.length; i++)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 553,
+      "exported": false
+    },
+    {
+      "name": "from_uint8array",
+      "kind": "method",
+      "signature": "(array)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "generate_id",
+      "kind": "function",
+      "signature": "()",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "getEndpoints",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/EndpointsController.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "handle",
+      "kind": "function",
+      "signature": "(channel, deserializer, serializer, listener)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 643,
+      "exported": false
+    },
+    {
+      "name": "hasEndpoint",
+      "kind": "method",
+      "signature": "(endpoint)",
+      "file": "src/EndpointsController.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#validEndpointCache.length === 0)",
+      "file": "src/AddonAPICaller.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error instanceof APICallerError)",
+      "file": "src/AddonAPIServer.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(versionToCheck !== this.version)",
+      "file": "src/AddonAPIServer.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(typeof input === 'number')",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(amount === undefined)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.end + size > this._buffer.length)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hit !== undefined)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 414,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(cache.size > depth)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 425,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 462,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 0xff)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 467,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0xff)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 487,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners === undefined)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 530,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners.length === 0)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 539,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet === undefined)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 571,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(header.final)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 577,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet.fragments[header.index] === undefined)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 580,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet.size !== -1 && packet.size === packet.received)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 587,
+      "exported": false
+    },
+    {
+      "name": "invoke",
+      "kind": "function",
+      "signature": "(channel, serializer, value, deserializer)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 606,
+      "exported": false
+    },
+    {
+      "name": "is_valid",
+      "kind": "function",
+      "signature": "(str: string)",
+      "file": "src/MCBE-IPC/ipc.d.ts",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "is_valid",
+      "kind": "function",
+      "signature": "(str)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 110,
+      "exported": false
+    },
+    {
+      "name": "listen",
+      "kind": "function",
+      "signature": "(endpoint, deserializer, callback, options)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 567,
+      "exported": false
+    },
+    {
+      "name": "Map",
+      "kind": "function",
+      "signature": "(kS, vS)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 367,
+      "exported": false
+    },
+    {
+      "name": "Object",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 297,
+      "exported": false
+    },
+    {
+      "name": "on",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 627,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 634,
+      "exported": false
+    },
+    {
+      "name": "Optional",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 350,
+      "exported": false
+    },
+    {
+      "name": "read",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "register",
+      "kind": "function",
+      "signature": "(endpoint, listener)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 528,
+      "exported": false
+    },
+    {
+      "name": "reserve",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "function",
+      "signature": "(channel, serializer, value)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 601,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(stream: PROTO.Buffer)",
+      "file": "src/MCBE-IPC/ipc.d.ts",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "Set",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 389,
+      "exported": false
+    },
+    {
+      "name": "setupController",
+      "kind": "method",
+      "signature": "(apiController)",
+      "file": "src/AddonAPIServer.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(errorData.code)",
+      "file": "src/AddonAPICaller.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "to_uint8array",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 103,
+      "exported": false
+    },
+    {
+      "name": "Tuple",
+      "kind": "function",
+      "signature": "(...s)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 333,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(value >= 0x80)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 208,
+      "exported": false
+    },
+    {
+      "name": "write",
+      "kind": "method",
+      "signature": "(input)",
+      "file": "src/MCBE-IPC/ipc.js",
+      "line": 66,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "AddonAPIKit",
+      "headings": [
+        "AddonAPIKit",
+        "Installation",
+        "Manual",
+        "NPM",
+        "Quick example",
+        "Guides"
+      ],
+      "bytes": 1707
+    },
+    {
+      "source": "repository:docs/calling-an-api.md",
+      "title": "Calling an API",
+      "headings": [
+        "Calling an API",
+        "Creating a caller",
+        "Making a call",
+        "Endpoint naming",
+        "Complete example",
+        "Error handling"
+      ],
+      "bytes": 3758
+    },
+    {
+      "source": "repository:docs/models.md",
+      "title": "Models",
+      "headings": [
+        "Models",
+        "Primitive Types",
+        "Composite Types",
+        "Building Models",
+        "Simple primitive",
+        "Object with multiple fields",
+        "Object with optional fields",
+        "Nested model",
+        "VoidModel"
+      ],
+      "bytes": 3729
+    },
+    {
+      "source": "repository:docs/publishing-an-api.md",
+      "title": "Publishing an API",
+      "headings": [
+        "Publishing an API",
+        "Creating a server",
+        "Defining endpoints",
+        "Direct instantiation",
+        "Error handling",
+        "Complete example"
+      ],
+      "bytes": 4857
+    }
+  ],
+  "counts": {
+    "versions": 1,
+    "releaseAssets": 3,
+    "contributors": 1,
+    "functions": 73,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 4
+  }
+}

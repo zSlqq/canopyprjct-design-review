@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-26T10:32:42+00:00",
+  "documentsRequested": 13,
+  "documentsFetched": 13,
+  "documentsAvailable": 13,
+  "failedSources": [],
+  "before": {
+    "entries": 100,
+    "aliases": 0,
+    "summaries": 97,
+    "steps": 0,
+    "examples": 0,
+    "prerequisites": 0,
+    "notes": 0
+  },
+  "after": {
+    "entries": 100,
+    "aliases": 49,
+    "summaries": 100,
+    "steps": 4,
+    "examples": 79,
+    "prerequisites": 7,
+    "notes": 2
+  },
+  "reviewQueueEntries": 48,
+  "kindCounts": {
+    "command": 46,
+    "feature": 46,
+    "statistic": 6,
+    "rule": 2
+  }
+}

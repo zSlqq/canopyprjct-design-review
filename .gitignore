@@ -1,0 +1,126 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build and compiler artifacts
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local tooling
+.vercel/
+.turbo/
+.cache/
+.eslintcache
+
+# Operating system and editor files
+Thumbs.db
+*.swp
+*.swo
+
+# Generated project QA
+visual-qa/
+review-handoff/
+QA-LATEST-*
+QA-HANDOFF.md
+repair-context-share.txt
+
+# Logs
+*.log
+pnpm-debug.log*
+.stage20/
+.stage21/
+.stage22/
+.stage23/
+.stage24/
+.stage25/
+.stage26/
+.stage27/
+.stage28/
+.stage30/
+.stage31/
+.stage32/
+/canopy_stage*.sh
+/.stage*-server.pid
+
+__pycache__/
+*.pyc
+
+# Stage 35 generated curated archive
+/public/_downloads/
+/public/_archive-downloads/
+/public/_curated-archive/
+/lib/data/generated/curated-archive/
+
+# ForestOfLight local and generated artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.project-ops/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.stage*/
+stage*-backups/
+stage*-reports/
+stage*-tools/

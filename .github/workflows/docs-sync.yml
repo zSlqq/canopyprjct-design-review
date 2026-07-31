@@ -1,0 +1,84 @@
+name: Documentation synchronization
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: documentation-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    env:
+      BRANCH_NAME: automation/docs-sync
+
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Synchronize repository documentation
+        run: npm run sync:docs
+
+      - name: Rebuild feature library
+        run: npm run features:build
+
+      - name: Rebuild delivery manifest
+        run: npm run delivery:build
+
+      - name: Validate synchronized output
+        run: |
+          npx tsc --noEmit
+          npm run lint
+          npm run build
+          npm run release:prepare
+          npm run release:verify
+
+      - name: Detect synchronized changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish synchronization branch
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH_NAME"
+          git add -A
+          git commit -m "docs: refresh synchronized sources"
+          git push --force-with-lease origin "HEAD:$BRANCH_NAME"
+
+          gh pr create \
+            --base "${{ github.event.repository.default_branch }}" \
+            --head "$BRANCH_NAME" \
+            --title "docs: refresh synchronized sources" \
+            --body "Automated documentation, feature-library, media, search-index, and delivery-manifest refresh." \
+          || gh pr edit "$BRANCH_NAME" \
+            --title "docs: refresh synchronized sources" \
+            --body "Automated documentation, feature-library, media, search-index, and delivery-manifest refresh."

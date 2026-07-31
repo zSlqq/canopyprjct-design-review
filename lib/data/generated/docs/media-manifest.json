@@ -1,0 +1,265 @@
+{
+  "assets": {
+    "boreal--repository--readme-md--4e33f68931": {
+      "./Boreal-Logo.png": {
+        "animated": false,
+        "bytes": 1007858,
+        "hash": "ce969385da19fc3946a866c037791c487d5342c285d66998a82c426bac28a7ec",
+        "height": 1200,
+        "mime": "image/png",
+        "path": "/_docs-media/ce969385da19fc3946a866c0.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Boreal/5a4ee3f16c1a6fd4a8df22680a42248ef1c8d1b8/Boreal-Logo.png",
+        "width": 1200
+      }
+    },
+    "canopy--repository--readme-md--48a8d6cbc7": {
+      "./amelix-logo.gif": {
+        "animated": true,
+        "bytes": 8911607,
+        "hash": "3d5fd8d53d7ab4c81048d02c0d107b773a755e6ca219a47f65ad074cadc775d5",
+        "height": 320,
+        "mime": "image/gif",
+        "path": "/_docs-media/3d5fd8d53d7ab4c81048d02c.gif",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Canopy/e82227b3141fe649d0c71a8e6168ebf6a5a7cd4f/amelix-logo.gif",
+        "width": 320
+      },
+      "./canopylogo_banner.jpg": {
+        "animated": false,
+        "bytes": 42673,
+        "hash": "6170169d0da576b8e6cfa262ef036c2b5bed2baa921146ef48c4eb38d011ce37",
+        "height": 700,
+        "mime": "image/jpeg",
+        "path": "/media/docs/6170169d0da576b8e6cfa262.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Canopy/e82227b3141fe649d0c71a8e6168ebf6a5a7cd4f/canopylogo_banner.jpg",
+        "width": 1900
+      }
+    },
+    "canopy--wiki--commands-md--cc2f304993": {
+      "./logo.png": {
+        "animated": false,
+        "bytes": 489905,
+        "hash": "e76530f81ca9b2bc8504a7711677a3c46baf1f8b1828b854fb410e52f47e0ac5",
+        "height": 1024,
+        "mime": "image/png",
+        "path": "/_docs-media/e76530f81ca9b2bc8504a771.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/logo.png",
+        "width": 1024
+      }
+    },
+    "canopy--wiki--extensions-md--ef9760aa4a": {
+      "./extensionAssets/construct_banner.jpg": {
+        "animated": false,
+        "bytes": 56737,
+        "hash": "5ab48d102b3d9bb4435c65565fdc118de2e067380dcba4eec794e0db6aa01a61",
+        "height": 340,
+        "mime": "image/jpeg",
+        "path": "/_docs-media/5ab48d102b3d9bb4435c6556.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/extensionAssets/construct_banner.jpg",
+        "width": 720
+      },
+      "./extensionAssets/stat_banner.png": {
+        "animated": false,
+        "bytes": 77210,
+        "hash": "705230e800ad2307a8a483976d9e6b682729f67d3fe6cb96f073b50fa199a4bf",
+        "height": 340,
+        "mime": "image/png",
+        "path": "/_docs-media/705230e800ad2307a8a48397.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/extensionAssets/stat_banner.png",
+        "width": 720
+      },
+      "./extensionAssets/understudy_banner.png": {
+        "animated": false,
+        "bytes": 191061,
+        "hash": "dc14b4d55fa78e02536b22ad22bd5ad1f4100c2f234c48833e3c06a1f691b58a",
+        "height": 800,
+        "mime": "image/png",
+        "path": "/_docs-media/dc14b4d55fa78e02536b22ad.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/extensionAssets/understudy_banner.png",
+        "width": 2200
+      },
+      "./logo.png": {
+        "animated": false,
+        "bytes": 489905,
+        "hash": "e76530f81ca9b2bc8504a7711677a3c46baf1f8b1828b854fb410e52f47e0ac5",
+        "height": 1024,
+        "mime": "image/png",
+        "path": "/_docs-media/e76530f81ca9b2bc8504a771.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/logo.png",
+        "width": 1024
+      }
+    },
+    "canopy--wiki--global-rules-md--b3524cce58": {
+      "./exampleAssets/dupeTnt.png": {
+        "animated": false,
+        "bytes": 1450613,
+        "hash": "a1292b644f28cc71a22747ee00a228d1a2a8951d2d2532cc402c7eae8d6f9377",
+        "height": 1570,
+        "mime": "image/png",
+        "path": "/_docs-media/a1292b644f28cc71a22747ee.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/exampleAssets/dupeTnt.png",
+        "width": 1474
+      },
+      "./logo.png": {
+        "animated": false,
+        "bytes": 489905,
+        "hash": "e76530f81ca9b2bc8504a7711677a3c46baf1f8b1828b854fb410e52f47e0ac5",
+        "height": 1024,
+        "mime": "image/png",
+        "path": "/_docs-media/e76530f81ca9b2bc8504a771.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/logo.png",
+        "width": 1024
+      }
+    },
+    "canopy--wiki--home-md--563b455970": {
+      "./canopylogo_banner.jpg": {
+        "animated": false,
+        "bytes": 42673,
+        "hash": "6170169d0da576b8e6cfa262ef036c2b5bed2baa921146ef48c4eb38d011ce37",
+        "height": 700,
+        "mime": "image/jpeg",
+        "path": "/media/docs/6170169d0da576b8e6cfa262.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/canopylogo_banner.jpg",
+        "width": 1900
+      }
+    },
+    "canopy--wiki--infodisplay-rules-md--3a1a3c875c": {
+      "./logo.png": {
+        "animated": false,
+        "bytes": 489905,
+        "hash": "e76530f81ca9b2bc8504a7711677a3c46baf1f8b1828b854fb410e52f47e0ac5",
+        "height": 1024,
+        "mime": "image/png",
+        "path": "/_docs-media/e76530f81ca9b2bc8504a771.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/logo.png",
+        "width": 1024
+      }
+    },
+    "canopy--wiki--installation-and-updates-md--f6d36a86a1": {
+      "./logo.png": {
+        "animated": false,
+        "bytes": 489905,
+        "hash": "e76530f81ca9b2bc8504a7711677a3c46baf1f8b1828b854fb410e52f47e0ac5",
+        "height": 1024,
+        "mime": "image/png",
+        "path": "/_docs-media/e76530f81ca9b2bc8504a771.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wiki/ForestOfLight/Canopy/logo.png",
+        "width": 1024
+      }
+    },
+    "canopy-extension-example--repository--readme-md--2b6d28bc42": {
+      "./example_help.png": {
+        "animated": false,
+        "bytes": 83916,
+        "hash": "7c4f288480a746ba783e25a846fe51d2025021f894561f200847854857c4da33",
+        "height": 442,
+        "mime": "image/png",
+        "path": "/_docs-media/7c4f288480a746ba783e25a8.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Canopy-Extension-Example/41ec42cc538b432c912dae5542c8c000e824dc54/example_help.png",
+        "width": 2318
+      },
+      "./pack_icon.png": {
+        "animated": false,
+        "bytes": 65843,
+        "hash": "ee8f6279ca73502355a7064775f01f4460b4a889c80543d29008333e1e106801",
+        "height": 400,
+        "mime": "image/png",
+        "path": "/_docs-media/ee8f6279ca73502355a70647.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Canopy-Extension-Example/41ec42cc538b432c912dae5542c8c000e824dc54/pack_icon.png",
+        "width": 400
+      }
+    },
+    "construct--repository--readme-md--6ef3428e83": {
+      "./demo.png": {
+        "animated": false,
+        "bytes": 50017,
+        "hash": "07d1285faa6a2d5459569558a6cf3e6ec9703efbea32ed1a4762ee819ef6edb7",
+        "height": 932,
+        "mime": "image/png",
+        "path": "/_docs-media/07d1285faa6a2d5459569558.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Construct/28588f8a8f72bb7e5c2d1c571a995ff380814f3a/demo.png",
+        "width": 613
+      },
+      "./icon.png": {
+        "animated": false,
+        "bytes": 90174,
+        "hash": "33528d4498aff1c07599bd3aca4b08e8ed0ba03f4974e3ace21042a8ea061d88",
+        "height": 400,
+        "mime": "image/png",
+        "path": "/_docs-media/33528d4498aff1c07599bd3a.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Construct/28588f8a8f72bb7e5c2d1c571a995ff380814f3a/icon.png",
+        "width": 400
+      }
+    },
+    "nudge--repository--readme-md--e93f817ddd": {
+      "./demo.jpeg": {
+        "animated": false,
+        "bytes": 159055,
+        "hash": "e55fae3e1507ed6017dd4178d45bd3544ce3c002cc13a9aa76a0bea7ab1e886a",
+        "height": 813,
+        "mime": "image/jpeg",
+        "path": "/_docs-media/e55fae3e1507ed6017dd4178.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Nudge/f97b926449cddc6b5f896f9a59d47788ab5d78b3/demo.jpeg",
+        "width": 1112
+      },
+      "./icon.png": {
+        "animated": false,
+        "bytes": 67076,
+        "hash": "f3cd443e314cebbda9eda7770ce013cedf86b9d9a981d3a19196476378178ed1",
+        "height": 400,
+        "mime": "image/png",
+        "path": "/_docs-media/f3cd443e314cebbda9eda777.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Nudge/f97b926449cddc6b5f896f9a59d47788ab5d78b3/icon.png",
+        "width": 400
+      }
+    },
+    "skyoobguide--repository--docs-clipping-md--4765706e5d": {
+      "../../assets/images/chibiclip.jpg": {
+        "animated": false,
+        "bytes": 299103,
+        "hash": "e45e33e409021bdfb794c7c1326957cbedfee4ec73cf706870ac29add8ccd89f",
+        "height": 1081,
+        "mime": "image/jpeg",
+        "path": "/_docs-media/e45e33e409021bdfb794c7c1.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/skyoobguide/b8e9d27ba64538a3a51fd8577814ac26902b7a9d/assets/images/chibiclip.jpg",
+        "width": 1600
+      }
+    },
+    "statistic-display--repository--readme-md--9e19da37aa": {
+      "./stat_logo_banner.png": {
+        "animated": false,
+        "bytes": 175921,
+        "hash": "1b2017fa284f78a56cd83e4e37d2d1d0e4384087a0e47160f635ea3051a41fce",
+        "height": 636,
+        "mime": "image/png",
+        "path": "/_docs-media/1b2017fa284f78a56cd83e4e.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Statistic-Display/cd4c89e86f5d79c224f3c28dafdde4d3c9576e3e/stat_logo_banner.png",
+        "width": 1282
+      }
+    },
+    "understudy--repository--readme-md--71729696fc": {
+      "./understudy_logo_banner.png": {
+        "animated": false,
+        "bytes": 191061,
+        "hash": "dc14b4d55fa78e02536b22ad22bd5ad1f4100c2f234c48833e3c06a1f691b58a",
+        "height": 800,
+        "mime": "image/png",
+        "path": "/_docs-media/dc14b4d55fa78e02536b22ad.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ForestOfLight/Understudy/1382e26ea02d5e38d57d1ebfd11b37b8d13981a0/understudy_logo_banner.png",
+        "width": 2200
+      }
+    }
+  },
+  "generatedAt": "2026-07-26T16:38:29.552401+00:00",
+  "schemaVersion": 1,
+  "summary": {
+    "assetBytes": 13218769,
+    "candidateReferences": 56,
+    "documents": 41,
+    "documentsWithMedia": 14,
+    "failedSources": 0,
+    "mirroredReferences": 22,
+    "uniqueAssets": 16,
+    "uniqueRemoteSources": 39,
+    "unsupportedSources": 21
+  }
+}

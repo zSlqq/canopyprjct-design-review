@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "scenes": 9,
+  "files": [
+    {
+      "name": "desktop-canopy-project.png",
+      "bytes": 716556,
+      "sha256": "7808722590e8184f75bb9b41c50aeb927fcfb019dbdbb1aab14fc109256b6b4d"
+    },
+    {
+      "name": "desktop-canopy-readme.png",
+      "bytes": 581501,
+      "sha256": "065153cfa2be86e9a7033b9366ea70d89f918608b1467d38df8b551e015a11e1"
+    },
+    {
+      "name": "desktop-docs.png",
+      "bytes": 324105,
+      "sha256": "68dfa952064fd15b6df69ef6931f6ca2d6d571bd7d491336a57d6409dfb48b8b"
+    },
+    {
+      "name": "desktop-features.png",
+      "bytes": 1258307,
+      "sha256": "fbb961a53430fdc3ff855115f18c261036f6096d319d7a90b053e7c961f9acd2"
+    },
+    {
+      "name": "desktop-home.png",
+      "bytes": 4256316,
+      "sha256": "9ecfda2dcf449340c5a8d463353b39198bbe57f52319c2d5a3e272edb4f712af"
+    },
+    {
+      "name": "mobile-canopy-project.png",
+      "bytes": 593477,
+      "sha256": "cd57fc21c16e75769510bb649a37659444361c561bbd7e80d2aa87069b7d91d6"
+    },
+    {
+      "name": "mobile-canopy-readme.png",
+      "bytes": 482583,
+      "sha256": "c288909b9ed05a88b34973cbb71cb628fd782b24583750c038d0af0b9f3b9ea6"
+    },
+    {
+      "name": "mobile-features.png",
+      "bytes": 1133420,
+      "sha256": "5cc34c903cf242dcd2ea9ae8b9a7e2e1cedaa40b56d29eac6ff88ae5c7f18353"
+    },
+    {
+      "name": "mobile-home.png",
+      "bytes": 3020064,
+      "sha256": "6ab6b9123d1542d5e217cf2d943351f2ed2fe5916bdda4eb9510d760d75e90d1"
+    }
+  ]
+}

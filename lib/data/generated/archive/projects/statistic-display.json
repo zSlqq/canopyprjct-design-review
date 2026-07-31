@@ -1,0 +1,2310 @@
+{
+  "schemaVersion": 1,
+  "slug": "statistic-display",
+  "name": "Statistic-Display",
+  "fullName": "ForestOfLight/Statistic-Display",
+  "description": "An easy statistics tracker for Minecraft Bedrock Edition.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Statistic-Display",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2024-09-21T07:30:44Z",
+  "updatedAt": "2026-07-19T01:58:00Z",
+  "pushedAt": "2026-06-25T01:27:07Z",
+  "stars": 14,
+  "forks": 2,
+  "openIssues": 0,
+  "topics": [
+    "minecraft",
+    "minecraft-bedrock",
+    "minecraft-bedrock-addon",
+    "minecraft-bedrock-edition",
+    "minecraft-script-api"
+  ],
+  "releases": [
+    {
+      "tag": "v1.3.0",
+      "name": "v1.3.0 for MC 26.30+ & Canopy 1.5.7",
+      "publishedAt": "2026-06-25T01:27:08Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.30+ Support__**\r\n- **Stabilized**: Statistic Display will no longer require manual updates for every minor Minecraft update.\r\n  - `chatsSent` statistic has been removed to make this possible.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.3.0",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.3.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.3.0/StatisticDisplay-v1.3.0.mcpack",
+          "bytes": 152479,
+          "downloads": 28,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.3.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.3.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.2",
+      "name": "v1.2.2 for MC 26.20 & Canopy 1.5.6",
+      "publishedAt": "2026-05-08T06:37:45Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.20 Support__**\r\n- `blocksMinedWith` (including every type of item): Tracks what item you were holding when you broke blocks.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.2.2",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.2.2.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.2.2/StatisticDisplay-v1.2.2.mcpack",
+          "bytes": 152213,
+          "downloads": 47,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.1",
+      "name": "v1.2.1 for MC 26.10 & Canopy 1.5.5",
+      "publishedAt": "2026-03-28T02:32:42Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.10 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.2.1",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.2.1.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.2.1/StatisticDisplay-v1.2.1.mcpack",
+          "bytes": 151716,
+          "downloads": 50,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.0",
+      "name": "v1.2.0 for MC 26.0 & Canopy 1.5.3",
+      "publishedAt": "2026-02-11T20:42:53Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.0 Support__**\r\n- A complete switch to vanilla commands! `./stat` is now `/stat:stat`, `/stat:list`, `/stat:print`, `/stat:reset`, and `/stat:carousel`. Their usage is available on the project's GitHub repo.\r\n- `carouselInterval` rule to set the display time for each carousel statistic.\r\n- `showOfflinePlayers` rule to show or hide offline players in the statistic display.\r\n- `showTotal` rule to show or hide the total count in the statistic display.\r\n- `itemsPickedUp` statistic (including each type of item)\r\n- `itemsDropped` statistic (including each type of item)\r\n### __Improvements__\r\n- The `<statistic>` argument now accepts input case-insensitively.\r\n- Improved world load time for worlds with many saved statistics.\r\n\r\n*... and more improvements behind the scenes!*",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.2.0",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.2.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.2.0/StatisticDisplay-v1.2.0.mcpack",
+          "bytes": 147570,
+          "downloads": 48,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.2.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.11",
+      "name": "v1.1.11 for MC 1.21.130 & Canopy 1.5.2",
+      "publishedAt": "2025-12-15T00:20:29Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.130 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.11",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.11.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.11/StatisticDisplay-v1.1.11.mcpack",
+          "bytes": 132848,
+          "downloads": 70,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.11.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.11.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.10",
+      "name": "v1.1.10 for MC 1.21.120 & Canopy 1.4.3",
+      "publishedAt": "2025-10-29T05:47:59Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.120 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.10",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.10.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.10/StatisticDisplay-v1.1.10.mcpack",
+          "bytes": 132847,
+          "downloads": 62,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.10.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.10.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.9",
+      "name": "v1.1.9 for MC 1.21.111 & Canopy v1.4.2",
+      "publishedAt": "2025-10-01T00:13:45Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.111 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.9",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.9.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.9/StatisticDisplay-v1.1.9.mcpack",
+          "bytes": 132848,
+          "downloads": 37,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.9.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.9.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.8",
+      "name": "v1.1.8 for MC 1.21.100 & Canopy 1.4.1",
+      "publishedAt": "2025-08-05T20:38:27Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.100 Support__**\r\n- `./stat [statistic] print` - Fixed incorrect descriptions of this command.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.8",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.8.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.8/StatisticDisplay-v1.1.8.mcpack",
+          "bytes": 132848,
+          "downloads": 42,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.8.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.8.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.7",
+      "name": "v1.1.7 for MC 1.21.90 & Canopy 1.3.9",
+      "publishedAt": "2025-06-20T06:34:02Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.90 Support__**\r\n- `totemsPopped` - A new statistic for tracking Totem of Undying usages.\r\n### __Improvements__\r\n- `./stat list [statistic/searchterm]` - Revamped `./stat list` to show much less data and allow for search terms.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.7",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.7.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.7/StatisticDisplay-v1.1.7.mcpack",
+          "bytes": 132882,
+          "downloads": 61,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.7.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.7.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.6",
+      "name": "v1.1.6 for MC 1.21.70 & Canopy v1.3.9",
+      "publishedAt": "2025-03-27T05:46:39Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## What's New  \r\n- **__Minecraft 1.21.70 Support__**  \r\n- **__Canopy v1.3.9 Support__**  \r\n- **`commandStat` rule removed**: The `stat` command is now usable by default. \r\n## Improvements  \r\n- **`toolsBroken` fix**: No longer triggers for unbreaking-enchanted tools that haven’t yet broken.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.6",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.6.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.6/StatisticDisplay-v1.1.6.mcpack",
+          "bytes": 132892,
+          "downloads": 193,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.6.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.6.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.5",
+      "name": "v1.1.5 for MC 1.21.60 & Canopy 1.3.8",
+      "publishedAt": "2025-02-16T01:40:09Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## What's New\r\n- Minecraft 1.21.60 support",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.5",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.5.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.5/StatisticDisplay-v1.1.5.mcpack",
+          "bytes": 131190,
+          "downloads": 141,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.5.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.5.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.4",
+      "name": "v1.1.4 for MC 1.21.50 & Canopy 1.3.7",
+      "publishedAt": "2024-12-23T06:32:30Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **`other` category**: Displays world-wide statistics, including:\r\n  - World Initializations.\r\n  - Highest Player Count Online.\r\n## Improvements\r\n- **Compatibility**: Added support for **Canopy v1.3.7**.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.4",
+      "assets": [
+        {
+          "name": "StatisticDisplay-1.1.4.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.4/StatisticDisplay-1.1.4.mcpack",
+          "bytes": 127298,
+          "downloads": 148,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.4.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.4.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.3",
+      "name": "v1.1.3 for MC 1.21.50 & Canopy 1.3.6",
+      "publishedAt": "2024-12-06T22:37:48Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "Updated dependencies to Minecraft 1.21.50.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.3",
+      "assets": [
+        {
+          "name": "StatisticDisplay-1.1.3.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.3/StatisticDisplay-1.1.3.mcpack",
+          "bytes": 119005,
+          "downloads": 32,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.3.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.2",
+      "name": "v1.1.2 for MC 1.21.41 & Canopy 1.3.5",
+      "publishedAt": "2024-10-26T22:10:44Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **`timeSinceDeath`**: Tracks minutes since last player death.\r\n- **`damageDealt`**: Tracks when players deal damage to entities.\r\n- **`damageTaken`**: Tracks when players take damage, with sub-stats for damage sources.\r\n- **`chats`**: Tracks when players send messages in chat.\r\n- **`joins`**: Tracks player join events.\r\n- **`emotes`**: Tracks when players perform emotes.\r\n## Improvements\r\n- **Carousel display**: Now pauses automatically when manually setting the display to a specific statistic.\r\n- **General maintenance**: Removed `./transferstats` command (use prior version if still needed).",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.2",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.2.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.2/StatisticDisplay-v1.1.2.mcpack",
+          "bytes": 120505,
+          "downloads": 157,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.1",
+      "name": "v1.1.1 for MC 1.21.41 & Canopy v1.3.5",
+      "publishedAt": "2024-10-22T22:45:32Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "Updated dependencies to Minecraft 1.21.41. \r\n## New Features\r\n- **`effectsGained`**: Tracks when players gain effects, with sub-stats for each effect.\r\n- **`changedDimensions`**: Tracks when players change dimensions, with sub-stats for each dimension.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.1",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.1.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.1/StatisticDisplay-v1.1.1.mcpack",
+          "bytes": 83041,
+          "downloads": 28,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 for MC 1.21.31 & Canopy 1.3.4",
+      "publishedAt": "2024-10-20T00:24:12Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **Backend rewrite**: Now uses a single `statDisplay` objective for all statistics, removing the maximum limit of tracked stats.\r\n- **`./stat <statistic> print [player]`**: Prints the top 15 players for a stat or just the specified player.\r\n- **`./stat toggle [total/offline]`**: Toggles between total or offline player stats.\r\n- **`./stat carousel <start/stop>`**: Starts or stops the statistic carousel.\r\n- **`./stat carousel <add/remove>`**: Adds or removes a statistic from the carousel.\r\n- **`./stat carousel list`**: Lists all carousel statistics.\r\n- **`./stat carousel interval [seconds]`**: Sets carousel change intervals.\r\n- **`toolsBroken`**: Tracks when players break tools, including tool-specific stats.\r\n- **`highestXpLevel`**: Tracks the highest XP level achieved by players.\r\n- **`./transferstats`**: Transfers stats from v1.0.0 to v1.1.0, cleaning up old data.\r\n\r\n## Improvements\r\n- **`./stat clear`** renamed to **`./stat hide`** for clarity.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.1.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.1.0/StatisticDisplay-v1.1.0.mcpack",
+          "bytes": 83328,
+          "downloads": 6,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.1.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.0",
+      "name": "v1.0.0 for MC 1.21.30 & Canopy v1.3.3",
+      "publishedAt": "2024-09-21T10:24:19Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## Commands & Rules\r\n- **`commandStat`**: Enables or disables the stat command.\r\n- **`./stat <statistic>`**: Displays the specified statistic in the sidebar.\r\n- **`./stat list`**: Lists all available statistics.\r\n- **`./stat clear`**: Clears the sidebar.\r\n- **`./stat <statistic> reset`**: Resets all counts for a specific statistic.\r\n## Available Statistics\r\n- **`deaths`**: Tracks player deaths.\r\n- **`blocksMined` & `blocksMined_[block_id]`**: Tracks total blocks mined and specific blocks.\r\n- **`blocksPlaced` & `blocksPlaced_[block_id]`**: Tracks total blocks placed and specific blocks.\r\n- **`itemsUsed` & `itemsUsed_[item_id]`**: Tracks items used and specific items.\r\n- **`killed` & `killed_[entity_id]`**: Tracks entities killed and specific entities.\r\n- **`killedBy` & `killedBy_[entity_id]`**: Tracks player deaths by entity and specific entities.\r\n- **`interactedWith` & `interactedWith_[block_id/entity_id]`**: Tracks interactions with blocks or entities.",
+      "htmlUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "StatisticDisplay-v1.0.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Statistic-Display/releases/download/v1.0.0/StatisticDisplay-v1.0.0.mcpack",
+          "bytes": 74994,
+          "downloads": 30,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.0.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Statistic-Display/archive/refs/tags/v1.0.0.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 126,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Vector",
+      "kind": "function",
+      "signature": "(x = 0, y = 0, z = 0)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 2,
+      "exported": true
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(entry)",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(statistic)",
+      "file": "packs/BP/scripts/src/commands/statcarousel.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "addCount",
+      "kind": "method",
+      "signature": "(eventID, player, count)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "addPreCallback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "addRule",
+      "kind": "method",
+      "signature": "(rule)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "Array",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "commandSourceIsNotAllowed",
+      "kind": "method",
+      "signature": "(source)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 129,
+      "exported": false
+    },
+    {
+      "name": "create_listener",
+      "kind": "function",
+      "signature": "(endpoint, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 483,
+      "exported": false
+    },
+    {
+      "name": "cross",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(str: string)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(strings: string[])",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "dot",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "ensure_capacity",
+      "kind": "method",
+      "signature": "(size)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "exists",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "findEventByDisplayName",
+      "kind": "method",
+      "signature": "(displayName)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 92,
+      "exported": false
+    },
+    {
+      "name": "floor",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const ruleID of this.customCommand.contingentRules || [])",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < hex_str.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < value.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 247,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 255,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 292,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 298,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of array)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 311,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 319,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 330,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 336,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 374,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 395,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 422,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < strings.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 447,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let j = 0; j < str.length; j++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 449,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < listeners.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 477,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < serialized_packets.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 522,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const identifier of identifiers)",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0, chunkID = 0; i < valueStr.length; i += DP_MAX_LENGTH, chunkID++)",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const participant of data.participants)",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const baseEvent of this.baseEvents)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const eventID of this.eventList)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const baseEvent of this.baseEvents)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const eventID of this.eventList)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const baseEvent of baseEvents)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const player of players)",
+      "file": "packs/BP/scripts/src/events/highestXpLevel.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const itemStack of itemStacks)",
+      "file": "packs/BP/scripts/src/events/itemsDropped.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const player of players)",
+      "file": "packs/BP/scripts/src/events/longestSession.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const player of players)",
+      "file": "packs/BP/scripts/src/events/playTime.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const player of players)",
+      "file": "packs/BP/scripts/src/events/timeSinceDeath.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < splitText.length; i++)",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "from_uint8array",
+      "kind": "method",
+      "signature": "(array)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "generate_id",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 499,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getAllSubEventsForBaseMessage",
+      "kind": "method",
+      "signature": "(statList, baseEvent)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "getBaseEventIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "getBaseStatsMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "getContigentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "getCount",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getCount",
+      "kind": "method",
+      "signature": "(eventID, player)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "getData",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "getDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "getDescription",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "getEntries",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getEvent",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "getEventIDCaseInsensitive",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 111,
+      "exported": false
+    },
+    {
+      "name": "getEventIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "getEventSearchMessage",
+      "kind": "method",
+      "signature": "(statList, searchTerm)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "getID",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "getIndependentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "getInterval",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "getMatchingSubEventIDs",
+      "kind": "method",
+      "signature": "(searchTerm)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "getPlayer",
+      "kind": "function",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 2,
+      "exported": false
+    },
+    {
+      "name": "getPlayerMessage",
+      "kind": "method",
+      "signature": "(eventID, playerName)",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "getRuleValue",
+      "kind": "method",
+      "signature": "(ruleID)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSubEventIDs",
+      "kind": "method",
+      "signature": "(baseEvent)",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "getSubEventSearchMessage",
+      "kind": "method",
+      "signature": "(searchTerm)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "getTopMessage",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "getTotal",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "getValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "handle",
+      "kind": "function",
+      "signature": "(channel, deserializer, serializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 587,
+      "exported": false
+    },
+    {
+      "name": "hasBroken",
+      "kind": "function",
+      "signature": "(toolBeforeBreak, toolAfterBreak)",
+      "file": "packs/BP/scripts/src/events/toolsBroken.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "hasParticipant",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "hasPoppedTotem",
+      "kind": "function",
+      "signature": "(healSource)",
+      "file": "packs/BP/scripts/src/events/totemsPopped.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "hide",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(player?.isValid)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 142,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.enums)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.aliases)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(value === 'undefined' || value === void 0)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this._length > 0)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.end + size > this._buffer.length)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(optional !== undefined)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 348,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(defined)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 354,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 426,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 0xff)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 431,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0xff)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 451,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(event.sourceType === ScriptEventSource.Server && listeners)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 474,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!listeners)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 485,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners.length === 0)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 494,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!fragment)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 532,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(payload.final)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 536,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!chunk)",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.isActive)",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.entries.length > 0)",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!player)",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.worldLoaded)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(new.target)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 3,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(statistic === 'hide')",
+      "file": "packs/BP/scripts/src/commands/stat.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(success)",
+      "file": "packs/BP/scripts/src/commands/stat.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(subEvents.length > 0)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(subEvents.length > 0)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(statistic === 'all')",
+      "file": "packs/BP/scripts/src/commands/statreset.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(event.deadEntity && event.deadEntity.typeId === 'minecraft:player')",
+      "file": "packs/BP/scripts/src/events/deaths.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(Display.currentEvent)",
+      "file": "packs/BP/scripts/src/rules/showOfflinePlayers.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(i === splitText.length - 1)",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(colorCodeIndex === -1)",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "increment",
+      "kind": "method",
+      "signature": "(eventID, player)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "invoke",
+      "kind": "function",
+      "signature": "(channel, serializer, value, deserializer)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 560,
+      "exported": false
+    },
+    {
+      "name": "isCheatsRequired",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "isRegistered",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "isRegistered",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "lerp",
+      "kind": "method",
+      "signature": "(vec, t)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "list",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/commands/statcarousel.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "listen",
+      "kind": "function",
+      "signature": "(endpoint, serializer, callback)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 528,
+      "exported": false
+    },
+    {
+      "name": "longestInactivity",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/events/other.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "Map",
+      "kind": "function",
+      "signature": "(key, value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 362,
+      "exported": false
+    },
+    {
+      "name": "mostPlayersOnline",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/events/other.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "multiply",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "next",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "Object",
+      "kind": "function",
+      "signature": "(obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 289,
+      "exported": false
+    },
+    {
+      "name": "on",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 571,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 578,
+      "exported": false
+    },
+    {
+      "name": "onModifyBool",
+      "kind": "method",
+      "signature": "(newValue)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "onPlayerJoin",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/src/rules/showOfflinePlayers.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "onPlayerLeave",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/rules/showOfflinePlayers.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "onReload",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "onReload",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "Optional",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 344,
+      "exported": false
+    },
+    {
+      "name": "parseRuleValueString",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "peek",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "populateBaseEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "populateSubEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/StatList.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "projection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "read",
+      "kind": "method",
+      "signature": "(amount = 1)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "recolor",
+      "kind": "function",
+      "signature": "(text, term, colorCode = '§f')",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "reflect",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "registerAliasCommands",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "registerCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "registerEnums",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "registerEvent",
+      "kind": "method",
+      "signature": "(eventID, displayName, setupCallback)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "registerQueuedEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "registerSingleCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry, name = this.customCommand.name)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "rejection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(entry)",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(statistic)",
+      "file": "packs/BP/scripts/src/commands/statcarousel.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "removeParticipant",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "reset",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "reset",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "resetAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "resetToDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "resolveCommandOrigin",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "saveData",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "function",
+      "signature": "(channel, serializer, value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 555,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue, max_size?: number)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "Set",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 384,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/src/classes/BulkDP.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "setCount",
+      "kind": "method",
+      "signature": "(eventID, player, count)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "setDefaultArgs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "setInterval",
+      "kind": "method",
+      "signature": "(seconds)",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "setupForRegistry",
+      "kind": "method",
+      "signature": "(startupEvent)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "setValue",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "start",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "statCarouselCommand",
+      "kind": "method",
+      "signature": "(origin, action, statistic)",
+      "file": "packs/BP/scripts/src/commands/statcarousel.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "statCommand",
+      "kind": "method",
+      "signature": "(origin, statistic)",
+      "file": "packs/BP/scripts/src/commands/stat.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "statListCommand",
+      "kind": "method",
+      "signature": "(origin, searchTerm)",
+      "file": "packs/BP/scripts/src/commands/statlist.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "statPrintCommand",
+      "kind": "method",
+      "signature": "(origin, statistic, player)",
+      "file": "packs/BP/scripts/src/commands/statprint.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "statResetCommand",
+      "kind": "method",
+      "signature": "(origin, statistic)",
+      "file": "packs/BP/scripts/src/commands/statreset.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "stop",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Carousel.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "subscribeToEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/rules/showOfflinePlayers.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "subtract",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(origin.sourceType)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(operation)",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(action)",
+      "file": "packs/BP/scripts/src/commands/statcarousel.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "titleCase",
+      "kind": "function",
+      "signature": "(str)",
+      "file": "packs/BP/scripts/src/utils.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "tntExploded",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/events/other.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "to_uint8array",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "toString",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Vector.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "Tuple",
+      "kind": "function",
+      "signature": "(...values)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 327,
+      "exported": false
+    },
+    {
+      "name": "unsubscribeFromEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/rules/showOfflinePlayers.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "update",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/classes/Display.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "updateCount",
+      "kind": "method",
+      "signature": "(player, count, operation = 'add')",
+      "file": "packs/BP/scripts/src/classes/Event.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "validateEventID",
+      "kind": "method",
+      "signature": "(eventID)",
+      "file": "packs/BP/scripts/src/classes/EventManager.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(value >= 0x80)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "worldInitializations",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/src/events/other.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "write",
+      "kind": "method",
+      "signature": "(...values)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 44,
+      "exported": false
+    }
+  ],
+  "commands": [
+    {
+      "command": "/b",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "logo_banner.png) <div align=\"center\"> <p><b>Multiplayer statistics that are just easy.</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Statistic-Display/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/St"
+    },
+    {
+      "command": "/div",
+      "source": "repository:README.md",
+      "line": 11,
+      "context": "buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://buymeacoffee.com/forestoflight) </div> This is an addon for Minecraft Bedrock Edition that easily displays statistics on the scoreboard. It is designed with multiplayer servers in mind, but also works nicely for sing"
+    },
+    {
+      "command": "/p",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "_banner.png) <div align=\"center\"> <p><b>Multiplayer statistics that are just easy.</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Statistic-Display/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Statis"
+    },
+    {
+      "command": "/stat:carousel",
+      "source": "repository:README.md",
+      "line": 69,
+      "context": "top 15 players for the specified statistic, or for only the specified player. **Usage: `/stat:carousel <start/stop>`** Starts or stops the carousel of statistics. **Usage: `/stat:carousel <add/remove> <statistic>`** Adds or removes a statistic from the carousel. **Usage: `/st"
+    },
+    {
+      "command": "/stat:list",
+      "source": "repository:README.md",
+      "line": 54,
+      "context": "b Repo here](https://github.com/ForestOfLight/Canopy). ## Usage ### Commands **Usage: `/stat:list [statistic/searchterm]`** Displays a list of all available statistics. Use the searchterm to search for specific identifiers. **Usage: `/stat:stat <statistic>`** Displays the"
+    },
+    {
+      "command": "/stat:print",
+      "source": "repository:README.md",
+      "line": 66,
+      "context": "stic, or all statistics. **Usage: `/stat:stat hide`** Hides the scoreboard. **Usage: `/stat:print <statistic> [player]`** Prints the top 15 players for the specified statistic, or for only the specified player. **Usage: `/stat:carousel <start/stop>`** Starts or stops the"
+    },
+    {
+      "command": "/stat:reset",
+      "source": "repository:README.md",
+      "line": 60,
+      "context": "stat:stat <statistic>`** Displays the specified statistic on the scoreboard. **Usage: `/stat:reset <statistic/all>`** Resets the counts for the specified statistic, or all statistics. **Usage: `/stat:stat hide`** Hides the scoreboard. **Usage: `/stat:print <statistic> [pl"
+    },
+    {
+      "command": "/stat:stat",
+      "source": "repository:README.md",
+      "line": 57,
+      "context": "l available statistics. Use the searchterm to search for specific identifiers. **Usage: `/stat:stat <statistic>`** Displays the specified statistic on the scoreboard. **Usage: `/stat:reset <statistic/all>`** Resets the counts for the specified statistic, or all statistics."
+    },
+    {
+      "command": "/stat_logo_banner",
+      "source": "repository:README.md",
+      "line": 1,
+      "context": "![Statistic Display Logo](./stat_logo_banner.png) <div align=\"center\"> <p><b>Multiplayer statistics that are just easy.</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Statistic-Display"
+    }
+  ],
+  "globalRules": [
+    {
+      "name": "Donate",
+      "source": "repository:README.md"
+    },
+    {
+      "name": "Special Thanks to CommandLeo",
+      "source": "repository:README.md"
+    }
+  ],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Usage",
+      "headings": [
+        "Usage",
+        "Commands",
+        "Rules",
+        "Special Thanks to CommandLeo",
+        "Donate"
+      ],
+      "bytes": 4225
+    }
+  ],
+  "counts": {
+    "versions": 17,
+    "releaseAssets": 51,
+    "contributors": 1,
+    "functions": 228,
+    "commands": 9,
+    "globalRules": 2,
+    "documents": 1
+  }
+}

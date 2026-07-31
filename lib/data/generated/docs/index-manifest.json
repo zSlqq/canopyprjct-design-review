@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T16:38:29.552401+00:00",
+  "projects": [
+    {
+      "projectId": "add-on-registry",
+      "projectTitle": "add-on-registry",
+      "file": "/_docs-index/add-on-registry.683ad3b04849182e.json",
+      "hash": "683ad3b04849182e",
+      "entries": 5,
+      "bytes": 7421
+    },
+    {
+      "projectId": "addon-api-kit",
+      "projectTitle": "AddonAPIKit",
+      "file": "/_docs-index/addon-api-kit.0d581c0819a0975f.json",
+      "hash": "0d581c0819a0975f",
+      "entries": 27,
+      "bytes": 43276
+    },
+    {
+      "projectId": "amelixsmpviewer",
+      "projectTitle": "AmelixSMPViewer",
+      "file": "/_docs-index/amelixsmpviewer.8d82899d3d5fdcd0.json",
+      "hash": "8d82899d3d5fdcd0",
+      "entries": 1,
+      "bytes": 1027
+    },
+    {
+      "projectId": "bedrock-src-itemstack-database",
+      "projectTitle": "Bedrock-SRC-ItemStack-Database",
+      "file": "/_docs-index/bedrock-src-itemstack-database.420291d7fd3fbc02.json",
+      "hash": "420291d7fd3fbc02",
+      "entries": 1,
+      "bytes": 1150
+    },
+    {
+      "projectId": "boreal",
+      "projectTitle": "Boreal",
+      "file": "/_docs-index/boreal.1a8bad76c7b0c95c.json",
+      "hash": "1a8bad76c7b0c95c",
+      "entries": 10,
+      "bytes": 9300
+    },
+    {
+      "projectId": "canopy",
+      "projectTitle": "Canopy",
+      "file": "/_docs-index/canopy.9e6bba70aba63425.json",
+      "hash": "9e6bba70aba63425",
+      "entries": 153,
+      "bytes": 172909
+    },
+    {
+      "projectId": "canopy-extension-example",
+      "projectTitle": "Canopy-Extension-Example",
+      "file": "/_docs-index/canopy-extension-example.5f0626377fc3bb49.json",
+      "hash": "5f0626377fc3bb49",
+      "entries": 6,
+      "bytes": 9632
+    },
+    {
+      "projectId": "construct",
+      "projectTitle": "Construct",
+      "file": "/_docs-index/construct.a284302436419334.json",
+      "hash": "a284302436419334",
+      "entries": 51,
+      "bytes": 57723
+    },
+    {
+      "projectId": "coralfans",
+      "projectTitle": "CoralFans",
+      "file": "/_docs-index/coralfans.e35b315246d2734b.json",
+      "hash": "e35b315246d2734b",
+      "entries": 6,
+      "bytes": 4043
+    },
+    {
+      "projectId": "minecraft-vitest-mocks",
+      "projectTitle": "minecraft-vitest-mocks",
+      "file": "/_docs-index/minecraft-vitest-mocks.cdc9ab021cf614ab.json",
+      "hash": "cdc9ab021cf614ab",
+      "entries": 3,
+      "bytes": 5406
+    },
+    {
+      "projectId": "nudge",
+      "projectTitle": "Nudge",
+      "file": "/_docs-index/nudge.58cfebc11ff1358b.json",
+      "hash": "58cfebc11ff1358b",
+      "entries": 10,
+      "bytes": 11413
+    },
+    {
+      "projectId": "skyoobguide",
+      "projectTitle": "skyoobguide",
+      "file": "/_docs-index/skyoobguide.fdb4446cc1c08fc9.json",
+      "hash": "fdb4446cc1c08fc9",
+      "entries": 107,
+      "bytes": 213920
+    },
+    {
+      "projectId": "statistic-display",
+      "projectTitle": "Statistic-Display",
+      "file": "/_docs-index/statistic-display.37ca0f762a4a13e4.json",
+      "hash": "37ca0f762a4a13e4",
+      "entries": 6,
+      "bytes": 9769
+    },
+    {
+      "projectId": "toontown-rewritten-bot",
+      "projectTitle": "Toontown-Rewritten-Bot",
+      "file": "/_docs-index/toontown-rewritten-bot.2ca060c68b6f7896.json",
+      "hash": "2ca060c68b6f7896",
+      "entries": 1,
+      "bytes": 2136
+    },
+    {
+      "projectId": "understudy",
+      "projectTitle": "Understudy",
+      "file": "/_docs-index/understudy.a9b30279a4127e96.json",
+      "hash": "a9b30279a4127e96",
+      "entries": 5,
+      "bytes": 11702
+    }
+  ],
+  "totalEntries": 392
+}

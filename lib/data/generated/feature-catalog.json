@@ -1,0 +1,3893 @@
+[
+  {
+    "id": "add-on-registry-command-use-the-namespace-itself-as-fallback-4078af872a51",
+    "repository": "add-on-registry",
+    "siteProjectId": null,
+    "projectTitle": "add-on-registry",
+    "kind": "command",
+    "title": "//",
+    "aliases": [],
+    "tags": [
+      "//",
+      "add-on-registry",
+      "command",
+      "Including it in your pack"
+    ],
+    "usage": {
+      "syntax": "// Use the namespace itself as fallback",
+      "summary": "return entry ? entry.name : namespace;",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "// Use the namespace itself as fallback"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "add-on-registry",
+      "repositoryUrl": "https://github.com/ForestOfLight/add-on-registry",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/add-on-registry/blob/main/README.md#L53",
+      "section": "Including it in your pack",
+      "line": 53,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "// Use the namespace itself as fallback"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "add-on-registry-feature-steps-8219a238686b",
+    "repository": "add-on-registry",
+    "siteProjectId": null,
+    "projectTitle": "add-on-registry",
+    "kind": "feature",
+    "title": "Steps",
+    "aliases": [],
+    "tags": [
+      "add-on-registry",
+      "feature",
+      "Steps"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "1. Create a new JSON file or edit one inside the /registry folder.",
+      "prerequisites": [],
+      "steps": [
+        "Create a new JSON file or edit one inside the /registry folder.",
+        "Follow the structure used in the other files. Example:",
+        "Commit your JSON file, then open a pull request."
+      ],
+      "examples": [
+        "/registry"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "add-on-registry",
+      "repositoryUrl": "https://github.com/ForestOfLight/add-on-registry",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/add-on-registry/blob/main/README.md#L12",
+      "section": "Steps",
+      "line": 12,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Steps"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "addonapikit-command-server-addon-expose-a-getcount-endpoint-8fd5d0e1c6b6",
+    "repository": "AddonAPIKit",
+    "siteProjectId": "addon-api-kit",
+    "projectTitle": "AddonAPIKit",
+    "kind": "command",
+    "title": "//",
+    "aliases": [],
+    "tags": [
+      "//",
+      "AddonAPIKit",
+      "command",
+      "Quick example"
+    ],
+    "usage": {
+      "syntax": "// Server addon — expose a getCount endpoint",
+      "summary": "import { world } from '@minecraft/server';",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "// Server addon — expose a getCount endpoint",
+        "// Caller addon — call it from another addon"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "AddonAPIKit",
+      "repositoryUrl": "https://github.com/ForestOfLight/AddonAPIKit",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/AddonAPIKit/blob/main/README.md#L22",
+      "section": "Quick example",
+      "line": 22,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "// Server addon — expose a getCount endpoint"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "addonapikit-command-caller-addon-call-it-from-another-addon-3baee9d9e3bc",
+    "repository": "AddonAPIKit",
+    "siteProjectId": "addon-api-kit",
+    "projectTitle": "AddonAPIKit",
+    "kind": "command",
+    "title": "//",
+    "aliases": [],
+    "tags": [
+      "//",
+      "AddonAPIKit",
+      "command",
+      "Quick example"
+    ],
+    "usage": {
+      "syntax": "// Caller addon — call it from another addon",
+      "summary": "import { AddonAPICaller, VoidModel, PROTO } from './AddonAPIKit.js';",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "// Server addon — expose a getCount endpoint",
+        "// Caller addon — call it from another addon"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "AddonAPIKit",
+      "repositoryUrl": "https://github.com/ForestOfLight/AddonAPIKit",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/AddonAPIKit/blob/main/README.md#L33",
+      "section": "Quick example",
+      "line": 33,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "// Caller addon — call it from another addon"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "addonapikit-feature-manual-01efced80174",
+    "repository": "AddonAPIKit",
+    "siteProjectId": "addon-api-kit",
+    "projectTitle": "AddonAPIKit",
+    "kind": "feature",
+    "title": "Manual",
+    "aliases": [],
+    "tags": [
+      "AddonAPIKit",
+      "feature",
+      "Manual"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Download AddonAPIKit.js from the releases page and copy it into your addon's script directory. Import from it directly.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "AddonAPIKit",
+      "repositoryUrl": "https://github.com/ForestOfLight/AddonAPIKit",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/AddonAPIKit/blob/main/README.md#L9",
+      "section": "Manual",
+      "line": 9,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Manual"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "addonapikit-feature-npm-9eede821e14b",
+    "repository": "AddonAPIKit",
+    "siteProjectId": "addon-api-kit",
+    "projectTitle": "AddonAPIKit",
+    "kind": "feature",
+    "title": "NPM",
+    "aliases": [],
+    "tags": [
+      "AddonAPIKit",
+      "feature",
+      "NPM"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "bash",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "AddonAPIKit",
+      "repositoryUrl": "https://github.com/ForestOfLight/AddonAPIKit",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/AddonAPIKit/blob/main/README.md#L13",
+      "section": "NPM",
+      "line": 13,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "NPM"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-flyspeed-84c33c64ffd6",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "Flyspeed",
+    "aliases": [],
+    "tags": [
+      "Boreal",
+      "feature",
+      "Flyspeed"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /flyspeed [multiplier: float]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/flyspeed [multiplier: float]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L36",
+      "section": "Flyspeed",
+      "line": 36,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Flyspeed"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-force-open-8585bd05c1ae",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "Force Open",
+    "aliases": [
+      "ForceOpen",
+      "Force-Open"
+    ],
+    "tags": [
+      "Boreal",
+      "feature",
+      "Force Open"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /forceopen [enable: bool]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/forceopen [enable: bool]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L46",
+      "section": "Force Open",
+      "line": 46,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Force Open"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-load-nearby-chunks-8a6c5df63300",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "Load Nearby Chunks",
+    "aliases": [
+      "LoadNearbyChunks",
+      "Load-Nearby-Chunks"
+    ],
+    "tags": [
+      "Boreal",
+      "feature",
+      "Load Nearby Chunks"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /loadnearbychunks [shouldLoad: bool]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/loadnearbychunks [shouldLoad: bool]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L56",
+      "section": "Load Nearby Chunks",
+      "line": 56,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Load Nearby Chunks"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-no-clip-9ff152ac6d71",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "No Clip",
+    "aliases": [
+      "NoClip",
+      "No-Clip"
+    ],
+    "tags": [
+      "Boreal",
+      "feature",
+      "No Clip"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /noclip [enable|disable]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/noclip [enable|disable]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L41",
+      "section": "No Clip",
+      "line": 41,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "No Clip"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-piston-push-limit-f1b6633a2e76",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "Piston Push Limit",
+    "aliases": [
+      "PistonPushLimit",
+      "Piston-Push-Limit"
+    ],
+    "tags": [
+      "Boreal",
+      "feature",
+      "Piston Push Limit"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /pistonpushlimit [n: int]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/pistonpushlimit [n: int]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L51",
+      "section": "Piston Push Limit",
+      "line": 51,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Piston Push Limit"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "boreal-feature-tick-f691256effec",
+    "repository": "Boreal",
+    "siteProjectId": "boreal",
+    "projectTitle": "Boreal",
+    "kind": "feature",
+    "title": "Tick",
+    "aliases": [],
+    "tags": [
+      "Boreal",
+      "feature",
+      "Tick"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /tick rate",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/tick rate",
+        "/tick",
+        "/tick step [num: int]",
+        "/tick sprint",
+        "/tick sprint 0",
+        "/tick query"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Boreal",
+      "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Boreal/blob/main/README.md#L19",
+      "section": "Tick",
+      "line": 19,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Tick"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-31dc93391bc2",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "./",
+    "aliases": [],
+    "tags": [
+      "./",
+      "Canopy",
+      "command",
+      "Overview"
+    ],
+    "usage": {
+      "syntax": "./",
+      "summary": "commands are Canopy-specific commands that can be run in chat.",
+      "prerequisites": [
+        "Displays a menu with toggles for every rule. Flip the switches for the ones you want a hit the submit button at the bottom to save your changes. Requires OP.",
+        "Modifies the value of a single rule. Requires OP.",
+        "Modifies the value of multiple rules. Requires OP.",
+        "Displays the current version of Canopy and all loaded extensions. Requires OP.",
+        "Slows the tick loop to the given milliseconds-per-tick value. Must be 50 or greater.",
+        "Allows the spawning algorithm to continue running while no mobs spawn. Useful for getting an upper bound on your farm's rates while tracking spawns. Requires OP.",
+        "Runs the specified command a certain number of times in a single tick. Note that the looped command must be encased in quotes."
+      ],
+      "steps": [],
+      "examples": [
+        "./",
+        "/",
+        "./help [page/searchTerm]",
+        "/help",
+        "./canopy menu",
+        "./canopy [true/false/integer/float]",
+        "./canopy version",
+        "./info menu"
+      ],
+      "notes": [
+        "> [!NOTE]",
+        "> This command cannot make the game run faster. It can only slow it down.",
+        "> If you exceed 10,000 mspt, Minecraft will close the world. You can disable this limit on BDS by setting script-watchdog-enable-shutdown=false & script-watchdog-hang-exception=false in your server.properties file (though it can be unsafe to do so)."
+      ]
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Overview",
+      "line": 50,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- ./ commands are Canopy-specific commands that can be run in chat."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-01e4cccaa15c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "/",
+    "aliases": [],
+    "tags": [
+      "/",
+      "Canopy",
+      "command",
+      "Overview"
+    ],
+    "usage": {
+      "syntax": "/",
+      "summary": "commands are vanilla commands that support autocomplete and can (usually) be run in command blocks.",
+      "prerequisites": [
+        "Displays a menu with toggles for every rule. Flip the switches for the ones you want a hit the submit button at the bottom to save your changes. Requires OP.",
+        "Modifies the value of a single rule. Requires OP.",
+        "Modifies the value of multiple rules. Requires OP.",
+        "Displays the current version of Canopy and all loaded extensions. Requires OP.",
+        "Slows the tick loop to the given milliseconds-per-tick value. Must be 50 or greater.",
+        "Allows the spawning algorithm to continue running while no mobs spawn. Useful for getting an upper bound on your farm's rates while tracking spawns. Requires OP.",
+        "Runs the specified command a certain number of times in a single tick. Note that the looped command must be encased in quotes."
+      ],
+      "steps": [],
+      "examples": [
+        "./",
+        "/",
+        "./help [page/searchTerm]",
+        "/help",
+        "./canopy menu",
+        "./canopy [true/false/integer/float]",
+        "./canopy version",
+        "./info menu"
+      ],
+      "notes": [
+        "> [!NOTE]",
+        "> This command cannot make the game run faster. It can only slow it down.",
+        "> If you exceed 10,000 mspt, Minecraft will close the world. You can disable this limit on BDS by setting script-watchdog-enable-shutdown=false & script-watchdog-hang-exception=false in your server.properties file (though it can be unsafe to do so)."
+      ]
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Overview",
+      "line": 49,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- / commands are vanilla commands that support autocomplete and can (usually) be run in command blocks."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-a45ea2ed313c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandCamera"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/cam"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandCamera",
+      "line": 117,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-26ccd45404fc",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandClaimProjectiles"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/claimprojectiles"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandClaimProjectiles",
+      "line": 124,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-1e870850c1f4",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandJumpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/jump"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandJumpSurvival",
+      "line": 131,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-eb944479b596",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandPosOthers"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [
+        "Determines whether non-operators can use /pos on players other than themselves."
+      ],
+      "steps": [],
+      "examples": [
+        "/pos"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandPosOthers",
+      "line": 138,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-9dc3bf85e1b5",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarp"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp",
+        "./warps"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarp",
+      "line": 145,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-default-value-85e919e65518",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Default value",
+    "aliases": [
+      "Defaultvalue",
+      "Default-value"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Default value: false",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarpSurvival",
+      "line": 152,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Default value: false"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-8bc49ca2dff4",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandCamera"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/cam"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandCamera",
+      "line": 118,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-50c4181fd0f4",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandClaimProjectiles"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/claimprojectiles"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandClaimProjectiles",
+      "line": 125,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-4c974daae937",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandJumpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/jump"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandJumpSurvival",
+      "line": 132,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-b723ef50d87c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandPosOthers"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [
+        "Determines whether non-operators can use /pos on players other than themselves."
+      ],
+      "steps": [],
+      "examples": [
+        "/pos"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandPosOthers",
+      "line": 139,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-e03a01017bf9",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarp"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp",
+        "./warps"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarp",
+      "line": 146,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-suggested-options-dedba2835cf5",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Suggested options",
+    "aliases": [
+      "Suggestedoptions",
+      "Suggested-options"
+    ],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Suggested options: false, true",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarpSurvival",
+      "line": 153,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Suggested options: false, true"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-3028ff183467",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandCamera"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/cam"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandCamera",
+      "line": 116,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-652a0092262c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandClaimProjectiles"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/claimprojectiles"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandClaimProjectiles",
+      "line": 123,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-5614262c09f0",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandJumpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/jump"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandJumpSurvival",
+      "line": 130,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-9f9d22012794",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandPosOthers"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [
+        "Determines whether non-operators can use /pos on players other than themselves."
+      ],
+      "steps": [],
+      "examples": [
+        "/pos"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandPosOthers",
+      "line": 137,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-d8cb653bf0b2",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarp"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp",
+        "./warps"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarp",
+      "line": 144,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-command-type-b60577c6774a",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "command",
+    "title": "Type",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "command",
+      "commandWarpSurvival"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Type: boolean",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./warp"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Global-Rules.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Global-Rules",
+      "section": "commandWarpSurvival",
+      "line": 151,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Type: boolean"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-analyze-area-2b864312079e",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Analyze Area",
+    "aliases": [
+      "AnalyzeArea",
+      "Analyze-Area"
+    ],
+    "tags": [
+      "Analyze Area",
+      "Canopy",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "{{analyzearea}}",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Analyze Area",
+      "line": 106,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Analyze Area"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-biome-edges-eaef7a58d0b2",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Biome Edges",
+    "aliases": [
+      "BiomeEdges",
+      "Biome-Edges"
+    ],
+    "tags": [
+      "Biome Edges",
+      "Canopy",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /biomeedges add [from: from] [to: to]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/biomeedges add [from: from] [to: to]",
+        "/biomeedges removelast",
+        "/biomeedges clear"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Biome Edges",
+      "line": 155,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Biome Edges"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-built-for-power-and-performance-1e0c6f8d820c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Built for Power and Performance",
+    "aliases": [
+      "BuiltforPowerandPerformance",
+      "Built-for-Power-and-Performance"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Key Features"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Built for Power and Performance – Designed to run effectively and efficiently.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Canopy/blob/main/README.md#L24",
+      "section": "Key Features",
+      "line": 24,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Built for Power and Performance – Designed to run effectively and efficiently."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-butcher-5030cf03fdee",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Butcher",
+    "aliases": [],
+    "tags": [
+      "Butcher",
+      "Canopy",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /butcher [entity: entity]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/butcher [entity: entity]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Butcher",
+      "line": 340,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Butcher"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-camera-7e302bfba0ca",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Camera",
+    "aliases": [],
+    "tags": [
+      "Camera",
+      "Canopy",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Allows you to switch to a survival-friendly spectator mode, or set up a tripod to view your work on-demand.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/cam place",
+        "/cam view",
+        "/cam spectate",
+        "/cs"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Camera",
+      "line": 345,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Camera"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-claim-projectiles-d4f623392758",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Claim Projectiles",
+    "aliases": [
+      "ClaimProjectiles",
+      "Claim-Projectiles"
+    ],
+    "tags": [
+      "Canopy",
+      "Claim Projectiles",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /claimprojectiles [radius: radius] [player: player]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/claimprojectiles [radius: radius] [player: player]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Claim Projectiles",
+      "line": 361,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Claim Projectiles"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-cleanup-7edff1c0e0e7",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Cleanup",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "Cleanup",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /cleanup [radius: radius]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/cleanup [radius: radius]",
+        "/k"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Cleanup",
+      "line": 366,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Cleanup"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-data-e0dca5de491a",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Data",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "Data",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /data [entity: entity]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/data [entity: entity]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Data",
+      "line": 96,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Data"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-debug-entity-a0d3f1eea4d4",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Debug Entity",
+    "aliases": [
+      "DebugEntity",
+      "Debug-Entity"
+    ],
+    "tags": [
+      "Canopy",
+      "Debug Entity",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /debugentity",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/debugentity"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Debug Entity",
+      "line": 101,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Debug Entity"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-dimensional-teleport-075e29ba5b33",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Dimensional Teleport",
+    "aliases": [
+      "DimensionalTeleport",
+      "Dimensional-Teleport"
+    ],
+    "tags": [
+      "Canopy",
+      "Dimensional Teleport",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /dtp [destination: destination] [victim: victim]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/dtp [destination: destination] [victim: victim]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Dimensional Teleport",
+      "line": 371,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Dimensional Teleport"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-distance-a00a5e140c6e",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Distance",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "Distance",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Calculates the cartesian, flat cartesian, and manhattan distances between two points.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./distance target",
+        "./d target",
+        "./distance from to [x y z]",
+        "./d from to [x y z]",
+        "./distance from [x y z]",
+        "./d from [x y z]",
+        "./distance to [x y z]",
+        "./d to [x y z]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Distance",
+      "line": 110,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Distance"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-entity-density-5c2abb5bea76",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Entity Density",
+    "aliases": [
+      "EntityDensity",
+      "Entity-Density"
+    ],
+    "tags": [
+      "Canopy",
+      "Entity Density",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /entitydensity [dimension: canopy:dimension]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/entitydensity [dimension: canopy:dimension]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Entity Density",
+      "line": 125,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Entity Density"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-farm-spawn-tracking-5f35f6823ea5",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Farm & Spawn Tracking",
+    "aliases": [
+      "Farm&SpawnTracking",
+      "Farm-&-Spawn-Tracking"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Key Features"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Farm & Spawn Tracking – Optimize efficiency with hopper counters and precise spawn monitoring.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Canopy/blob/main/README.md#L21",
+      "section": "Key Features",
+      "line": 21,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Farm & Spawn Tracking – Optimize efficiency with hopper counters and precise spawn monitoring."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-gamemode-2422215708e8",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Gamemode",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Gamemode"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /c",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/c",
+        "/s",
+        "/a",
+        "/sp"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Gamemode",
+      "line": 376,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Gamemode"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-hardcoded-spawn-spots-88108f7707d0",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Hardcoded Spawn Spots",
+    "aliases": [
+      "HardcodedSpawnSpots",
+      "Hardcoded-Spawn-Spots"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Hardcoded Spawn Spots"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /hss calculate",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/hss calculate",
+        "/hss fortress",
+        "/hss stop"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Hardcoded Spawn Spots",
+      "line": 181,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Hardcoded Spawn Spots"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-health-eb482e80b185",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Health",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Health"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /health",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/health"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Health",
+      "line": 130,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Health"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-jump-b588c6f4f501",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Jump",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Jump"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /jump",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/jump",
+        "/j"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Jump",
+      "line": 390,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Jump"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-live-infodisplay-63a839e2db87",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Live InfoDisplay",
+    "aliases": [
+      "Live Info Display",
+      "LiveInfoDisplay",
+      "Live-InfoDisplay"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Key Features"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Live InfoDisplay – Get real-time stats on TPS, light levels, biome info, block/entity details, and more.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Canopy/blob/main/README.md#L20",
+      "section": "Key Features",
+      "line": 20,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Live InfoDisplay – Get real-time stats on TPS, light levels, biome info, block/entity details, and more."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-log-70c5ab4b9de0",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Log",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Log"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /log [precision: precision]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/log [precision: precision]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Log",
+      "line": 135,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Log"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-loop-4116adb220c5",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Loop",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Loop"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /loop",
+      "prerequisites": [
+        "Runs the specified command a certain number of times in a single tick. Note that the looped command must be encased in quotes."
+      ],
+      "steps": [],
+      "examples": [
+        "/loop"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Loop",
+      "line": 395,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Loop"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-modular-expandable-7137e0738a8c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Modular & Expandable",
+    "aliases": [
+      "Modular-&-Expandable"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Key Features"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Modular & Expandable – Add functionality with extensions and community add-ons.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Canopy/blob/main/README.md#L23",
+      "section": "Key Features",
+      "line": 23,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Modular & Expandable – Add functionality with extensions and community add-ons."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-peek-bcef21e152ba",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Peek",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Peek"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /peek [itemQuery: itemQuery]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/peek [itemQuery: itemQuery]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Peek",
+      "line": 140,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Peek"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-position-5679c488ee1f",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Position",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Position"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /pos [player: player]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/pos [player: player]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Position",
+      "line": 145,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Position"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-re-test-6c5d8360c3ac",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Re-Test",
+    "aliases": [
+      "Re Test"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Re-Test"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /retest",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/retest"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Re-Test",
+      "line": 400,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Re-Test"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-simulation-map-5fa07705ad6f",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Simulation Map",
+    "aliases": [
+      "SimulationMap",
+      "Simulation-Map"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Simulation Map"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Displays a map showing the simulation status of chunks in an area. Ticking chunks are displayed in green and non-ticking chunks are displayed in red. The dimension and x/z coordinates configure the center of the map. The distance argument sets the size of the area to display (in chunks away from the center).",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "./simmap",
+        "./simmap [distance]",
+        "./simmap display",
+        "./simmap display here"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Simulation Map",
+      "line": 166,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Simulation Map"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-sit-375a0296c247",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Sit",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Sit"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /sit",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/sit"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Sit",
+      "line": 405,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Sit"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-tick-speed-control-e4f7a8425e17",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Tick Speed Control",
+    "aliases": [
+      "TickSpeedControl",
+      "Tick-Speed-Control"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Key Features"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Tick Speed Control – Slow down ticks for in-depth technical analysis.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Canopy/blob/main/README.md#L22",
+      "section": "Key Features",
+      "line": 22,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Tick Speed Control – Slow down ticks for in-depth technical analysis."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-to-add-the-pack-to-a-world-b8b493134cdc",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "To add the pack to a world:",
+    "aliases": [
+      "Toaddthepacktoaworld:",
+      "To-add-the-pack-to-a-world:"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "To add the pack to a world:"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "1. Open Minecraft and edit the world.",
+      "prerequisites": [
+        "Enable the \"Beta APIs\" experiment toggle."
+      ],
+      "steps": [
+        "Open Minecraft and edit the world.",
+        "Add the behavior and resource packs to the world.",
+        "Enable the \"Beta APIs\" experiment toggle."
+      ],
+      "examples": [
+        "./",
+        "/",
+        "./help"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Installation-&-Updates.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Installation-&-Updates",
+      "section": "To add the pack to a world:",
+      "line": 14,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "To add the pack to a world:"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-to-manually-add-the-pack-to-a-world-b19584fb91ad",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "To manually add the pack to a world:",
+    "aliases": [
+      "Tomanuallyaddthepacktoaworld:",
+      "To-manually-add-the-pack-to-a-world:"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "To manually add the pack to a world:"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "1. Rename the .mcaddon file to a .zip file and extract it.",
+      "prerequisites": [],
+      "steps": [
+        "Rename the .mcaddon file to a .zip file and extract it.",
+        "Place the Canopy [BP] folder in your worldfolder > behaviorpacks folder.",
+        "Open the Canopy [BP] > manifest.json and copy the uuid and version from the \"header\" section.",
+        "Open the worldfolder > worldbehaviorpacks.json and paste the uuid and version into the \"packid\" and \"version\" fields.",
+        "Place the Canopy [RP] folder in your worldfolder > resourcepacks folder.",
+        "Open the Canopy [RP] > manifest.json and copy the uuid and version from the \"header\" section.",
+        "Open the worldfolder > worldresourcepacks.json and paste the uuid and version into the \"packid\" and \"version\" fields."
+      ],
+      "examples": [
+        ".mcaddon",
+        ".zip"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Installation-&-Updates.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Installation-&-Updates",
+      "section": "To manually add the pack to a world:",
+      "line": 28,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "To manually add the pack to a world:"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-track-events-9b928ca0f21d",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Track Events",
+    "aliases": [
+      "TrackEvents",
+      "Track-Events"
+    ],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Track Events"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /trackevent [eventType: canopy:eventType]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/trackevent [eventType: canopy:eventType]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Track Events",
+      "line": 150,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Track Events"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-feature-velocity-a264cbf6a254",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "feature",
+    "title": "Velocity",
+    "aliases": [],
+    "tags": [
+      "Canopy",
+      "feature",
+      "Velocity"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Usage: /velocity [x: x] [y: y] [z: z]",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/velocity [x: x] [y: y] [z: z]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Commands.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Commands",
+      "section": "Velocity",
+      "line": 410,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Velocity"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-and-more-067d174434c3",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "And more!",
+    "aliases": [
+      "Andmore!",
+      "And-more!"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "And more!",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 48,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "And more!"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-blocks-mined-including-each-type-of-block-ee062d59f45c",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "Blocks Mined (including each type of block)",
+    "aliases": [
+      "BlocksMined(includingeachtypeofblock)",
+      "Blocks-Mined-(including-each-type-of-block)"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Blocks Mined (including each type of block)",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 44,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Blocks Mined (including each type of block)"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-blocks-placed-including-each-type-of-block-5f164efe27a0",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "Blocks Placed (including each type of block)",
+    "aliases": [
+      "BlocksPlaced(includingeachtypeofblock)",
+      "Blocks-Placed-(including-each-type-of-block)"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Blocks Placed (including each type of block)",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 45,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Blocks Placed (including each type of block)"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-entities-killed-including-each-type-of-entity-64ed12fa0d39",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "Entities Killed (including each type of entity)",
+    "aliases": [
+      "EntitiesKilled(includingeachtypeofentity)",
+      "Entities-Killed-(including-each-type-of-entity)"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Entities Killed (including each type of entity)",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 47,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Entities Killed (including each type of entity)"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-player-deaths-b5852e0b0144",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "Player Deaths",
+    "aliases": [
+      "PlayerDeaths",
+      "Player-Deaths"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Player Deaths",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 43,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Player Deaths"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "canopy-statistic-tools-broken-including-each-type-of-tool-77b4921352cc",
+    "repository": "Canopy",
+    "siteProjectId": "canopy",
+    "projectTitle": "Canopy",
+    "kind": "statistic",
+    "title": "Tools Broken (including each type of tool)",
+    "aliases": [
+      "ToolsBroken(includingeachtypeoftool)",
+      "Tools-Broken-(including-each-type-of-tool)"
+    ],
+    "tags": [
+      "Canopy",
+      "statistic",
+      "Statistic Display"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Tools Broken (including each type of tool)",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Canopy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Canopy",
+      "path": "wiki/Extensions.md",
+      "url": "https://github.com/ForestOfLight/Canopy/wiki/Extensions",
+      "section": "Statistic Display",
+      "line": 46,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Tools Broken (including each type of tool)"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "construct-feature-adding-new-structures-ffeb232782a3",
+    "repository": "Construct",
+    "siteProjectId": "construct",
+    "projectTitle": "Construct",
+    "kind": "feature",
+    "title": "Adding New Structures",
+    "aliases": [
+      "AddingNewStructures",
+      "Adding-New-Structures"
+    ],
+    "tags": [
+      "Adding New Structures",
+      "Construct",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Construct uses Minecraft's vanilla structure system so that you can easily create and build new structures.",
+      "prerequisites": [],
+      "steps": [
+        "Move the Construct[BP] to your com.mojang/developmentbehaviorpacks folder.",
+        "Drop your .mcstructure file in Construct's Construct[BP]/structures folder.",
+        "Restart your world.",
+        "Your structure should now be in in Construct's structure list!",
+        "Export your world file.",
+        "Go to https://holoprint-mc.github.io/ and use its \"Extract From World\" feature to get your .mcstructures.",
+        "Go to https://sea-of-stars-studio.github.io/.",
+        "Upload your .mcstructure and generate a .mcpack with your structure inside.",
+        "Add the generated pack to the same world as Construct."
+      ],
+      "examples": [
+        ".mcstructure"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Construct",
+      "repositoryUrl": "https://github.com/ForestOfLight/Construct",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Construct/blob/main/README.md#L43",
+      "section": "Adding New Structures",
+      "line": 43,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Adding New Structures"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "construct-feature-adding-translations-179059cdada5",
+    "repository": "Construct",
+    "siteProjectId": "construct",
+    "projectTitle": "Construct",
+    "kind": "feature",
+    "title": "Adding Translations",
+    "aliases": [
+      "AddingTranslations",
+      "Adding-Translations"
+    ],
+    "tags": [
+      "Adding Translations",
+      "Construct",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Construct currently supports American English and Chinese (thanks to wed150 & EndrTrekker). If you would like to contribute a translation, please join our Discord and reach out!",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Construct",
+      "repositoryUrl": "https://github.com/ForestOfLight/Construct",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Construct/blob/main/README.md#L86",
+      "section": "Adding Translations",
+      "line": 86,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Adding Translations"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "construct-feature-construct-menu-e2dc6bc1ee61",
+    "repository": "Construct",
+    "siteProjectId": "construct",
+    "projectTitle": "Construct",
+    "kind": "feature",
+    "title": "Construct Menu",
+    "aliases": [
+      "ConstructMenu",
+      "Construct-Menu"
+    ],
+    "tags": [
+      "Construct",
+      "Construct Menu",
+      "feature"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Use /construct:construct to get the Construct item, which opens the Construct menu. This item is also available in the Creative inventory under the \"Items\" tab. Using the Construct item will open a menu where you can manage your structures instances. You can create new instances of structures, edit existing ones, and delete them when you no longer need them. There are plenty options available to customize your building style!",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/construct:construct"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Construct",
+      "repositoryUrl": "https://github.com/ForestOfLight/Construct",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Construct/blob/main/README.md#L35",
+      "section": "Construct Menu",
+      "line": 35,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Construct Menu"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "coralfans-command-see-doc-page-for-more-info-04c2f58620fc",
+    "repository": "CoralFans",
+    "siteProjectId": null,
+    "projectTitle": "CoralFans",
+    "kind": "command",
+    "title": "See doc-page for more info.",
+    "aliases": [
+      "See doc page for more info.",
+      "Seedoc-pageformoreinfo.",
+      "See-doc-page-for-more-info."
+    ],
+    "tags": [
+      "command",
+      "CoralFans",
+      "Usage"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "See doc-page for more info.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "CoralFans",
+      "repositoryUrl": "https://github.com/ForestOfLight/CoralFans",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/CoralFans/blob/develop/README.md#L15",
+      "section": "Usage",
+      "line": 15,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "See doc-page for more info."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "minecraft-vitest-mocks-feature-dynamic-property-management-8476dd0f9ac4",
+    "repository": "minecraft-vitest-mocks",
+    "siteProjectId": "minecraft-vitest-mocks",
+    "projectTitle": "minecraft-vitest-mocks",
+    "kind": "feature",
+    "title": "Dynamic property management",
+    "aliases": [
+      "Dynamicpropertymanagement",
+      "Dynamic-property-management"
+    ],
+    "tags": [
+      "Dynamic property management",
+      "feature",
+      "minecraft-vitest-mocks"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "js",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "minecraft-vitest-mocks",
+      "repositoryUrl": "https://github.com/ForestOfLight/minecraft-vitest-mocks",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/minecraft-vitest-mocks/blob/main/README.md#L41",
+      "section": "Dynamic property management",
+      "line": 41,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Dynamic property management"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "minecraft-vitest-mocks-feature-scheduler-4887460c981d",
+    "repository": "minecraft-vitest-mocks",
+    "siteProjectId": "minecraft-vitest-mocks",
+    "projectTitle": "minecraft-vitest-mocks",
+    "kind": "feature",
+    "title": "Scheduler",
+    "aliases": [],
+    "tags": [
+      "feature",
+      "minecraft-vitest-mocks",
+      "Scheduler"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "This class handles callbacks passed to system.run and other, similar methods.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "minecraft-vitest-mocks",
+      "repositoryUrl": "https://github.com/ForestOfLight/minecraft-vitest-mocks",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/minecraft-vitest-mocks/blob/main/README.md#L23",
+      "section": "Scheduler",
+      "line": 23,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Scheduler"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "nudge-feature-adding-translations-a82a1a06eaf9",
+    "repository": "Nudge",
+    "siteProjectId": "nudge",
+    "projectTitle": "Nudge",
+    "kind": "feature",
+    "title": "Adding Translations",
+    "aliases": [
+      "AddingTranslations",
+      "Adding-Translations"
+    ],
+    "tags": [
+      "Adding Translations",
+      "feature",
+      "Nudge"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "Nudge currently only supports American English, but has translation capabilities. If you would like to contribute a translation, please join our Discord and reach out!",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Nudge",
+      "repositoryUrl": "https://github.com/ForestOfLight/Nudge",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Nudge/blob/main/README.md#L99",
+      "section": "Adding Translations",
+      "line": 99,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "Adding Translations"
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-after-cf62c71094ec",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "after",
+    "aliases": [],
+    "tags": [
+      "after",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "after",
+      "summary": "will make the simulated player perform the action after a delay specified by the last argument.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L66",
+      "section": "Commands",
+      "line": 66,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- after will make the simulated player perform the action after a delay specified by the last argument."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-at-5f07098e7b2b",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "at \\",
+    "aliases": [
+      "at-\\"
+    ],
+    "tags": [
+      "at",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "at \\",
+      "summary": "will make the simulated player look at the specified coordinates.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "at \\",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "to \\"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L40",
+      "section": "Commands",
+      "line": 40,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- at \\ will make the simulated player look at the specified coordinates."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-attack-05995158befe",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "attack",
+    "aliases": [],
+    "tags": [
+      "attack",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "attack",
+      "summary": "will make the simulated player attack the block or entity they are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L53",
+      "section": "Commands",
+      "line": 53,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- attack will make the simulated player attack the block or entity they are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-block-d35c99150c12",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "block",
+    "aliases": [],
+    "tags": [
+      "block",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "block",
+      "summary": "and entity will make the simulated player look at the block or entity you are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L38",
+      "section": "Commands",
+      "line": 38,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- block and entity will make the simulated player look at the block or entity you are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-block-89f6c4ae526e",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "block",
+    "aliases": [],
+    "tags": [
+      "block",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "block",
+      "summary": "and entity will make the simulated player move towards the block or entity you are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L45",
+      "section": "Commands",
+      "line": 45,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- block and entity will make the simulated player move towards the block or entity you are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-break-9ff5a1b8c0d7",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "break",
+    "aliases": [],
+    "tags": [
+      "break",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "break",
+      "summary": "will make the simulated player break the block they are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L57",
+      "section": "Commands",
+      "line": 57,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- break will make the simulated player break the block they are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-build-df6c56c8de8f",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "build",
+    "aliases": [],
+    "tags": [
+      "build",
+      "command",
+      "Commands",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "build",
+      "summary": "will make the simulated player place a block from their inventory at the location they are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L56",
+      "section": "Commands",
+      "line": 56,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- build will make the simulated player place a block from their inventory at the location they are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-continuous-b308feb5eff6",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "continuous",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "continuous",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "continuous",
+      "summary": "will make the simulated player perform the action continuously.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L67",
+      "section": "Commands",
+      "line": 67,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- continuous will make the simulated player perform the action continuously."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-drop-fdf74279a287",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "drop",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "drop",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "drop",
+      "summary": "will make the simulated player drop one item from their hand.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L58",
+      "section": "Commands",
+      "line": 58,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- drop will make the simulated player drop one item from their hand."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-dropall-883f222fb282",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "dropall",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "dropall",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "dropall",
+      "summary": "will make the simulated player drop their entire inventory.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L60",
+      "section": "Commands",
+      "line": 60,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- dropall will make the simulated player drop their entire inventory."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-dropstack-f51529987766",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "dropstack",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "dropstack",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "dropstack",
+      "summary": "will make the simulated player drop the entire stack of items from their hand.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L59",
+      "section": "Commands",
+      "line": 59,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- dropstack will make the simulated player drop the entire stack of items from their hand."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-forward-c3dd7250b937",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "forward",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "forward",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "forward",
+      "summary": ", backward, left, right will make the simulated player move continuously relative to the direction they are facing.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L44",
+      "section": "Commands",
+      "line": 44,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- forward, backward, left, right will make the simulated player move continuously relative to the direction they are facing."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-interact-8fd40a1ca45b",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "interact",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "interact",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "interact",
+      "summary": "will make the simulated player interact with the block or entity they are looking at.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L54",
+      "section": "Commands",
+      "line": 54,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- interact will make the simulated player interact with the block or entity they are looking at."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-interval-fe2412ed04fd",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "interval",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "interval",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "interval",
+      "summary": "will make the simulated player perform the action at regular intervals specified by the last argument.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L68",
+      "section": "Commands",
+      "line": 68,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- interval will make the simulated player perform the action at regular intervals specified by the last argument."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-jump-69900f4e38b8",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "jump",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "jump",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "jump",
+      "summary": "will make the simulated player jump.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L61",
+      "section": "Commands",
+      "line": 61,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- jump will make the simulated player jump."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-me-f94ed7d7cd41",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "me",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "me",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "me",
+      "summary": "will make the simulated player look at you.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L39",
+      "section": "Commands",
+      "line": 39,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- me will make the simulated player look at you."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-me-a3058393a3a0",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "me",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "me",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "me",
+      "summary": "will make the simulated player move towards you.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L46",
+      "section": "Commands",
+      "line": 46,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- me will make the simulated player move towards you."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-once-d2db1dcde784",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "once",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "once",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "once",
+      "summary": "will make the simulated player perform the action once.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L65",
+      "section": "Commands",
+      "line": 65,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- once will make the simulated player perform the action once."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-stop-6ad235441bdb",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "stop",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "stop",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "stop",
+      "summary": "will make the simulated player stop performing the action.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L69",
+      "section": "Commands",
+      "line": 69,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- stop will make the simulated player stop performing the action."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-to-e0e1f838e682",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "to \\",
+    "aliases": [
+      "to-\\"
+    ],
+    "tags": [
+      "command",
+      "Commands",
+      "to",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": "to \\",
+      "summary": "will make the simulated player move towards the specified coordinates.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "to \\",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L47",
+      "section": "Commands",
+      "line": 47,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- to \\ will make the simulated player move towards the specified coordinates."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-up-80f37ed4a4cd",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "up",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "Understudy",
+      "up"
+    ],
+    "usage": {
+      "syntax": "up",
+      "summary": ", down, north, south, east, west will make the simulated player look in different cardinal directions.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L37",
+      "section": "Commands",
+      "line": 37,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- up, down, north, south, east, west will make the simulated player look in different cardinal directions."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-command-use-fa54b692da81",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "command",
+    "title": "use",
+    "aliases": [],
+    "tags": [
+      "command",
+      "Commands",
+      "Understudy",
+      "use"
+    ],
+    "usage": {
+      "syntax": "use",
+      "summary": "will make the simulated player use the item they are holding.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [
+        "/simplayer:join",
+        "/simplayer:leave",
+        "/simplayer:rejoin",
+        "/simplayer:tp",
+        "/simplayer:look [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]",
+        "/simplayer:move [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]",
+        "/simplayer:action [timingOption: once/after/continuous/interval/stop] [ticks: int]",
+        "/simplayer:select"
+      ],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L55",
+      "section": "Commands",
+      "line": 55,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "- use will make the simulated player use the item they are holding."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-rule-nosimplayersaving-2cd68df45f38",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "rule",
+    "title": "noSimplayerSaving",
+    "aliases": [
+      "no Simplayer Saving"
+    ],
+    "tags": [
+      "rule",
+      "Rules",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "noSimplayerSaving: Disables saving playerdata for simulated players. Improves performance but causes simulated players to lose their inventory and location when they leave and rejoin.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L100",
+      "section": "Rules",
+      "line": 100,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "noSimplayerSaving: Disables saving playerdata for simulated players. Improves performance but causes simulated players to lose their inventory and location when they leave and rejoin."
+    },
+    "reviewStatus": "source-extracted"
+  },
+  {
+    "id": "understudy-rule-simplayerrejoining-fa0ca325f89a",
+    "repository": "Understudy",
+    "siteProjectId": "understudy",
+    "projectTitle": "Understudy",
+    "kind": "rule",
+    "title": "simplayerRejoining",
+    "aliases": [
+      "simplayer Rejoining"
+    ],
+    "tags": [
+      "rule",
+      "Rules",
+      "Understudy"
+    ],
+    "usage": {
+      "syntax": null,
+      "summary": "simplayerRejoining: Makes online simulated players rejoin when the world reloads.",
+      "prerequisites": [],
+      "steps": [],
+      "examples": [],
+      "notes": []
+    },
+    "source": {
+      "repository": "Understudy",
+      "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+      "path": "README.md",
+      "url": "https://github.com/ForestOfLight/Understudy/blob/main/README.md#L99",
+      "section": "Rules",
+      "line": 99,
+      "retrievedAt": "2026-07-25T22:42:26+00:00",
+      "excerpt": "simplayerRejoining: Makes online simulated players rejoin when the world reloads."
+    },
+    "reviewStatus": "source-extracted"
+  }
+]

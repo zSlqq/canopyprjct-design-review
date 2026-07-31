@@ -1,0 +1,72 @@
+name: Quality and release artifact
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Rebuild generated feature library
+        run: npm run features:build
+
+      - name: Rebuild delivery manifest
+        run: npm run delivery:build
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Capture ForestOfLight archive
+        run: npm run archive:build
+
+      - name: Verify archive contributor media
+        run: npm run archive:verify-media
+
+      - name: Production build
+        run: npm run build
+
+      - name: Prepare standalone release
+        run: npm run release:prepare
+
+      - name: Verify release integrity
+        run: npm run release:verify
+
+      - name: Verify generated files are committed
+        run: git diff --exit-code
+
+      - name: Upload standalone release
+        uses: actions/upload-artifact@v4
+        with:
+          name: forestoflight-hub-${{ github.sha }}
+          path: dist/forestoflight-hub
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14

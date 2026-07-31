@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "slug": "amelixsmpviewer",
+  "name": "AmelixSMPViewer",
+  "fullName": "ForestOfLight/AmelixSMPViewer",
+  "description": "A webpage to view the Amelix worlds. Rendered by uNmINeD with a custom world-switcher.",
+  "homepage": "https://forestoflight.github.io/AmelixSMPViewer/",
+  "repositoryUrl": "https://github.com/ForestOfLight/AmelixSMPViewer",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2024-05-13T18:10:34Z",
+  "updatedAt": "2026-04-09T21:26:45Z",
+  "pushedAt": "2026-04-09T21:24:49Z",
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 29,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    },
+    {
+      "login": "BrianCassriel",
+      "contributions": 4,
+      "profileUrl": "https://github.com/BrianCassriel",
+      "avatar": "/_archive-media/contributors/briancassriel.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "are_all_webpages_generated",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 93,
+      "exported": false
+    },
+    {
+      "name": "center",
+      "kind": "method",
+      "signature": "(blockCoordinates)",
+      "file": "unmined.js",
+      "line": 333,
+      "exported": false
+    },
+    {
+      "name": "centerOnRedDotMarker",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 339,
+      "exported": false
+    },
+    {
+      "name": "cleanup_working_directory",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 317,
+      "exported": false
+    },
+    {
+      "name": "combine_unmined_webpages",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 209,
+      "exported": false
+    },
+    {
+      "name": "copyToClipboard",
+      "kind": "method",
+      "signature": "(text, toast)",
+      "file": "unmined.js",
+      "line": 548,
+      "exported": false
+    },
+    {
+      "name": "createContextMenu",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 567,
+      "exported": false
+    },
+    {
+      "name": "createMarkersLayer",
+      "kind": "method",
+      "signature": "(markers)",
+      "file": "unmined.js",
+      "line": 350,
+      "exported": false
+    },
+    {
+      "name": "createPlayerMarkers",
+      "kind": "method",
+      "signature": "(players)",
+      "file": "unmined.js",
+      "line": 434,
+      "exported": false
+    },
+    {
+      "name": "download_file",
+      "kind": "python function",
+      "signature": "(service, file_id)",
+      "file": "UpdateSMPViewer.py",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "download_latest_worlds",
+      "kind": "python function",
+      "signature": "(service)",
+      "file": "UpdateSMPViewer.py",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = tileRegionPoint.x; x < tileRegionPoint.x + tileRegionSize; x++)",
+      "file": "unmined.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = tileRegionPoint.z; z < tileRegionPoint.z + tileRegionSize; z++)",
+      "file": "unmined.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = 0; z <= mapZoomLevels; ++z)",
+      "file": "unmined.js",
+      "line": 227,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(var i = 0; i < markers.length; i++)",
+      "file": "unmined.js",
+      "line": 353,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = 0; z < intervalCount; ++z)",
+      "file": "unmined.js",
+      "line": 471,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = 0; z < intervalCount; ++z)",
+      "file": "unmined.js",
+      "line": 481,
+      "exported": false
+    },
+    {
+      "name": "function",
+      "kind": "method",
+      "signature": "(coordinate)",
+      "file": "unmined.js",
+      "line": 783,
+      "exported": false
+    },
+    {
+      "name": "function",
+      "kind": "method",
+      "signature": "(coordinate)",
+      "file": "unmined.js",
+      "line": 786,
+      "exported": false
+    },
+    {
+      "name": "generate_unmined_webpage",
+      "kind": "python function",
+      "signature": "(world_filename, dimension, config=None)",
+      "file": "UpdateSMPViewer.py",
+      "line": 181,
+      "exported": false
+    },
+    {
+      "name": "generate_unmined_webpages",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 176,
+      "exported": false
+    },
+    {
+      "name": "get_latest_backup_file_id",
+      "kind": "python function",
+      "signature": "(service)",
+      "file": "UpdateSMPViewer.py",
+      "line": 114,
+      "exported": false
+    },
+    {
+      "name": "getCoordinates",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 85,
+      "exported": false
+    },
+    {
+      "name": "getCoordinatesFromUrlHash",
+      "kind": "method",
+      "signature": "(hash)",
+      "file": "unmined.js",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "getUrlHashWithCoordinates",
+      "kind": "method",
+      "signature": "(hash, coordinates)",
+      "file": "unmined.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "hasTile",
+      "kind": "method",
+      "signature": "(tileX, tileZ, unminedZoomLevel)",
+      "file": "unmined.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.checked)",
+      "file": "map.switcher.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(selectedMapMarkers && selectedMapMarkers.isEnabled && selectedMapMarkers.markers)",
+      "file": "map.switcher.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(selectedMapPlayers && selectedMapPlayers.length > 0)",
+      "file": "map.switcher.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(tileX < minTileX || tileZ < minTileZ || tileX > maxTileX || tileZ > maxTileZ)",
+      "file": "unmined.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(regionMap)",
+      "file": "unmined.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!coordinates)",
+      "file": "unmined.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#options.markers && this.#options.markers.length > 0)",
+      "file": "unmined.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#options.playerMarkers && this.#options.playerMarkers.length > 0)",
+      "file": "unmined.js",
+      "line": 311,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#options.background)",
+      "file": "unmined.js",
+      "line": 316,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(item.text)",
+      "file": "unmined.js",
+      "line": 370,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#options.binaryGrid)",
+      "file": "unmined.js",
+      "line": 468,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!navigator || !navigator.clipboard || !navigator.clipboard.writeText)",
+      "file": "unmined.js",
+      "line": 550,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.playerMarkersLayer)",
+      "file": "unmined.js",
+      "line": 612,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.markersLayer)",
+      "file": "unmined.js",
+      "line": 621,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.markersLayer || this.playerMarkersLayer)",
+      "file": "unmined.js",
+      "line": 630,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#options.enableGrid)",
+      "file": "unmined.js",
+      "line": 635,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!this.#options.showScaleBar && this.#scaleLine)",
+      "file": "unmined.js",
+      "line": 747,
+      "exported": false
+    },
+    {
+      "name": "keep_only_configured_worlds",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 163,
+      "exported": false
+    },
+    {
+      "name": "loadSettings",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 704,
+      "exported": false
+    },
+    {
+      "name": "main",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "mapSettings",
+      "kind": "arrow function",
+      "signature": "(()",
+      "file": "unmined.js",
+      "line": 706,
+      "exported": false
+    },
+    {
+      "name": "merge_map_players",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 280,
+      "exported": false
+    },
+    {
+      "name": "merge_map_properties",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 235,
+      "exported": false
+    },
+    {
+      "name": "merge_map_regions",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 258,
+      "exported": false
+    },
+    {
+      "name": "move_tiles",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 217,
+      "exported": false
+    },
+    {
+      "name": "placeRedDotMarker",
+      "kind": "method",
+      "signature": "(coordinates)",
+      "file": "unmined.js",
+      "line": 346,
+      "exported": false
+    },
+    {
+      "name": "playerToMarker",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "unmined.js",
+      "line": 426,
+      "exported": false
+    },
+    {
+      "name": "push_to_github",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 320,
+      "exported": false
+    },
+    {
+      "name": "saveSettings",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 725,
+      "exported": false
+    },
+    {
+      "name": "setCoordinates",
+      "kind": "method",
+      "signature": "(coordinates)",
+      "file": "unmined.js",
+      "line": 115,
+      "exported": false
+    },
+    {
+      "name": "toast",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "unmined.js",
+      "line": 558,
+      "exported": false
+    },
+    {
+      "name": "toggleBinaryGrid",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 674,
+      "exported": false
+    },
+    {
+      "name": "toggleGrid",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 680,
+      "exported": false
+    },
+    {
+      "name": "toggleGridInterval",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 668,
+      "exported": false
+    },
+    {
+      "name": "toggleMarkers",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 692,
+      "exported": false
+    },
+    {
+      "name": "togglePlayers",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 698,
+      "exported": false
+    },
+    {
+      "name": "toggleScaleBar",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 686,
+      "exported": false
+    },
+    {
+      "name": "unzip_worlds",
+      "kind": "python function",
+      "signature": "(file_handle)",
+      "file": "UpdateSMPViewer.py",
+      "line": 156,
+      "exported": false
+    },
+    {
+      "name": "update_amelix_smp_viewer",
+      "kind": "python function",
+      "signature": "(service)",
+      "file": "UpdateSMPViewer.py",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "update_config",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 302,
+      "exported": false
+    },
+    {
+      "name": "update_last_updated_date",
+      "kind": "python function",
+      "signature": "()",
+      "file": "UpdateSMPViewer.py",
+      "line": 305,
+      "exported": false
+    },
+    {
+      "name": "updateGraticule",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 439,
+      "exported": false
+    },
+    {
+      "name": "updateMarkersLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 737,
+      "exported": false
+    },
+    {
+      "name": "updatePlayerMarkersLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 741,
+      "exported": false
+    },
+    {
+      "name": "updateScaleBar",
+      "kind": "method",
+      "signature": "()",
+      "file": "unmined.js",
+      "line": 745,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "uNmINeD but with a map switcher",
+      "headings": [
+        "uNmINeD but with a map switcher"
+      ],
+      "bytes": 105
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 2,
+    "functions": 71,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T16:38:29.552401+00:00",
+  "summary": {
+    "projects": 15,
+    "documents": 41,
+    "sections": 392,
+    "words": 23480,
+    "searchEntries": 392,
+    "searchProjects": 15,
+    "mediaAssets": 16,
+    "documentsWithMedia": 14,
+    "markdownLinks": 312,
+    "sourceTypes": {
+      "repository": 35,
+      "wiki": 6
+    }
+  },
+  "checks": {
+    "uniqueDocumentIds": true,
+    "uniqueRoutes": true,
+    "completeProvenance": true,
+    "uniqueAnchorsPerDocument": true,
+    "searchCoverage": true,
+    "projectCoverage": true,
+    "localMediaAvailable": true
+  },
+  "failures": {
+    "duplicateIds": [],
+    "duplicateRoutes": [],
+    "missingCoreFields": [],
+    "duplicateAnchors": []
+  },
+  "passed": true
+}

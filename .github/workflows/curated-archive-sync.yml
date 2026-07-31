@@ -1,0 +1,79 @@
+name: Curated Archive Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curated-archive-sync
+  cancel-in-progress: true
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
+      NEXT_TELEMETRY_DISABLED: "1"
+      FORESTOFLIGHT_SOURCE_CACHE: ${{ github.workspace }}/.cache/stage35/forestoflight-curated-sources
+      FORESTOFLIGHT_DOWNLOAD_CACHE: ${{ github.workspace }}/.cache/stage35/forestoflight-release-mirror
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Restore source and release mirrors
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/stage35/forestoflight-curated-sources
+            .cache/stage35/forestoflight-release-mirror
+          key: ${{ runner.os }}-stage35-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-stage35-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Synchronize archive, downloads, and curated pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run curated:sync
+
+      - name: Validate source and production build
+        run: |
+          npx tsc --noEmit
+          npm run lint
+          npm run build
+          npm run release:prepare
+          npm run release:verify
+
+      - name: Upload deploy-ready release
+        uses: actions/upload-artifact@v7
+        with:
+          name: forestoflight-curated-hub
+          path: dist/forestoflight-hub
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
+
+      - name: Trigger configured deployment
+        if: ${{ env.DEPLOY_HOOK_URL != '' }}
+        run: |
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --request POST \
+            "$DEPLOY_HOOK_URL"

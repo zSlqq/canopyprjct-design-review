@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "slug": "bedrock-src-itemstack-database",
+  "name": "Bedrock-SRC-ItemStack-Database",
+  "fullName": "ForestOfLight/Bedrock-SRC-ItemStack-Database",
+  "description": "A Minecraft Bedrock Script Api ItemStack database to save items along with its NBT Data",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Bedrock-SRC-ItemStack-Database",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2025-03-26T07:35:30Z",
+  "updatedAt": "2025-12-27T06:21:51Z",
+  "pushedAt": "2025-05-31T01:03:50Z",
+  "stars": 1,
+  "forks": 1,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "gamezaSRC",
+      "contributions": 25,
+      "profileUrl": "https://github.com/gamezaSRC",
+      "avatar": "/_archive-media/contributors/gamezasrc.png",
+      "type": "User"
+    },
+    {
+      "login": "ForestOfLight",
+      "contributions": 3,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Vector",
+      "kind": "function",
+      "signature": "(x = 0, y = 0, z = 0)",
+      "file": "scripts/lib/Vector.js",
+      "line": 3,
+      "exported": true
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "addQueueTask",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "allKeys",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "allKeysP",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 135,
+      "exported": false
+    },
+    {
+      "name": "catch",
+      "kind": "method",
+      "signature": "(e)",
+      "file": "scripts/Database.js",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "catch",
+      "kind": "method",
+      "signature": "(e)",
+      "file": "scripts/Database.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 176,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "clearStorage",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "collection",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.d.ts",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "collection",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "collectionSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.d.ts",
+      "line": 190,
+      "exported": false
+    },
+    {
+      "name": "collectionSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 168,
+      "exported": false
+    },
+    {
+      "name": "cross",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 171,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "deleteMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/Database.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "deleteMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 129,
+      "exported": false
+    },
+    {
+      "name": "dequeue",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "dot",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "enqueue",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "fetch",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "find",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 158,
+      "exported": false
+    },
+    {
+      "name": "findMany",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 161,
+      "exported": false
+    },
+    {
+      "name": "floor",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/Vector.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let s = 0; s < value; s++)",
+      "file": "scripts/Database.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key of keys)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of items)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 177,
+      "exported": false
+    },
+    {
+      "name": "forEach",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "scripts/Database.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 114,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 74,
+      "exported": false
+    },
+    {
+      "name": "getAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 137,
+      "exported": false
+    },
+    {
+      "name": "getAllAsync",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "getAllKeys",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 136,
+      "exported": false
+    },
+    {
+      "name": "getAsync",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "getDBS",
+      "kind": "method",
+      "signature": "(table)",
+      "file": "scripts/Database.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "getItems",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 165,
+      "exported": false
+    },
+    {
+      "name": "getKeyByValue",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 180,
+      "exported": false
+    },
+    {
+      "name": "getMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/Database.js",
+      "line": 121,
+      "exported": false
+    },
+    {
+      "name": "getMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 123,
+      "exported": false
+    },
+    {
+      "name": "getManyAsync",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 122,
+      "exported": false
+    },
+    {
+      "name": "getManySync",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "scripts/Database.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "getOnce",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "getSync",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 118,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 151,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "hasAsync",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 135,
+      "exported": false
+    },
+    {
+      "name": "hasSync",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 155,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(v[0] != oldKey)",
+      "file": "scripts/Database.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!this.processing)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(existingStructure)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(existingStructure)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 145,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(new.target)",
+      "file": "scripts/lib/Vector.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "init",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "keys",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 128,
+      "exported": false
+    },
+    {
+      "name": "keysSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 132,
+      "exported": false
+    },
+    {
+      "name": "lerp",
+      "kind": "method",
+      "signature": "(vec, t)",
+      "file": "scripts/lib/Vector.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "load",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "loadZone",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/ItemDatabase.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "map",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "scripts/Database.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "multiply",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "scripts/lib/Vector.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "onLoad",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/Database.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "projection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "reflect",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "rejection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "resetStorage",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "saveData",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(value, e)",
+      "file": "scripts/Database.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(key, itemStack)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "setItems",
+      "kind": "method",
+      "signature": "(key, items)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "setMany",
+      "kind": "method",
+      "signature": "(data)",
+      "file": "scripts/Database.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "setMany",
+      "kind": "method",
+      "signature": "(items)",
+      "file": "scripts/ItemDatabase.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "subtract",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "scripts/lib/Vector.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "toString",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/Vector.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "values",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 144,
+      "exported": false
+    },
+    {
+      "name": "valuesSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/Database.js",
+      "line": 148,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Bedrock-ItemStack-Database",
+      "headings": [
+        "Bedrock-ItemStack-Database"
+      ],
+      "bytes": 117
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 2,
+    "functions": 78,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

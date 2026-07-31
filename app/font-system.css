@@ -1,0 +1,50 @@
+:root {
+    --font-sans:
+        var(--font-geist-sans),
+        Arial,
+        sans-serif;
+
+    --font-mono:
+        var(--font-geist-mono),
+        Consolas,
+        monospace;
+
+    --stage37-font-display:
+        var(--font-geist-sans),
+        Arial,
+        sans-serif;
+
+    --stage37-font-text:
+        var(--font-geist-sans),
+        Arial,
+        sans-serif;
+}
+
+html,
+body {
+    font-family:
+        var(--font-geist-sans),
+        Arial,
+        sans-serif;
+    font-synthesis: none;
+    font-kerning: normal;
+    font-optical-sizing: auto;
+}
+
+code,
+kbd,
+pre,
+samp,
+.font-mono {
+    font-family:
+        var(--font-geist-mono),
+        Consolas,
+        monospace;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}

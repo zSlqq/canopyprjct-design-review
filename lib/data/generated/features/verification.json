@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "projects": 15,
+  "sourceEntries": 392,
+  "featureEntries": 392,
+  "featureBytes": 350692,
+  "genericTitleFailures": [],
+  "punctuationTitleFailures": [],
+  "excessiveRepeatedTitles": [],
+  "allProjectsCovered": true,
+  "allSearchEntriesCovered": true,
+  "passed": true
+}

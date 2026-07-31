@@ -1,0 +1,59 @@
+name: S-S+ visual regression
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: visual-regression-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Build certified release
+        run: |
+          npm run features:build
+          npm run delivery:build
+          npx tsc --noEmit
+          npm run lint
+          npm run build
+          npm run release:prepare
+          npm run release:verify
+
+      - name: Compare S-S+ visual baseline
+        run: npm run visual:check
+
+      - name: Upload visual report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-regression-${{ github.sha }}
+          path: .stage32/visual
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14

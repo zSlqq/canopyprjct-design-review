@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "slug": "canopy-extension-example",
+  "name": "Canopy-Extension-Example",
+  "fullName": "ForestOfLight/Canopy-Extension-Example",
+  "description": "An example Canopy Extension behavior pack.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Canopy-Extension-Example",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2024-08-21T23:52:35Z",
+  "updatedAt": "2026-02-13T00:28:01Z",
+  "pushedAt": "2026-02-13T00:27:56Z",
+  "stars": 1,
+  "forks": 1,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 41,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "addPreCallback",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "addRule",
+      "kind": "method",
+      "signature": "(rule)",
+      "file": "scripts/lib/canopy/CanopyExtension.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "Array",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "commandSourceIsNotAllowed",
+      "kind": "method",
+      "signature": "(source)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 129,
+      "exported": false
+    },
+    {
+      "name": "create_listener",
+      "kind": "function",
+      "signature": "(endpoint, listener)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 483,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(str: string)",
+      "file": "scripts/lib/ipc/ipc.d.ts",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(strings: string[])",
+      "file": "scripts/lib/ipc/ipc.d.ts",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "ensure_capacity",
+      "kind": "method",
+      "signature": "(size)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "exampleCommandCallback",
+      "kind": "function",
+      "signature": "(sender, message)",
+      "file": "scripts/main.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const ruleID of this.customCommand.contingentRules || [])",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < hex_str.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < value.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 247,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 255,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 292,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 298,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of array)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 311,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 319,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 330,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 336,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 374,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 395,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 422,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < strings.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 447,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let j = 0; j < str.length; j++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 449,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < listeners.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 477,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < serialized_packets.length; i++)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 522,
+      "exported": false
+    },
+    {
+      "name": "from_uint8array",
+      "kind": "method",
+      "signature": "(array)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "generate_id",
+      "kind": "function",
+      "signature": "()",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 499,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getContigentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "getDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "getDescription",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "getID",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "getIndependentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "getRuleValue",
+      "kind": "method",
+      "signature": "(ruleID)",
+      "file": "scripts/lib/canopy/CanopyExtension.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/CommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/BooleanRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/CommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "getValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "handle",
+      "kind": "function",
+      "signature": "(channel, deserializer, serializer, listener)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 587,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(player?.isValid)",
+      "file": "scripts/lib/canopy/CanopyExtension.js",
+      "line": 142,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.enums)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.aliases)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(value === 'undefined' || value === void 0)",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this._length > 0)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.end + size > this._buffer.length)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(optional !== undefined)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 348,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(defined)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 354,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 426,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 0xff)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 431,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0xff)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 451,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(event.sourceType === ScriptEventSource.Server && listeners)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 474,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!listeners)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 485,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners.length === 0)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 494,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!fragment)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 532,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(payload.final)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 536,
+      "exported": false
+    },
+    {
+      "name": "invoke",
+      "kind": "function",
+      "signature": "(channel, serializer, value, deserializer)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 560,
+      "exported": false
+    },
+    {
+      "name": "isCheatsRequired",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/BooleanRule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/BooleanRule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/FloatRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/IntegerRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "isRegistered",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/CanopyExtension.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "listen",
+      "kind": "function",
+      "signature": "(endpoint, serializer, callback)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 528,
+      "exported": false
+    },
+    {
+      "name": "Map",
+      "kind": "function",
+      "signature": "(key, value)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 362,
+      "exported": false
+    },
+    {
+      "name": "Object",
+      "kind": "function",
+      "signature": "(obj)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 289,
+      "exported": false
+    },
+    {
+      "name": "on",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 571,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 578,
+      "exported": false
+    },
+    {
+      "name": "onModifyBool",
+      "kind": "method",
+      "signature": "(newValue)",
+      "file": "scripts/lib/canopy/BooleanRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "Optional",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 344,
+      "exported": false
+    },
+    {
+      "name": "parseRuleValueString",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "read",
+      "kind": "method",
+      "signature": "(amount = 1)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "registerAliasCommands",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "registerCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "registerEnums",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "registerSingleCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry, name = this.customCommand.name)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "resetToDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "resolveCommandOrigin",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "function",
+      "signature": "(channel, serializer, value)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 555,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "scripts/lib/canopy/CommandOrigin.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue)",
+      "file": "scripts/lib/ipc/ipc.d.ts",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue, max_size?: number)",
+      "file": "scripts/lib/ipc/ipc.d.ts",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "Set",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 384,
+      "exported": false
+    },
+    {
+      "name": "setDefaultArgs",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "setupForRegistry",
+      "kind": "method",
+      "signature": "(startupEvent)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "setValue",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "scripts/lib/canopy/Rule.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(origin.sourceType)",
+      "file": "scripts/lib/canopy/Command.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "to_uint8array",
+      "kind": "method",
+      "signature": "()",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "Tuple",
+      "kind": "function",
+      "signature": "(...values)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 327,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(value >= 0x80)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "write",
+      "kind": "method",
+      "signature": "(...values)",
+      "file": "scripts/lib/ipc/ipc.js",
+      "line": 44,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "How this example pack functions ingame",
+      "headings": [
+        "How this example pack functions ingame",
+        "How to create an extension",
+        "How to use an extension",
+        "How does this work?",
+        "Issues & Suggestions"
+      ],
+      "bytes": 3507
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 1,
+    "functions": 113,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

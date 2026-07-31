@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "slug": "boreal",
+  "name": "Boreal",
+  "fullName": "ForestOfLight/Boreal",
+  "description": "An Endstone plugin for Technical Minecraft Bedrock Edition.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Boreal",
+  "defaultBranch": "main",
+  "language": "C++",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2025-02-13T16:48:13Z",
+  "updatedAt": "2026-07-10T08:55:44Z",
+  "pushedAt": "2026-05-02T02:53:21Z",
+  "stars": 13,
+  "forks": 2,
+  "openIssues": 2,
+  "topics": [],
+  "releases": [
+    {
+      "tag": "v0.1.3",
+      "name": "v0.1.3 for MC 26.12.2",
+      "publishedAt": "2026-04-11T00:22:10Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.12 Support**__ by @Nipitare\r\n- `/forceopen <enable: bool>`: Alows players to open containers, even if the containers are blocked.\r\n### __Improvements__\r\n- Backend reliability improvements to `/loadnearbychunks` by @Nipitare\r\n### __Fixes__\r\n- `/pistonpushlimit` block deletion and separation issues.",
+      "htmlUrl": "https://github.com/ForestOfLight/Boreal/releases/tag/v0.1.3",
+      "assets": [
+        {
+          "name": "boreal-v0.1.3.dll",
+          "downloadUrl": "https://github.com/ForestOfLight/Boreal/releases/download/v0.1.3/boreal-v0.1.3.dll",
+          "bytes": 285696,
+          "downloads": 370,
+          "contentType": "application/x-msdownload"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.3.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v0.1.2",
+      "name": "v0.1.2 for MC BDS 26.0",
+      "publishedAt": "2026-02-16T12:04:40Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.0 Support**__\r\n- `/loadnearbychunks <shouldLoad: Boolean>`: Enables/disables player chunk loading.\r\n- `/pistonpushlimit [n: int]`: Sets the piston push limit.\r\n### __Improvements__\r\n- `/tick rate <n: int>`: Now allows rates of up to 100k.\r\n### __Fixes__\r\n- `/flyspeed`: Improved argument edge case handling, including preventing a crash.\r\nWelcome to our new contributor, @Nipitare!",
+      "htmlUrl": "https://github.com/ForestOfLight/Boreal/releases/tag/v0.1.2",
+      "assets": [
+        {
+          "name": "boreal-v0.1.2.dll",
+          "downloadUrl": "https://github.com/ForestOfLight/Boreal/releases/download/v0.1.2/boreal-v0.1.2.dll",
+          "bytes": 286208,
+          "downloads": 80,
+          "contentType": "application/x-msdownload"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v0.1.1",
+      "name": "v0.1.1 for MC BDS 1.21.130",
+      "publishedAt": "2025-12-27T05:33:16Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "The first release for Boreal! Supports **Minecraft BDS Servers 1.21.130** running Endstone.\r\n\r\nCurrent features:\r\n\r\n- `/tick` command\r\n- `/flyspeed` command",
+      "htmlUrl": "https://github.com/ForestOfLight/Boreal/releases/tag/v0.1.1",
+      "assets": [
+        {
+          "name": "boreal-v0.1.1.dll",
+          "downloadUrl": "https://github.com/ForestOfLight/Boreal/releases/download/v0.1.1/boreal-v0.1.1.dll",
+          "bytes": 268800,
+          "downloads": 215,
+          "contentType": "application/x-msdownload"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Boreal/archive/refs/tags/v0.1.1.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 60,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    },
+    {
+      "login": "R2leyser",
+      "contributions": 20,
+      "profileUrl": "https://github.com/R2leyser",
+      "avatar": "/_archive-media/contributors/r2leyser.png",
+      "type": "User"
+    },
+    {
+      "login": "Nipitare",
+      "contributions": 6,
+      "profileUrl": "https://github.com/Nipitare",
+      "avatar": "/_archive-media/contributors/nipitare.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "ENDSTONE_PLUGIN",
+      "kind": "method",
+      "signature": "(/*name=*/\"boreal\", /*version=*/\"0.1.3\", /*main_class=*/Boreal)",
+      "file": "src/boreal.cpp",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(size_t i = 0; i < patternSize; ++i)",
+      "file": "include/PatternScanner.h",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto actor : actors)",
+      "file": "include/boreal.h",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const auto& match : matches)",
+      "file": "include/classes/PistonPushLimit.h",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto &patch : patches)",
+      "file": "include/classes/PistonPushLimit.h",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto &patch : patches)",
+      "file": "include/classes/PistonPushLimit.h",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const auto &match : matches)",
+      "file": "include/classes/PlayerNoClip.h",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 92,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 114,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 122,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 136,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 144,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 158,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 166,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 203,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 211,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 225,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(unsigned char &byte: bytes)",
+      "file": "include/lib/ipc.h",
+      "line": 233,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(size_t i = 0; i < length; i++)",
+      "file": "include/lib/ipc.h",
+      "line": 279,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(uint8_t i: value)",
+      "file": "include/lib/ipc.h",
+      "line": 305,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(size_t i = 0; i < length; i++)",
+      "file": "include/lib/ipc.h",
+      "line": 312,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(size_t i = 0; i < length; i++)",
+      "file": "include/lib/ipc.h",
+      "line": 344,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const uint8_t v: stream)",
+      "file": "include/lib/ipc.h",
+      "line": 582,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const std::string &str: strings)",
+      "file": "include/lib/ipc.h",
+      "line": 652,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const auto &listener: listeners)",
+      "file": "include/lib/ipc.h",
+      "line": 696,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const uint8_t &byte: data)",
+      "file": "include/lib/ipc.h",
+      "line": 706,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(rv != 0)",
+      "file": "include/boreal.h",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(actorName == \"Villager\")",
+      "file": "include/boreal.h",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(ForceOpenContainers::isEnabled)",
+      "file": "include/classes/ForceOpenContainers.h",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(errorCode)",
+      "file": "include/classes/ForceOpenContainers.h",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(playerState->second.previousState != shouldNoClip)",
+      "file": "include/classes/PlayerNoClip.h",
+      "line": 81,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(*slot == 1)",
+      "file": "include/classes/PlayerNoClip.h",
+      "line": 116,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(errorCode)",
+      "file": "include/classes/PlayersTickLevelChunks.h",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(targetTickRate <= 0)",
+      "file": "include/classes/Tick.h",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(targetTickRate == 0.0)",
+      "file": "include/classes/Tick.h",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(ticks == 0)",
+      "file": "include/classes/Tick.h",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(sprintTicks > 0)",
+      "file": "include/classes/Tick.h",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(sprintTicks > 0)",
+      "file": "include/classes/Tick.h",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(msToCompletion == 0.0)",
+      "file": "include/classes/Tick.h",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(*serverSprintTicks == 0)",
+      "file": "include/classes/Tick.h",
+      "line": 140,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(errorCode)",
+      "file": "include/classes/Tick.h",
+      "line": 165,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(errorCode)",
+      "file": "include/classes/Tick.h",
+      "line": 170,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(shouldForceOpen)",
+      "file": "include/commands/ForceOpenCommandExecutor.h",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(shouldLoadChunks)",
+      "file": "include/commands/LoadNearbyChunksCommandExecutor.h",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!PlayerNoClip::ready)",
+      "file": "include/commands/NoClipCommandExecutor.h",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"enable\")",
+      "file": "include/commands/NoClipCommandExecutor.h",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"query\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"rate\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"freeze\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"unfreeze\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"step\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(args[0] == \"sprint\")",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(rate <= minRate)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(rate > maxRate)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(TickSpeed::isFrozen)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(ticks < minAllowed)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(ticks > maxAllowed)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(ticks < minAllowed)",
+      "file": "include/commands/TickCommandExecutor.h",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(rv != 0)",
+      "file": "include/hook.h",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->isRegistrationReady)",
+      "file": "include/lib/CanopyExtension.h",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->isRegistrationReady)",
+      "file": "include/lib/CanopyExtension.h",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(const uint8_t ch = value[i]; ch <= 0x7F)",
+      "file": "include/lib/ipc.h",
+      "line": 247,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(codepoint <= 0xFFFF)",
+      "file": "include/lib/ipc.h",
+      "line": 265,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(header.final)",
+      "file": "include/lib/ipc.h",
+      "line": 482,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "include/lib/ipc.h",
+      "line": 619,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 0xFF)",
+      "file": "include/lib/ipc.h",
+      "line": 625,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0x7F)",
+      "file": "include/lib/ipc.h",
+      "line": 627,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(const uint8_t ch = str[j]; ch <= 0x7F)",
+      "file": "include/lib/ipc.h",
+      "line": 655,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0xFF)",
+      "file": "include/lib/ipc.h",
+      "line": 666,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listener)",
+      "file": "include/lib/ipc.h",
+      "line": 698,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(scriptevent_debugging)",
+      "file": "include/lib/ipc.h",
+      "line": 702,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(searchPtr < end)",
+      "file": "include/PatternScanner.h",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(temp >= 0x80)",
+      "file": "include/lib/ipc.h",
+      "line": 178,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(end != std::string::npos)",
+      "file": "include/lib/ipc.h",
+      "line": 569,
+      "exported": false
+    }
+  ],
+  "commands": [
+    {
+      "command": "/a",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "g\"> <img src=\"./Boreal-Logo.png\" alt=\"Boreal Icon\" width=\"100\" height=\"100\"> </a> <p><b>Boreal</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Boreal/total?label=Github%20downloads&logo=github)](https://github.com/Forest"
+    },
+    {
+      "command": "/b",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "\"./Boreal-Logo.png\" alt=\"Boreal Icon\" width=\"100\" height=\"100\"> </a> <p><b>Boreal</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Boreal/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Boreal/releas"
+    },
+    {
+      "command": "/Boreal-Logo",
+      "source": "repository:README.md",
+      "line": 2,
+      "context": "<div align=\"center\"> <a href=\"./Boreal-Logo.png\"> <img src=\"./Boreal-Logo.png\" alt=\"Boreal Icon\" width=\"100\" height=\"100\"> </a> <p><b>Boreal</b></p> [![GitHub Downloads](https://img.shields.io/github/downlo"
+    },
+    {
+      "command": "/div",
+      "source": "repository:README.md",
+      "line": 10,
+      "context": "members/9KGche8fxm?icon=discord&label=Discord&list=what)](https://discord.gg/9KGche8fxm) </div> An Endstone plugin for Technical Minecraft servers, specifically meant to fill in feature gaps in **[Canopy](https://github.com/ForestOfLight/Canopy)** created by a lack of acc"
+    },
+    {
+      "command": "/flyspeed",
+      "source": "repository:README.md",
+      "line": 38,
+      "context": "print. **Usage: `/tick query`** Shows the current tick speed. ### Flyspeed **Usage: `/flyspeed [multiplier: float]`** Changes your creative mode flight speed. Shows your current flight speed multiplier if the multiplier is unspecified. ### No Clip **Usage: `/noclip [ena"
+    },
+    {
+      "command": "/forceopen",
+      "source": "repository:README.md",
+      "line": 48,
+      "context": "llows you to pass through blocks when flying in creative mode. ### Force Open **Usage: `/forceopen [enable: bool]`** Allows all players to open all containers, even if the container would normally be blocked from opening. ### Piston Push Limit **Usage: `/pistonpushlimit [n:"
+    },
+    {
+      "command": "/loadnearbychunks",
+      "source": "repository:README.md",
+      "line": 58,
+      "context": "er is unspecified, it displays the current push limit. ### Load Nearby Chunks **Usage: `/loadnearbychunks [shouldLoad: bool]`** Toggles whether chunks nearby the player are ticked. Defaults to true if the parameter is unspecified. ## Supported Versions Please use Boreal with its "
+    },
+    {
+      "command": "/noclip",
+      "source": "repository:README.md",
+      "line": 43,
+      "context": "current flight speed multiplier if the multiplier is unspecified. ### No Clip **Usage: `/noclip [enable|disable]`** Allows you to pass through blocks when flying in creative mode. ### Force Open **Usage: `/forceopen [enable: bool]`** Allows all players to open all cont"
+    },
+    {
+      "command": "/p",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "oreal-Logo.png\" alt=\"Boreal Icon\" width=\"100\" height=\"100\"> </a> <p><b>Boreal</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Boreal/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Boreal/releases/l"
+    },
+    {
+      "command": "/pistonpushlimit",
+      "source": "repository:README.md",
+      "line": 53,
+      "context": "f the container would normally be blocked from opening. ### Piston Push Limit **Usage: `/pistonpushlimit [n: int]`** Changes the maximum number of blocks a piston can push. If the parameter is unspecified, it displays the current push limit. ### Load Nearby Chunks **Usage: `/load"
+    },
+    {
+      "command": "/tick",
+      "source": "repository:README.md",
+      "line": 21,
+      "context": "**[Canopy](https://github.com/ForestOfLight/Canopy)**. ## Commands ### Tick **Usage: `/tick rate <tps: float>`** Changes the world's tick speed. **Usage: `/tick <freeze/unfreeze>`** Starts or stops the tick speed. **Usage: `/tick step [num: int]`** Makes the tick"
+    }
+  ],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Commands",
+      "headings": [
+        "Commands",
+        "Tick",
+        "Flyspeed",
+        "No Clip",
+        "Force Open",
+        "Piston Push Limit",
+        "Load Nearby Chunks",
+        "Supported Versions",
+        "Roadmap"
+      ],
+      "bytes": 3029
+    }
+  ],
+  "counts": {
+    "versions": 3,
+    "releaseAssets": 9,
+    "contributors": 3,
+    "functions": 79,
+    "commands": 11,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

@@ -1,0 +1,4517 @@
+{
+  "schemaVersion": 1,
+  "slug": "construct",
+  "name": "Construct",
+  "fullName": "ForestOfLight/Construct",
+  "description": "A Minecraft Bedrock addon to ease the survival building process.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Construct",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2025-03-11T02:24:45Z",
+  "updatedAt": "2026-07-28T22:34:04Z",
+  "pushedAt": "2026-07-29T03:54:55Z",
+  "stars": 41,
+  "forks": 7,
+  "openIssues": 7,
+  "topics": [
+    "mcpack",
+    "minecraft",
+    "minecraft-bedrock",
+    "minecraft-bedrock-edition",
+    "minecraft-bedrock-scripting-api",
+    "multiplayer"
+  ],
+  "releases": [
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 for MC 26.30",
+      "publishedAt": "2026-06-16T23:13:35Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.30 Support**__\r\n- Command Interface: All functionality available through the graphical menu is now also available using vanilla commands.\r\n- Construct API: Construct's instances and builder settings can be managed through a brand-new API so you can control Construct programmatically. Documentation is available on GitHub.\r\n### __Fixes__\r\n- Included a potential fix for a manifest issue that prevented Construct from working on Realms.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "Construct-v1.1.0.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.1.0/Construct-v1.1.0.mcaddon",
+          "bytes": 291040,
+          "downloads": 308,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.1.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.1.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.9",
+      "name": "v1.0.9 for MC 26.20",
+      "publishedAt": "2026-05-07T23:44:53Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.20 Support**__\r\n### __Improvements__\r\n- `.mcstructure` files in the `structures` folder will now be populated in the structure list, so you don't have to type the file name.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.9",
+      "assets": [
+        {
+          "name": "Construct-v1.0.9.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.9/Construct-v1.0.9.mcaddon",
+          "bytes": 259680,
+          "downloads": 201,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.9.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.9.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.8",
+      "name": "v1.0.8 for MC 26.10",
+      "publishedAt": "2026-03-27T22:52:54Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.10 Support**__",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.8",
+      "assets": [
+        {
+          "name": "Construct-v1.0.8.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.8/Construct-v1.0.8.mcaddon",
+          "bytes": 259373,
+          "downloads": 251,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.8.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.8.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.7",
+      "name": "v1.0.7 for MC 26.0",
+      "publishedAt": "2026-02-11T23:32:42Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 26.0 Support**__\r\n- Chinese language translation, thanks to [wed150](https://github.com/wed150) & [EndrTrekker](https://github.com/EndrTrekker)!\r\n### __Improvements__\r\n- `/item` -> `/construct`\r\n- Construct is no longer dependent on **Canopy**, and the `./construct` command has been removed.\r\n- Moved the \"How to Add/Remove Structures\" button to the top-level menu.\r\n- Structure info tip now uses translatable block names instead of identifiers.\r\n### __Fixes__\r\n- Items grabbed via the Material Grabber no longer lose their NBT data.\r\n- EasyPlacing powder snow no longer destroys the bucket as well.\r\n- Fixed an issue on servers where the player could get stick in flexible movement mode after relogging.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.7",
+      "assets": [
+        {
+          "name": "Construct-v1.0.7.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.7/Construct-v1.0.7.mcaddon",
+          "bytes": 256761,
+          "downloads": 167,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.7.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.7.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.6",
+      "name": "v1.0.6 for MC 1.21.130",
+      "publishedAt": "2025-12-14T23:47:06Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's New__\r\n- __**Minecraft 1.21.130 Support**__\r\n- __Translation__! If you'd like to translate Construct, don't hesitate to open a Pull Request on GitHub or get in touch on Discord.\r\n### __Improvements__\r\n- `fastEasyPlace` now requires the player to \"use\" the item to build.\r\n### __Fixes__\r\n- Waterlogged bubble columns can now be easyplaced.\r\n- Comparators and repeaters are now always easyplaced as unpowered.\r\n- `materialGrabber` will no longer grab shulkers, deleting their contents in the process.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.6",
+      "assets": [
+        {
+          "name": "Construct-v1.0.6.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.6/Construct-v1.0.6.mcaddon",
+          "bytes": 266660,
+          "downloads": 430,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.6.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.6.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.5",
+      "name": "v1.0.5 for MC 1.21.120",
+      "publishedAt": "2025-10-29T05:32:57Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.120 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.5",
+      "assets": [
+        {
+          "name": "Construct-v1.0.5.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.5/Construct-v1.0.5.mcaddon",
+          "bytes": 264029,
+          "downloads": 214,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.5.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.5.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.4",
+      "name": "v1.0.4 for MC 1.21.111",
+      "publishedAt": "2025-09-30T20:11:04Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.111 Support__**\r\n- Flexible Move allows easy, precise structure movement using the movement keys.\r\n### __Improvements__\r\n- `/item` - No longer requires cheats and is now accessible in hardcore mode.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.4",
+      "assets": [
+        {
+          "name": "Construct-v1.0.4.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.4/Construct-v1.0.4.mcaddon",
+          "bytes": 264027,
+          "downloads": 131,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.4.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.4.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.3",
+      "name": "v1.0.3 for MC 1.21.100",
+      "publishedAt": "2025-08-05T20:58:43Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.100 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.3",
+      "assets": [
+        {
+          "name": "Construct-v1.0.3.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.3/Construct-v1.0.3.mcaddon",
+          "bytes": 260368,
+          "downloads": 232,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.3.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.2",
+      "name": "v1.0.2 for MC 1.21.90",
+      "publishedAt": "2025-07-16T21:07:21Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- Waterlogged block state will now show up in the structure block states tooltip.\r\n- Incorrectly waterlogged/non-waterlogged blocks will now show up as incorrect states in block validation.\r\n### __Improvements__\r\n- EasyPlace will now pull from the smallest stack in your inventory instead of the first one it finds.\r\n- FastEasyPlace will no longer place blocks inside the player.\r\n- FastEasyPlace can now place 2x faster than before.\r\n### __Fixes__\r\n- Fixed most missing block placement sounds. Please open a bug report for any that are still missing.\r\n- Fixed MaterialGrabber selecting items from a deleted structure instance.\r\n- Builder options now check the offhand slot before adding their associated item.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.2",
+      "assets": [
+        {
+          "name": "Construct-v1.0.2.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.2/Construct-v1.0.2.mcaddon",
+          "bytes": 258360,
+          "downloads": 165,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.1",
+      "name": "v1.0.1 for MC 1.21.90",
+      "publishedAt": "2025-06-18T19:18:58Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **Minecraft 1.21.90 Support**\r\n### __Improvements__\r\n- Fixed a bug where disabled instances would become re-enabled when rejoining a server.\r\n- Easy Place now includes block placement sounds.",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.1",
+      "assets": [
+        {
+          "name": "Construct-v1.0.1.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.1/Construct-v1.0.1.mcaddon",
+          "bytes": 270208,
+          "downloads": 378,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.0",
+      "name": "v1.0.0 for MC 1.21.80",
+      "publishedAt": "2025-06-08T19:34:35Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "This is the first release!",
+      "htmlUrl": "https://github.com/ForestOfLight/Construct/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "Construct-1.0.0.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Construct/releases/download/v1.0.0/Construct-1.0.0.mcaddon",
+          "bytes": 252385,
+          "downloads": 129,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Construct/archive/refs/tags/v1.0.0.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 250,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    },
+    {
+      "login": "wed150",
+      "contributions": 7,
+      "profileUrl": "https://github.com/wed150",
+      "avatar": "/_archive-media/contributors/wed150.png",
+      "type": "User"
+    },
+    {
+      "login": "EndrTrekker",
+      "contributions": 1,
+      "profileUrl": "https://github.com/EndrTrekker",
+      "avatar": "/_archive-media/contributors/endrtrekker.png",
+      "type": "User"
+    },
+    {
+      "login": "saschabuehrle",
+      "contributions": 1,
+      "profileUrl": "https://github.com/saschabuehrle",
+      "avatar": "/_archive-media/contributors/saschabuehrle.png",
+      "type": "User"
+    },
+    {
+      "login": "SuperLlama88888",
+      "contributions": 1,
+      "profileUrl": "https://github.com/SuperLlama88888",
+      "avatar": "/_archive-media/contributors/superllama88888.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "fetchMatchingItemSlot",
+      "kind": "function",
+      "signature": "(entity, itemToMatchId)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 17,
+      "exported": true
+    },
+    {
+      "name": "forceShow",
+      "kind": "function",
+      "signature": "(player, form, timeout = Infinity)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 5,
+      "exported": true
+    },
+    {
+      "name": "placeBlock",
+      "kind": "function",
+      "signature": "(player, placedBlock, blockToPlace, itemSlotToConsume = void 0)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 34,
+      "exported": true
+    },
+    {
+      "name": "Vector",
+      "kind": "function",
+      "signature": "(x = 0, y = 0, z = 0)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 5,
+      "exported": true
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(builderOption)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOptions.js",
+      "line": 3,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(instanceName, structureId)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "addEndpoint",
+      "kind": "method",
+      "signature": "(endpoint, callback, parameterModel, returnModel)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 695,
+      "exported": false
+    },
+    {
+      "name": "addInstance",
+      "kind": "method",
+      "signature": "(instanceName, structureId)",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "addItem",
+      "kind": "function",
+      "signature": "(inventory, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 174,
+      "exported": false
+    },
+    {
+      "name": "addStandaloneParticles",
+      "kind": "method",
+      "signature": "(locations)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "addStructure",
+      "kind": "method",
+      "signature": "(origin, instanceName, structureId)",
+      "file": "packs/BP/scripts/commands/CreateCommand.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "allowPlayerMovement",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "applySettings",
+      "kind": "method",
+      "signature": "(formValues)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "Array2",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 299,
+      "exported": false
+    },
+    {
+      "name": "asPacket",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder/Builder.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "asPacket",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 289,
+      "exported": false
+    },
+    {
+      "name": "assertDimensionExists",
+      "kind": "method",
+      "signature": "(dimensionId)",
+      "file": "packs/BP/scripts/commands/MoveCommand.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "assertDimensionExists",
+      "kind": "method",
+      "signature": "(dimensionId)",
+      "file": "packs/BP/scripts/commands/PlaceCommand.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "assertIsPlayer",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/commands/MaterialsCommand.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "boxDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "buildAllInstanceName",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuFormBuilder.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "buildAllStructures",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuFormBuilder.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "buildBuilderOptions",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderFormBuilder.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "buildHowTo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuFormBuilder.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "buildInstance",
+      "kind": "method",
+      "signature": "(instance, options)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "buildInstanceSelector",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Materials/MaterialGrabberFormBuilder.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "buildMaterialList",
+      "kind": "method",
+      "signature": "(instance, onlyMissing = false, player = false)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "buildNewInstance",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuFormBuilder.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "buildOtherStructure",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuFormBuilder.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "buildRenameInstance",
+      "kind": "method",
+      "signature": "(currentName)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "buildSettings",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "buildStatistics",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "Cached",
+      "kind": "function",
+      "signature": "(s, depth = 16)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 394,
+      "exported": false
+    },
+    {
+      "name": "calculateInstanceMovement",
+      "kind": "method",
+      "signature": "(playerMovement)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "call",
+      "kind": "method",
+      "signature": "(endpoint, parameterMapModel, parameterMap, returnDataModel)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 830,
+      "exported": false
+    },
+    {
+      "name": "canAddItem",
+      "kind": "function",
+      "signature": "(inventory, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 161,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/Commands.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "clearDP",
+      "kind": "method",
+      "signature": "(namespace, id)",
+      "file": "packs/BP/scripts/classes/Option.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "consume",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "consumeItem",
+      "kind": "function",
+      "signature": "(itemSlot)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "countBlock",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "createNewInstance",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "cross",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "decreaseLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 250,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "deleteInstance",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "disable",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 193,
+      "exported": false
+    },
+    {
+      "name": "disableInstanceWhenNoPlayersOnline",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 261,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "dot",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "draw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "drawParticles",
+      "kind": "method",
+      "signature": "(particleLocations, colorCallback)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "editBuilder",
+      "kind": "method",
+      "signature": "(builderOptions)",
+      "file": "packs/BP/scripts/API/controllers/BuildersController.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "editInstance",
+      "kind": "method",
+      "signature": "(instanceName, instanceOptions)",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "emptySlotPass",
+      "kind": "function",
+      "signature": "(inventory, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 198,
+      "exported": false
+    },
+    {
+      "name": "enable",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 188,
+      "exported": false
+    },
+    {
+      "name": "ensure_capacity",
+      "kind": "method",
+      "signature": "(size)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "evaluatePermutations",
+      "kind": "method",
+      "signature": "(worldPermutation, structPermutation)",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "fetchStructureBlock",
+      "kind": "method",
+      "signature": "(dimensionId, location)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "finish",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "flexibleMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "floor",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < optionIds.length; i++)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const parameter of parameters)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 96,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = bounds.min.y; y < bounds.max.y; y++)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = bounds.min.z; z < bounds.max.z; z++)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = bounds.min.x; x < bounds.max.x; x++)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const blockType of sortedTypes)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotIndex = 0; slotIndex < container.size; slotIndex++)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const [particleType, location] of this.#drawParticles)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const edge of edges)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 98,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 1; i < resolution; i++)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = bounds.min.y; y < bounds.max.y; y++)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = bounds.min.z; z < bounds.max.z; z++)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = bounds.min.x; x < bounds.max.x; x++)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = bounds.min.x; x < bounds.max.x; x++)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = bounds.min.z; z < bounds.max.z; z++)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const location of chunk)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 83,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const location of locations)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = 0; x < this.#structure.size.x; x++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = 0; z < this.#structure.size.z; z++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = 0; y < this.#structure.size.y; y++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = 0; x < this.#structure.size.x; x++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = 0; z < this.#structure.size.z; z++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = 0; y < this.#structure.size.y; y++)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const location of layerLocations)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = bounds.min.y; y < bounds.max.y; y++)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = bounds.min.z; z < bounds.max.z; z++)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 107,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = bounds.min.x; x < bounds.max.x; x++)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const name of names)",
+      "file": "packs/BP/scripts/commands/InstancesCommand.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 98,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < hex_str.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 111,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let size = 0; size < 5; size++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 202,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < value.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 241,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 249,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 285,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 291,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of value)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 303,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 310,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < s.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 321,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < s.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 327,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const [k, v] of value)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 356,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 364,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const v of set)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 378,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 385,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 442,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < strings.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 466,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let j = 0; j < str.length; j++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 468,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const listener of [...listeners])",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 499,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < serialized_packets.length; i++)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 534,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < container.size; i++)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < container.size; i++)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < container.size; i++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotIndex = 0; slotIndex < targetContainer.size; slotIndex++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotIndex = 0; slotIndex < playerContainer.size; slotIndex++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 109,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < inventory.size; i++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotNum = 0; slotNum < inventory.size; slotNum++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 183,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotNum = 0; slotNum < inventory.size; slotNum++)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const regex of BANNED_ITEMTYPES)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 215,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let index = 0; index < inventory.size; index++)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "formatStat",
+      "kind": "method",
+      "signature": "(stat)",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "formatStatus",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstancesCommand.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "formatString",
+      "kind": "method",
+      "signature": "(otherMaterials = void 0)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 93,
+      "exported": false
+    },
+    {
+      "name": "from_uint8array",
+      "kind": "method",
+      "signature": "(array)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "generate_id",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(optionId)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOptions.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(id)",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(itemType)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "getActiveBlocks",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 126,
+      "exported": false
+    },
+    {
+      "name": "getActiveBounds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 91,
+      "exported": false
+    },
+    {
+      "name": "getActiveMaterials",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 156,
+      "exported": false
+    },
+    {
+      "name": "getActiveMaterials",
+      "kind": "function",
+      "signature": "(focusedInstanceName)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "getActiveOptions",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "getAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/Commands.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "getAllActiveLocations",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 147,
+      "exported": false
+    },
+    {
+      "name": "getAllBlocks",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 122,
+      "exported": false
+    },
+    {
+      "name": "getAllLocations",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getBlock",
+      "kind": "method",
+      "signature": "(structureLocation)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 110,
+      "exported": false
+    },
+    {
+      "name": "getBlock",
+      "kind": "method",
+      "signature": "(structureLocation)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "getBlockMessage",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "getBlockParticles",
+      "kind": "method",
+      "signature": "(sizeScalar = 1)",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "getBlocks",
+      "kind": "method",
+      "signature": "(structureLocations)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 114,
+      "exported": false
+    },
+    {
+      "name": "getBounds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "getBuilder",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/API/controllers/BuildersController.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "getCornerVertices",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "getCubiodEdgeParticles",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 81,
+      "exported": false
+    },
+    {
+      "name": "getDimension",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "getDimension",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "getEnabledText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "getEndpoints",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 709,
+      "exported": false
+    },
+    {
+      "name": "getFormattedBlockInfo",
+      "kind": "method",
+      "signature": "(player, block)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "getFormattedStates",
+      "kind": "method",
+      "signature": "(states)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "getHeaderText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "getHeight",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "getIds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getInstance",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "getInstanceNameFromForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getInstanceNames",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "getInstances",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "getInstanceStructureId",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "getLastVerificationLevels",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "getLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "getLayerBlocks",
+      "kind": "method",
+      "signature": "(layer)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 118,
+      "exported": false
+    },
+    {
+      "name": "getLayerBounds",
+      "kind": "method",
+      "signature": "(layer)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "getLayerLocations",
+      "kind": "method",
+      "signature": "(layer)",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "getLayerText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "getLocation",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "getLocationText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "getMajorDirectionFacing",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "getMaterialList",
+      "kind": "method",
+      "signature": "(origin, instance, onlyMissing)",
+      "file": "packs/BP/scripts/commands/MaterialsCommand.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "getMaterials",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/API/controllers/InstancesController.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "getMaterialsDifference",
+      "kind": "method",
+      "signature": "(container)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 127,
+      "exported": false
+    },
+    {
+      "name": "getMax",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "getMaxLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "getMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "getMin",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/Structure.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "getMovementVector",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "getName",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "getName",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "getNextParticleColor",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 113,
+      "exported": false
+    },
+    {
+      "name": "getNonAirBlocks",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "getOptionIds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOptions.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getOtherStructureId",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "getPlaceableItemStack",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 135,
+      "exported": false
+    },
+    {
+      "name": "getPlaceableItemStack",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 177,
+      "exported": false
+    },
+    {
+      "name": "getRawMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Errors/CommandResponseError.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getRawMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Errors/InstanceExistsError.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getRawMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Errors/InstanceNotFoundError.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getRawMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Errors/NotAPlayerError.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "getRawMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Errors/StructureNotFoundError.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getRGBAMolang",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "getSizeText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getSkipped",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/BlockCommandOrigin.js",
+      "line": 5,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/CommandOrigin.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/EntityCommandOrigin.js",
+      "line": 5,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/PlayerCommandOrigin.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/ServerCommandOrigin.js",
+      "line": 5,
+      "exported": false
+    },
+    {
+      "name": "getStat",
+      "kind": "method",
+      "signature": "(blockVerificationLevel)",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getStatsMessage",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/StatsCommand.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "getStructure",
+      "kind": "method",
+      "signature": "(dimensionId, location, options = {})",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "getStructureBlocks",
+      "kind": "method",
+      "signature": "(dimension, startLocation, direction, { maxDistance = 7, getFirst = true, collideWithWorldBlocks = true, useActiveLayer = true })",
+      "file": "packs/BP/scripts/classes/Raycaster.js",
+      "line": 5,
+      "exported": false
+    },
+    {
+      "name": "getStructureId",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "getStructureId",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "getStructureIdText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "getStructures",
+      "kind": "method",
+      "signature": "(dimensionId, location, options = {})",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "getSupplyMessage",
+      "kind": "method",
+      "signature": "(player, block)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "getTargetedStructureBlock",
+      "kind": "method",
+      "signature": "(player, { isFirst = true, collideWithWorldBlocks = true, useActiveLayer = true } = {})",
+      "file": "packs/BP/scripts/classes/Raycaster.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "getTrackPlayerDistance",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/CommandOrigin.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/PlayerCommandOrigin.js",
+      "line": 5,
+      "exported": false
+    },
+    {
+      "name": "getVerificationLevel",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "getVerifierText",
+      "kind": "method",
+      "signature": "(instance)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "getVerticeParticles",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "getVertices",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "getWorldStructureIds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "giveActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "giveActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "giveActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "giveMenuItem",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/commands/ConstructCommand.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "handle",
+      "kind": "function",
+      "signature": "(channel, deserializer, serializer, listener)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 618,
+      "exported": false
+    },
+    {
+      "name": "handleOption",
+      "kind": "method",
+      "signature": "(option)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "handleStructureAdditionErrors",
+      "kind": "method",
+      "signature": "(origin, error)",
+      "file": "packs/BP/scripts/commands/CreateCommand.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "handleWaterlogging",
+      "kind": "function",
+      "signature": "(block, structureBlock)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(itemType)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "hasEndpoint",
+      "kind": "method",
+      "signature": "(endpoint)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 712,
+      "exported": false
+    },
+    {
+      "name": "hasLayers",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 168,
+      "exported": false
+    },
+    {
+      "name": "hasLayerSelected",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 172,
+      "exported": false
+    },
+    {
+      "name": "hasLocation",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "hasWholeStructureSelected",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 176,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(block.isWaterlogged)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(changedToValue === true)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.enums)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.aliases)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(newName === '')",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 126,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(e.message === 'StructureVerifier is already running.')",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 157,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!statsForm)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 163,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(onlyMissing)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!inventoryContainer)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceFormBuilder.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.options.verifier.trackPlayerDistance === 0)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 235,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.shouldEnableOnJoin)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 274,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(selectedInstanceName)",
+      "file": "packs/BP/scripts/classes/Materials/MaterialGrabberForm.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(e.message === 'Menu timed out.')",
+      "file": "packs/BP/scripts/classes/Materials/MaterialGrabberForm.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(count >= stackSize)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 110,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(jumpToInstance)",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(selection === 0)",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error.message === 'Menu timed out.')",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error instanceof InstanceExistsError || error instanceof StructureNotFoundError)",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/MenuItemHandler.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.lastWasBlack)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 115,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(structure)",
+      "file": "packs/BP/scripts/classes/Raycaster.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(block?.type.id !== 'minecraft:air')",
+      "file": "packs/BP/scripts/classes/Raycaster.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(bounds.max.x < bounds.max.z)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error instanceof StructureNotFoundError || error instanceof InvalidStructureError)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(isStandalone)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.isVerificationComplete)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(verificationLevel === BlockVerificationLevel.Air)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(shouldRender)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(layer < 0 || layer > max)",
+      "file": "packs/BP/scripts/commands/LayerCommand.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(onlyMissing)",
+      "file": "packs/BP/scripts/commands/MaterialsCommand.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(dimensionId === void 0 || location === void 0)",
+      "file": "packs/BP/scripts/commands/MoveCommand.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(typeof input === \"number\")",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(amount === void 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.end + size > this._buffer.length)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hit !== void 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 399,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(cache.size > depth)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 409,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 446,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 255)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 451,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 255)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 470,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners === void 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 511,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners.length === 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 520,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet === void 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 552,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(header.final)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 558,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet.fragments[header.index] === void 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 561,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(packet.size !== -1 && packet.size === packet.received)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 567,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error instanceof APICallerError)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 767,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(versionToCheck !== this.version)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 778,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#validEndpointCache.length === 0)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 838,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(new.target)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(offhandItemStack?.typeId === 'construct:easy_place')",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(allowedStates)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 96,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(itemSlotToUse)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 128,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(offhandItemStack?.typeId === ACTION_ITEM)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(allowedStates)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 142,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(offhandItemStack?.typeId === 'construct:material_grabber')",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(amount === slot.amount)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 154,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(remainderAmount > 0)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 188,
+      "exported": false
+    },
+    {
+      "name": "ignoreAlreadyGathered",
+      "kind": "function",
+      "signature": "(materials, playerContainer)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 107,
+      "exported": false
+    },
+    {
+      "name": "increaseLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 243,
+      "exported": false
+    },
+    {
+      "name": "init",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "initVerification",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "invoke",
+      "kind": "function",
+      "signature": "(channel, serializer, value, deserializer)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 584,
+      "exported": false
+    },
+    {
+      "name": "is_valid",
+      "kind": "function",
+      "signature": "(str)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 91,
+      "exported": false
+    },
+    {
+      "name": "isActionItem",
+      "kind": "function",
+      "signature": "(itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "isAtMaxLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 180,
+      "exported": false
+    },
+    {
+      "name": "isAtMinLayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "isBannedBlock",
+      "kind": "function",
+      "signature": "(player, structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "isBannedBlock",
+      "kind": "function",
+      "signature": "(player, structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 132,
+      "exported": false
+    },
+    {
+      "name": "isBannedItemType",
+      "kind": "function",
+      "signature": "(itemTypeId)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 213,
+      "exported": false
+    },
+    {
+      "name": "isBlockInsidePlayer",
+      "kind": "function",
+      "signature": "(player, worldBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 183,
+      "exported": false
+    },
+    {
+      "name": "isCheatsRequired",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "isCorrectlyAir",
+      "kind": "method",
+      "signature": "(worldPermutation, structPermutation)",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "isEmpty",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "isEnabled",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOption.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "isEnabled",
+      "kind": "method",
+      "signature": "(optionId, playerId)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOptions.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "isEnabled",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 160,
+      "exported": false
+    },
+    {
+      "name": "isEnabled",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "isExactMatch",
+      "kind": "method",
+      "signature": "(worldPermutation, structurePermutation)",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "isFlexibleInstanceMoving",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder/Builder.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "isFlexibleMoving",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 257,
+      "exported": false
+    },
+    {
+      "name": "isHoldingActionItem",
+      "kind": "function",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "isHoldingActionItem",
+      "kind": "function",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "isJumping",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "isLocationActive",
+      "kind": "method",
+      "signature": "(dimensionId, structureLocation, { useActiveLayer = true } = {})",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "isMissing",
+      "kind": "method",
+      "signature": "(worldPermutation, structPermutation)",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "isOptionEnabled",
+      "kind": "method",
+      "signature": "(optionId)",
+      "file": "packs/BP/scripts/classes/Builder/Builder.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "isSlotAvailableForStacking",
+      "kind": "function",
+      "signature": "(slot, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 209,
+      "exported": false
+    },
+    {
+      "name": "isSneaking",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "isTypeMatch",
+      "kind": "method",
+      "signature": "(worldPermuation, structurePermuation)",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "itemFitsInPartiallyFilledSlot",
+      "kind": "function",
+      "signature": "(slot, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 170,
+      "exported": false
+    },
+    {
+      "name": "layeredDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "lerp",
+      "kind": "method",
+      "signature": "(vec, t)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "listen",
+      "kind": "function",
+      "signature": "(endpoint, deserializer, callback, options)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 548,
+      "exported": false
+    },
+    {
+      "name": "load",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "loadExistingInstances",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "loadFromDP",
+      "kind": "method",
+      "signature": "(namespace, id)",
+      "file": "packs/BP/scripts/classes/Option.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "locationIsPlaceable",
+      "kind": "function",
+      "signature": "(player, worldBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 128,
+      "exported": false
+    },
+    {
+      "name": "Map2",
+      "kind": "function",
+      "signature": "(kS, vS)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 352,
+      "exported": false
+    },
+    {
+      "name": "materialsForm",
+      "kind": "method",
+      "signature": "(onlyShowMissingMaterials = false)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 181,
+      "exported": false
+    },
+    {
+      "name": "move",
+      "kind": "method",
+      "signature": "(instanceVelocity)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "move",
+      "kind": "method",
+      "signature": "(dimensionId, worldLocation)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "move",
+      "kind": "method",
+      "signature": "(dimensionId, worldLocation)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 214,
+      "exported": false
+    },
+    {
+      "name": "moveOutline",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 83,
+      "exported": false
+    },
+    {
+      "name": "multiply",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "Object2",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 282,
+      "exported": false
+    },
+    {
+      "name": "on",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 604,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 610,
+      "exported": false
+    },
+    {
+      "name": "onFlexibleMovementTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "onItemStartUse",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "onItemStopUse",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "onItemUse",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "onJoin",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "onLeave",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "onPlacingTick",
+      "kind": "function",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "onPlayerInteract",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "onPlayerInteractWithBlock",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "onPlayerLeave",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 96,
+      "exported": false
+    },
+    {
+      "name": "onPlayerPlaceBlock",
+      "kind": "function",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "onPlayerUseItem",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "onTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "openInstanceSelectionForm",
+      "kind": "function",
+      "signature": "(player, event)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "openMenu",
+      "kind": "function",
+      "signature": "(player, event = void 0)",
+      "file": "packs/BP/scripts/classes/MenuItemHandler.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "Optional",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 335,
+      "exported": false
+    },
+    {
+      "name": "parse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "parseStatistic",
+      "kind": "method",
+      "signature": "(blockVerificationLevel)",
+      "file": "packs/BP/scripts/classes/Structure/StructureStatistics.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "partiallyFilledSlotPass",
+      "kind": "function",
+      "signature": "(inventory, itemStack)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 181,
+      "exported": false
+    },
+    {
+      "name": "place",
+      "kind": "method",
+      "signature": "(dimensionId, worldLocation)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 209,
+      "exported": false
+    },
+    {
+      "name": "playBlockPlacementSound",
+      "kind": "function",
+      "signature": "(player, block, structureBlock)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "playSoundEffect",
+      "kind": "function",
+      "signature": "(player, transferCount)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "populateInstance",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "prepareRenderQueue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "prepareRenderQueueLayer",
+      "kind": "method",
+      "signature": "(bounds, y)",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "prepInstanceForMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "prepPlayerForMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "preventAction",
+      "kind": "function",
+      "signature": "(event, player)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 81,
+      "exported": false
+    },
+    {
+      "name": "preventAction",
+      "kind": "function",
+      "signature": "(event, player)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "processEasyPlace",
+      "kind": "function",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "projection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "pullInstanceData",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "read",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "reflect",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "refresh",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "refresh",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "refresh",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "refresh",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "refreshBox",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "refreshDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/StructureOutliner.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "register",
+      "kind": "method",
+      "signature": "(command)",
+      "file": "packs/BP/scripts/classes/Commands/Commands.js",
+      "line": 3,
+      "exported": false
+    },
+    {
+      "name": "register",
+      "kind": "function",
+      "signature": "(endpoint, listener)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 509,
+      "exported": false
+    },
+    {
+      "name": "rejection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builder/Builders.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(itemType, amount)",
+      "file": "packs/BP/scripts/classes/Materials/StructureMaterials.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "removeActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "removeActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "removeActionItem",
+      "kind": "function",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "removeAmount",
+      "kind": "function",
+      "signature": "(slot, amount)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 152,
+      "exported": false
+    },
+    {
+      "name": "rename",
+      "kind": "method",
+      "signature": "(newName)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "rename",
+      "kind": "method",
+      "signature": "(newName)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 198,
+      "exported": false
+    },
+    {
+      "name": "rename",
+      "kind": "method",
+      "signature": "(instanceName, newName)",
+      "file": "packs/BP/scripts/classes/Structure/StructureCollection.js",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "renameInstanceForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "renderBlock",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "renderNextChunk",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "renderNextChunkForLargeStructure",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 74,
+      "exported": false
+    },
+    {
+      "name": "renderNextChunkForSmallStructure",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "reserve",
+      "kind": "method",
+      "signature": "(amount)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "resolveCommandOrigin",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, builderOption, state)",
+      "file": "packs/BP/scripts/commands/BuilderCommand.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/commands/ConstructCommand.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, structureId)",
+      "file": "packs/BP/scripts/commands/CreateCommand.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/DeleteCommand.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, state)",
+      "file": "packs/BP/scripts/commands/EnableCommand.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/InstanceInfoCommand.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/commands/InstancesCommand.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, layer)",
+      "file": "packs/BP/scripts/commands/LayerCommand.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, missing)",
+      "file": "packs/BP/scripts/commands/MaterialsCommand.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, dimensionId, location)",
+      "file": "packs/BP/scripts/commands/MoveCommand.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/NextLayerCommand.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, dimensionId, location)",
+      "file": "packs/BP/scripts/commands/PlaceCommand.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/PrevLayerCommand.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, newName)",
+      "file": "packs/BP/scripts/commands/RenameCommand.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/StatsCommand.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName)",
+      "file": "packs/BP/scripts/commands/TagCommand.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(origin, instanceName, state)",
+      "file": "packs/BP/scripts/commands/VerifierCommand.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "save",
+      "kind": "method",
+      "signature": "(playerId, value)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOption.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "save",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "saveToDP",
+      "kind": "method",
+      "signature": "(namespace, id, data)",
+      "file": "packs/BP/scripts/classes/Option.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "function",
+      "signature": "(channel, serializer, value)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 580,
+      "exported": false
+    },
+    {
+      "name": "sendFeedback",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 125,
+      "exported": false
+    },
+    {
+      "name": "sendFeedback",
+      "kind": "method",
+      "signature": "(origin, instanceName, state)",
+      "file": "packs/BP/scripts/commands/EnableCommand.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "sendFeedback",
+      "kind": "method",
+      "signature": "(origin, instanceName, state)",
+      "file": "packs/BP/scripts/commands/VerifierCommand.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Commands/BlockCommandOrigin.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/classes/Commands/CommandOrigin.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/classes/Commands/EntityCommandOrigin.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/classes/Commands/PlayerCommandOrigin.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/classes/Commands/ServerCommandOrigin.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "sendTo",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/classes/Errors/CommandResponseError.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "sendTransferMessage",
+      "kind": "function",
+      "signature": "(player, transferCount)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 116,
+      "exported": false
+    },
+    {
+      "name": "Set",
+      "kind": "function",
+      "signature": "(s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 374,
+      "exported": false
+    },
+    {
+      "name": "setActiveInstance",
+      "kind": "method",
+      "signature": "(instanceName)",
+      "file": "packs/BP/scripts/classes/Materials/MaterialGrabberForm.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "setEnabled",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "setLayer",
+      "kind": "method",
+      "signature": "(layer)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "setLayer",
+      "kind": "method",
+      "signature": "(layer)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 219,
+      "exported": false
+    },
+    {
+      "name": "setLayerForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 143,
+      "exported": false
+    },
+    {
+      "name": "setOption",
+      "kind": "method",
+      "signature": "(optionId, value)",
+      "file": "packs/BP/scripts/classes/Builder/Builder.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "setOptions",
+      "kind": "method",
+      "signature": "(builderOptions)",
+      "file": "packs/BP/scripts/classes/Builder/Builder.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "setOptions",
+      "kind": "method",
+      "signature": "(newOptions)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 308,
+      "exported": false
+    },
+    {
+      "name": "setStructure",
+      "kind": "method",
+      "signature": "(structureId)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 204,
+      "exported": false
+    },
+    {
+      "name": "settingsForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 172,
+      "exported": false
+    },
+    {
+      "name": "setupController",
+      "kind": "method",
+      "signature": "(apiController)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 740,
+      "exported": false
+    },
+    {
+      "name": "setupForRegistry",
+      "kind": "method",
+      "signature": "(startupEvent)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "setValue",
+      "kind": "method",
+      "signature": "(playerId, value)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOption.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "setValue",
+      "kind": "method",
+      "signature": "(optionId, playerId, value)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderOptions.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "setVerifierDistance",
+      "kind": "method",
+      "signature": "(distance)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "setVerifierDistance",
+      "kind": "method",
+      "signature": "(distance)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 232,
+      "exported": false
+    },
+    {
+      "name": "setVerifierEnabled",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "setVerifierEnabled",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 226,
+      "exported": false
+    },
+    {
+      "name": "setVerifierParticleLifetime",
+      "kind": "method",
+      "signature": "(lifetime)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceOptions.js",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "setVertices",
+      "kind": "method",
+      "signature": "(dimension, min, max)",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "shouldPreventAction",
+      "kind": "function",
+      "signature": "(player, structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "shouldUseLargeStructureRendering",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 111,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Materials/MaterialGrabberForm.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "(jumpToInstance = false, instanceName = void 0)",
+      "file": "packs/BP/scripts/classes/MenuForm.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "showStructureBlockInfo",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/BlockInfo.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "start",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "startContinuousRendering",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "startContinuousVerification",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "startDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "statisticsForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 151,
+      "exported": false
+    },
+    {
+      "name": "stopContinuousRendering",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/VerificationRenderer.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "stopContinuousVerification",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "stopDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Outliner.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "subscribeToEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "subtract",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(origin.sourceType)",
+      "file": "packs/BP/scripts/classes/Commands/Command.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(option)",
+      "file": "packs/BP/scripts/classes/Instance/InstanceForm.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this.verificationLevel)",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this.verificationLevel)",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(errorData.code)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 870,
+      "exported": false
+    },
+    {
+      "name": "to_uint8array",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "toGlobalCoords",
+      "kind": "method",
+      "signature": "(structureLocation)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 281,
+      "exported": false
+    },
+    {
+      "name": "toString",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "toStructureCoords",
+      "kind": "method",
+      "signature": "(worldLocation)",
+      "file": "packs/BP/scripts/classes/Instance/StructureInstance.js",
+      "line": 285,
+      "exported": false
+    },
+    {
+      "name": "transferMaterialsToPlayer",
+      "kind": "function",
+      "signature": "(player, targetContainer, materials)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 92,
+      "exported": false
+    },
+    {
+      "name": "tryAddStructure",
+      "kind": "method",
+      "signature": "(origin, instanceName, structureId)",
+      "file": "packs/BP/scripts/commands/CreateCommand.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "tryConvertBannedToValidBlock",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 104,
+      "exported": false
+    },
+    {
+      "name": "tryConvertBannedToValidBlock",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 150,
+      "exported": false
+    },
+    {
+      "name": "tryConvertToDefaultState",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 113,
+      "exported": false
+    },
+    {
+      "name": "tryConvertToDefaultState",
+      "kind": "function",
+      "signature": "(structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 159,
+      "exported": false
+    },
+    {
+      "name": "tryGrabMaterials",
+      "kind": "function",
+      "signature": "(player, target, focusedInstanceName, event)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 74,
+      "exported": false
+    },
+    {
+      "name": "tryPlaceBlock",
+      "kind": "function",
+      "signature": "(event, player, block, structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "tryPlaceBlock",
+      "kind": "function",
+      "signature": "(player, worldBlock, structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "tryPlaceBlockSurvival",
+      "kind": "function",
+      "signature": "(event, player, block, structureBlock)",
+      "file": "packs/BP/scripts/options/easyPlace.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "tryPlaceBlockSurvival",
+      "kind": "function",
+      "signature": "(player, block, structureBlock)",
+      "file": "packs/BP/scripts/options/fastEasyPlace.js",
+      "line": 170,
+      "exported": false
+    },
+    {
+      "name": "tryStart",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Instance/FlexibleInstanceMove.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "tryTransferAmountToPlayer",
+      "kind": "function",
+      "signature": "(slot, playerContainer, materials, grabAmount)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "tryTransferToPlayer",
+      "kind": "function",
+      "signature": "(slot, playerContainer, materials)",
+      "file": "packs/BP/scripts/options/materialGrabber.js",
+      "line": 125,
+      "exported": false
+    },
+    {
+      "name": "Tuple",
+      "kind": "function",
+      "signature": "(...s)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 318,
+      "exported": false
+    },
+    {
+      "name": "valueChangedToDisabled",
+      "kind": "method",
+      "signature": "(hasChanged, newValue)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "valueChangedToEnabled",
+      "kind": "method",
+      "signature": "(hasChanged, newValue)",
+      "file": "packs/BP/scripts/classes/Builder/BuilderForm.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "verificationLevelToRGB",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "verificationLevelToSizeScalar",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Render/BlockVerificationLevelRender.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "verify",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Verifier/BlockVerifier.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "verifyBlock",
+      "kind": "method",
+      "signature": "(location, shouldRender)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "verifyStructure",
+      "kind": "method",
+      "signature": "(shouldRender = false)",
+      "file": "packs/BP/scripts/classes/Verifier/StructureVerifier.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "volume",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(distance < maxDistance)",
+      "file": "packs/BP/scripts/classes/Raycaster.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(value >= 128)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 193,
+      "exported": false
+    },
+    {
+      "name": "write",
+      "kind": "method",
+      "signature": "(input)",
+      "file": "packs/BP/scripts/lib/AddonAPIKit.js",
+      "line": 49,
+      "exported": false
+    }
+  ],
+  "commands": [
+    {
+      "command": "/a",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "n.png\"> <img src=\"./icon.png\" alt=\"Construct Icon\" width=\"130\" height=\"130\"> </a> <p><b>Construct</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Construct/total?label=Github%20downloads&logo=github)](https://github.com/"
+    },
+    {
+      "command": "/b",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "=\"./icon.png\" alt=\"Construct Icon\" width=\"130\" height=\"130\"> </a> <p><b>Construct</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Construct/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Construct/"
+    },
+    {
+      "command": "/construct:construct",
+      "source": "repository:README.md",
+      "line": 37,
+      "context": "er addon, though make sure the Beta APIs experiment is enabled! ### Construct Menu Use `/construct:construct` to get the Construct item, which opens the Construct menu. This item is also available in the Creative inventory under the \"Items\" tab. Using the Construct item will open"
+    },
+    {
+      "command": "/demo",
+      "source": "repository:README.md",
+      "line": 26,
+      "context": "port structures from other worlds quickly and easily. <div align=\"center\"> <a href=\"./demo.png\"> <img src=\"./demo.png\" alt=\"Construct Structure Demo\" height=\"350\"> </a> </div> ## Usage Construct's latest release can be downloaded from its [Releases Page](h"
+    },
+    {
+      "command": "/div",
+      "source": "repository:README.md",
+      "line": 12,
+      "context": "buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://buymeacoffee.com/forestoflight) </div> --- Give yourself the tools to ease the survival building process with Construct, an addon designed to help you transfer your builds from creative to survival. Construct offers"
+    },
+    {
+      "command": "/icon",
+      "source": "repository:README.md",
+      "line": 2,
+      "context": "<div align=\"center\"> <a href=\"./icon.png\"> <img src=\"./icon.png\" alt=\"Construct Icon\" width=\"130\" height=\"130\"> </a> <p><b>Construct</b></p> [![GitHub Downloads](https://img.shields.io/github/downloa"
+    },
+    {
+      "command": "/p",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "icon.png\" alt=\"Construct Icon\" width=\"130\" height=\"130\"> </a> <p><b>Construct</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Construct/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Construct/rele"
+    },
+    {
+      "command": "/structure",
+      "source": "repository:README.md",
+      "line": 47,
+      "context": "to add a new structure to the structure list is to save it using a structure block or the /structure command. This will only save the structure to the world you're in. - Importing structures from other worlds: 1. Move the `Construct[BP]` to your `com.mojang/development_behavi"
+    },
+    {
+      "command": "/structures",
+      "source": "repository:README.md",
+      "line": 50,
+      "context": "behavior_packs` folder. 2. Drop your `.mcstructure` file in Construct's `Construct[BP]/structures` folder. 3. Restart your world. 4. Your structure should now be in in Construct's structure list! - For devices that cannot export .mcstructure files: 1. Export your"
+    }
+  ],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:docs/API.md",
+      "title": "API Reference",
+      "headings": [
+        "API Reference",
+        "API Overview"
+      ],
+      "bytes": 1266
+    },
+    {
+      "source": "repository:docs/CLI.md",
+      "title": "CLI Reference",
+      "headings": [
+        "CLI Reference",
+        "Instance Management",
+        "construct:create <instanceName> <structureId>",
+        "construct:delete <instanceName>",
+        "construct:rename <instanceName> <newInstanceName>",
+        "construct:list",
+        "Placement & Movement",
+        "construct:place <instanceName> <x y z>",
+        "construct:move <instanceName> x y z",
+        "Enable / Disable",
+        "construct:enable <instanceName>",
+        "construct:disable <instanceName>",
+        "Layer Control",
+        "construct:layer <instanceName> <layer>",
+        "construct:nextlayer <instanceName>",
+        "construct:prevlayer <instanceName>",
+        "Settings",
+        "construct:verifier <instanceName> true|false",
+        "construct:option <optionId> true|false",
+        "Information",
+        "construct:info <instanceName>",
+        "construct:stats <instanceName>",
+        "construct:materials <instanceName> missing",
+        "Utility",
+        "construct:item",
+        "construct:tag <instanceName>"
+      ],
+      "bytes": 5815
+    },
+    {
+      "source": "repository:docs/API/DataModels.md",
+      "title": "Data Models",
+      "headings": [
+        "Data Models",
+        "Instance",
+        "Builder"
+      ],
+      "bytes": 1877
+    },
+    {
+      "source": "repository:docs/API/Endpoints.md",
+      "title": "Endpoints",
+      "headings": [
+        "Endpoints",
+        "Instances",
+        "construct:instances",
+        "construct:instance:get",
+        "construct:instance:add",
+        "construct:instance:edit",
+        "construct:instance:delete",
+        "construct:instance:materials",
+        "Builders",
+        "construct:builder:get",
+        "construct:builder:edit"
+      ],
+      "bytes": 1926
+    },
+    {
+      "source": "repository:README.md",
+      "title": "Usage",
+      "headings": [
+        "Usage",
+        "Construct Menu",
+        "Adding New Structures",
+        "Commands",
+        "Join the Community",
+        "Roadmap",
+        "Issues & Suggestions",
+        "Adding Translations"
+      ],
+      "bytes": 5215
+    }
+  ],
+  "counts": {
+    "versions": 11,
+    "releaseAssets": 33,
+    "contributors": 5,
+    "functions": 508,
+    "commands": 9,
+    "globalRules": 0,
+    "documents": 5
+  }
+}

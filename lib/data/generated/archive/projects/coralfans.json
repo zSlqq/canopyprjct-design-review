@@ -1,0 +1,1232 @@
+{
+  "schemaVersion": 1,
+  "slug": "coralfans",
+  "name": "CoralFans",
+  "fullName": "ForestOfLight/CoralFans",
+  "description": "CoralFans Mod.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/CoralFans",
+  "defaultBranch": "develop",
+  "language": "",
+  "license": "AGPL-3.0",
+  "fork": true,
+  "archived": false,
+  "createdAt": "2025-06-26T02:32:25Z",
+  "updatedAt": "2026-06-13T07:47:22Z",
+  "pushedAt": "2025-06-26T10:14:06Z",
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [],
+  "contributors": [
+    {
+      "login": "odorajbotoj",
+      "contributions": 115,
+      "profileUrl": "https://github.com/odorajbotoj",
+      "avatar": "/_archive-media/contributors/odorajbotoj.png",
+      "type": "User"
+    },
+    {
+      "login": "kuangby",
+      "contributions": 37,
+      "profileUrl": "https://github.com/kuangby",
+      "avatar": "/_archive-media/contributors/kuangby.png",
+      "type": "User"
+    },
+    {
+      "login": "ShrBox",
+      "contributions": 1,
+      "profileUrl": "https://github.com/ShrBox",
+      "avatar": "/_archive-media/contributors/shrbox.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "CoralFans",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/coral_fans/CoralFans.h",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 128; ++i)",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const auto& i : actors)",
+      "file": "src/coral_fans/commands/Data.cpp",
+      "line": 224,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& link : links)",
+      "file": "src/coral_fans/functions/freeCamera/FreeCamera.cpp",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < size; i++)",
+      "file": "src/coral_fans/functions/func/AutoItem.cpp",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < size; i++)",
+      "file": "src/coral_fans/functions/func/AutoItem.cpp",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int _i = 0; _i < _size; _i++)",
+      "file": "src/coral_fans/functions/func/AutoItem.cpp",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < size; ++i)",
+      "file": "src/coral_fans/functions/func/AutoTool.cpp",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < size; i++)",
+      "file": "src/coral_fans/functions/func/AutoTotem.cpp",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int _i = 0; _i < _size; _i++)",
+      "file": "src/coral_fans/functions/func/AutoTotem.cpp",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto item : slots)",
+      "file": "src/coral_fans/functions/func/ContainerReader.cpp",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < size; ++i)",
+      "file": "src/coral_fans/functions/func/FastDrop.cpp",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& ch : this->channels)",
+      "file": "src/coral_fans/functions/func/FuncManager.h",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int _i = -radius; _i <= radius; ++_i)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int j = -radius; j <= radius; ++j)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto i : hsa)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int dim = 0; dim < 3; dim++)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 111,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto i : mParticleMap[dim])",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 112,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int dim = 0; dim < 3; dim++)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 121,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 3; ++i)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 119,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& kv : dim_data)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 3; ++i)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 151,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 3; i++)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 210,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& item : v)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 223,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& useon : useons)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& action : useon.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& use : uses)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 144,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& action : use.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 148,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& destroy : destroys)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 196,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& action : destroy.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& _command : commands)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 242,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& action : _command.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 249,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto action : useon.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.h",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto action : use.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.h",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto action : destroy.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.h",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto action : command.actions)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.h",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = -radius; i <= radius; ++i)",
+      "file": "src/coral_fans/functions/slime/Slime.cpp",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int j = -radius; j <= radius; ++j)",
+      "file": "src/coral_fans/functions/slime/Slime.cpp",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto kv : this->mVidVillageMap)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 115,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 3; i++)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 176,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& kv : this->mVidVillageMap)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 199,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto& v : this->mVidVillageMap)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 222,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(auto v : this->mVidVillageMap)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 298,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(int i = 0; i < 3; i++)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 303,
+      "exported": false
+    },
+    {
+      "name": "HopperCounterManager",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/coral_fans/functions/func/FuncManager.h",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/base/Macros.h",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!schduleList[slot])",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nodes[0].useIndex)",
+      "file": "src/coral_fans/base/Utils.cpp",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nodes[i].useIndex)",
+      "file": "src/coral_fans/base/Utils.cpp",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(player && slot1 != slot2)",
+      "file": "src/coral_fans/base/Utils.cpp",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(slot1 == -1)",
+      "file": "src/coral_fans/base/Utils.cpp",
+      "line": 91,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockTick.mIsRemoved)",
+      "file": "src/coral_fans/commands/Calculate.cpp",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockTick.mIsRemoved)",
+      "file": "src/coral_fans/commands/Log.cpp",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockTick.mIsRemoved)",
+      "file": "src/coral_fans/commands/Log.cpp",
+      "line": 112,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(isopen)",
+      "file": "src/coral_fans/commands/minerule.cpp",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(isopen)",
+      "file": "src/coral_fans/commands/minerule.cpp",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == 1)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == 0)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == 1)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 126,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == 2)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == 3)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 158,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "src/coral_fans/functions/data/Data.cpp",
+      "line": 192,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "src/coral_fans/functions/freeCamera/FreeCamera.cpp",
+      "line": 214,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(value > curInfo.value)",
+      "file": "src/coral_fans/functions/func/AutoTool.cpp",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(bestSlot <= 8)",
+      "file": "src/coral_fans/functions/func/AutoTool.cpp",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(bestSlot <= 8)",
+      "file": "src/coral_fans/functions/func/AutoTool.cpp",
+      "line": 109,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hook)",
+      "file": "src/coral_fans/functions/func/AutoTool.cpp",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(cnt == 0)",
+      "file": "src/coral_fans/functions/func/ContainerReader.cpp",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type == BlockActorType::Chest || type == BlockActorType::ShulkerBox)",
+      "file": "src/coral_fans/functions/func/ContainerReader.cpp",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(bl)",
+      "file": "src/coral_fans/functions/func/Droppernocost.cpp",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->gameTick - it->first >= 1200)",
+      "file": "src/coral_fans/functions/func/HopperCounter.cpp",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hook)",
+      "file": "src/coral_fans/functions/func/HopperCounter.cpp",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!gt)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!it->second)",
+      "file": "src/coral_fans/functions/hsa/Hsa.cpp",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(gt == 1)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(level)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hitrst.mType == HitResultType::Tile)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hitrst.mType == HitResultType::Entity)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(entity)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hitrst.mType == HitResultType::Tile)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 119,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hitrst.mType == HitResultType::Tile)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 125,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(container)",
+      "file": "src/coral_fans/functions/hud/Hud.cpp",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(axis == PortalAxis::Z)",
+      "file": "src/coral_fans/functions/minerule/RemovePortalZombieCD.cpp",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(bl)",
+      "file": "src/coral_fans/functions/minerule/drophook.cpp",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(i % 2 == 0)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.currentRound == prof.totalRound)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 104,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 133,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 148,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 166,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 182,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 199,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 216,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prof.profiling)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 234,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hook)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 247,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 177,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 198,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 219,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 240,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 261,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 282,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 303,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 324,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 345,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 366,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 387,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 408,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 429,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 450,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(blockEntity)",
+      "file": "src/coral_fans/functions/rotate/Rotate.cpp",
+      "line": 471,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(mc)",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.cpp",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(gt == 0 && this->mShow)",
+      "file": "src/coral_fans/functions/slime/Slime.cpp",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(gt == 0)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 103,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(gt == 1)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 112,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowBounds)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowRaidBounds)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowIronSpawn)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 132,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowCenter)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 144,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowPoiQuery)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 155,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this->mShowBind)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 167,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(level)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 169,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(villager)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 175,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(poi)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 178,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(v.second.first)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 223,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hook)",
+      "file": "src/coral_fans/functions/village/Village.cpp",
+      "line": 340,
+      "exported": false
+    },
+    {
+      "name": "LL_TYPE_INSTANCE_HOOK",
+      "kind": "method",
+      "signature": "(CoralFansForceOpenHook, ll::memory::HookPriority::Normal, ChestBlockActor, &ChestBlockActor::$_canOpenThis, bool, BlockSource&)",
+      "file": "src/coral_fans/functions/func/ForceOpen.cpp",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "LL_TYPE_INSTANCE_HOOK",
+      "kind": "method",
+      "signature": "(CoralFansTickLevelTickHook, ll::memory::HookPriority::Normal, Level, &Level::$tick, void)",
+      "file": "src/coral_fans/functions/prof/TickHooks.cpp",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "MySchedule",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "ShortcutsManager",
+      "kind": "method",
+      "signature": "()",
+      "file": "src/coral_fans/functions/shortcuts/Shortcuts.h",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(val.index)",
+      "file": "src/coral_fans/commands/Tick.cpp",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(type)",
+      "file": "src/coral_fans/functions/func/ForcePlace.cpp",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this->type)",
+      "file": "src/coral_fans/functions/prof/Prof.cpp",
+      "line": 96,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(schduleList[now] && !schduleList[now]->left_circle_time)",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(tem)",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(current)",
+      "file": "src/coral_fans/base/MySchedule.h",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(_pos.y-- > 1)",
+      "file": "src/coral_fans/functions/minerule/RemovePortalZombieCD.cpp",
+      "line": 25,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:CHANGELOG.md",
+      "title": "Changelog",
+      "headings": [
+        "Changelog",
+        "2.3.0 - 2025-6-7",
+        "Added",
+        "Fixed",
+        "2.2.1 - 2025-4-22",
+        "Added",
+        "Fixed",
+        "2.2.0 - 2025-3-7",
+        "Added",
+        "Fixed",
+        "Removed",
+        "2.1.1 - 2025-4-20",
+        "Added",
+        "Fixed",
+        "2.1.0 - 2025-2-25",
+        "Added",
+        "Changed",
+        "Fixed",
+        "2.0.0 - 2024-10-12",
+        "Added",
+        "Changed",
+        "Removed",
+        "1.0.2 - 2024-10-11",
+        "Fixed",
+        "1.0.1 - 2024-10-11",
+        "Fixed",
+        "1.0.0 - 2024-10-10",
+        "Added",
+        "Changed",
+        "Fixed",
+        "0.0.1 - 2024-09-13",
+        "Added"
+      ],
+      "bytes": 3123
+    },
+    {
+      "source": "repository:README.md",
+      "title": "CoralFans",
+      "headings": [
+        "CoralFans",
+        "Install",
+        "Usage",
+        "Contributing",
+        "Acknowledgement",
+        "License"
+      ],
+      "bytes": 484
+    }
+  ],
+  "counts": {
+    "versions": 0,
+    "releaseAssets": 0,
+    "contributors": 3,
+    "functions": 140,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 2
+  }
+}

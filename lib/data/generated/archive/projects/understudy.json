@@ -1,0 +1,3218 @@
+{
+  "schemaVersion": 1,
+  "slug": "understudy",
+  "name": "Understudy",
+  "fullName": "ForestOfLight/Understudy",
+  "description": "A simulated player Canopy extension for Minecraft Bedrock Edition.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Understudy",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2024-08-15T04:54:23Z",
+  "updatedAt": "2026-07-20T06:39:35Z",
+  "pushedAt": "2026-06-20T02:37:43Z",
+  "stars": 39,
+  "forks": 3,
+  "openIssues": 1,
+  "topics": [
+    "mcpack",
+    "minecraft",
+    "minecraft-bedrock",
+    "minecraft-bedrock-addon",
+    "minecraft-bedrock-edition",
+    "multiplayer"
+  ],
+  "releases": [
+    {
+      "tag": "v1.2.3",
+      "name": "v1.2.3 for MC 26.30 & Canopy 1.5.7",
+      "publishedAt": "2026-06-20T02:24:48Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 26.30 Support**__\r\n### __Fixes__\r\n- Fixed an issue where the pack would not load correctly on Realms.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.2.3",
+      "assets": [
+        {
+          "name": "Understudy-v1.2.3.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.2.3/Understudy-v1.2.3.mcpack",
+          "bytes": 146949,
+          "downloads": 287,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.3.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.2",
+      "name": "v1.2.2 for MC 26.20 & Canopy 1.5.6",
+      "publishedAt": "2026-05-07T00:07:20Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 26.20 Support**__\r\n\r\n*... and more improvements behind the scenes!*",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.2.2",
+      "assets": [
+        {
+          "name": "Understudy-v1.2.2.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.2.2/Understudy-v1.2.2.mcpack",
+          "bytes": 146957,
+          "downloads": 241,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.1",
+      "name": "v1.2.1 for MC 26.10 & Canopy 1.5.5",
+      "publishedAt": "2026-03-27T21:48:35Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 26.10 Support**__",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.2.1",
+      "assets": [
+        {
+          "name": "Understudy-v1.2.1.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.2.1/Understudy-v1.2.1.mcpack",
+          "bytes": 144419,
+          "downloads": 302,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.2.0",
+      "name": "v1.2.0 for MC 26.0 & Canopy 1.5.3",
+      "publishedAt": "2026-02-14T00:42:29Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 26.0 Support**__\r\n- A complete switch to vanilla commands! `./player` is now many commands, some of which have changed syntax. You can read about the new syntaxes on GitHub.\r\n- `after <ticks: int>` argument for repeating actions. This allows actions to be performed after a delay.\r\n- `stop` argument for repeating actions. This allows specific actions to be stopped while others continue.\r\n### __Improvements__\r\n- Resolved nomenclature of simulated players to \"simplayers.\"\r\n- Removed the \"Cannot path to location\" message for `/simplayer:move`.\r\n\r\nNote: `./player` and `/scriptevent:player` are now deprecated and will no longer function. All functionality is covered by the new command set.\r\n*... and more improvements behind the scenes!*",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.2.0",
+      "assets": [
+        {
+          "name": "Understudy-v1.2.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.2.0/Understudy-v1.2.0.mcpack",
+          "bytes": 141282,
+          "downloads": 250,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.2.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.1",
+      "name": "v1.1.1 for MC 1.21.130 & Canopy 1.5.2",
+      "publishedAt": "2025-12-14T20:55:38Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 1.21.130 Support**__",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.1.1",
+      "assets": [
+        {
+          "name": "Understudy-v1.1.1.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.1.1/Understudy-v1.1.1.mcpack",
+          "bytes": 123038,
+          "downloads": 447,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.1.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.1.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 for MC 1.21.120 & Canopy 1.4.3",
+      "publishedAt": "2025-10-29T05:15:40Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- __**Minecraft 1.21.120 Support**__\r\n### __Improvements__\r\n- No longer requires a GameTest instance at 1,000,000, 1,000,000.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "Understudy-v1.1.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.1.0/Understudy-v1.1.0.mcpack",
+          "bytes": 123038,
+          "downloads": 237,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.1.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.1.0.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.13",
+      "name": "v1.0.13 for MC 1.21.111 & Canopy v1.4.2",
+      "publishedAt": "2025-10-01T00:00:01Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.111 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.13",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.13.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.13/Understudy-v1.0.13.mcpack",
+          "bytes": 124685,
+          "downloads": 182,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.13.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.13.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.12",
+      "name": "v1.0.12 for MC 1.21.100 & Canopy 1.4.1",
+      "publishedAt": "2025-08-05T20:03:36Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.100 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.12",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.12.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.12/Understudy-v1.0.12.mcpack",
+          "bytes": 124685,
+          "downloads": 216,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.12.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.12.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.11",
+      "name": "v1.0.11 for MC 1.21.90 & Canopy 1.4.0",
+      "publishedAt": "2025-07-11T10:28:13Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- `noSimplayerSaving`: Disables saving playerdata for SimPlayers. Improves performance but can destroy items.\r\n- `simplayerRejoining`: Makes online SimPlayers rejoin when you leave and rejoin.\r\n### __Improvements__\r\n- Fixed look direction shifting while moving a SimPlayer in some circumstances.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.11",
+      "assets": [
+        {
+          "name": "Understudy-1.0.11.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.11/Understudy-1.0.11.mcpack",
+          "bytes": 124685,
+          "downloads": 216,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.11.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.11.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.10",
+      "name": "v1.0.10 for MC 1.21.90 & Canopy 1.3.9",
+      "publishedAt": "2025-06-20T05:09:12Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 1.21.90 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.10",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.10.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.10/Understudy-v1.0.10.mcpack",
+          "bytes": 123348,
+          "downloads": 142,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.10.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.10.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.9",
+      "name": "v1.0.9 for MC 1.21.80 & Canopy 1.3.9",
+      "publishedAt": "2025-05-31T03:53:35Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **Held item consistency** - Simulated players should now always show the correct item in their hand in the same way as real players.\r\n### __Improvements__\r\n- **Inventory saving** - Inventory saving is now 3-4 times faster than before and will be run less often.\r\n### __Fixes__\r\n- **Item duplication** - Simulated players will now save their data once killed instead of dropping and keeping their items.\r\n- **Inventory persistence** - Simulated players will no longer lose their inventory after a world reload.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.9",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.9.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.9/Understudy-v1.0.9.mcpack",
+          "bytes": 125207,
+          "downloads": 145,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.9.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.9.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.8",
+      "name": "v1.0.8 for MC 1.21.70 & Canopy v1.3.9",
+      "publishedAt": "2025-03-26T21:44:49Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## What's New  \r\n- **__Minecraft 1.21.70 Support__**\r\n- **__Canopy v1.3.9 Support__**\r\n- **`commandPlayer` rule removed**: The `player` command is now usable by default.\r\n## Improvements  \r\n- **`rejoin` fix**: Simulated players now face the same direction when rejoining.  \r\n- **`join` consistency**: Simulated players retain their inventory and projectile ownership when rejoining.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.8",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.8.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.8/Understudy-v1.0.8.mcpack",
+          "bytes": 124250,
+          "downloads": 502,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.8.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.8.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.7",
+      "name": "v1.0.7 for MC 1.21.60 & Canopy v1.3.8",
+      "publishedAt": "2025-03-02T20:48:14Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## Fixes  \r\n- **Scriptevents**: Now function properly again.  \r\n- **`./player <name> inv`**: Correctly displays the inventory of the specified SimPlayer.  \r\n- **SimPlayer chat**: Circumvented a GameTest bug that prevented all but the first SimPlayer from sending chat messages.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.7",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.7.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.7/Understudy-v1.0.7.mcpack",
+          "bytes": 118419,
+          "downloads": 41,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.7.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.7.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.6",
+      "name": "v1.0.6 for MC 1.21.60 & Canopy 1.3.8",
+      "publishedAt": "2025-02-15T19:35:37Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## What's New\r\n- Support for MC 1.21.60.\r\n## Improvements\r\n- Fixed an error where simulated players could not be spawned if the player was outside of world boundaries at world start.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.6",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.6.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.6/Understudy-v1.0.6.mcpack",
+          "bytes": 119032,
+          "downloads": 158,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.6.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.6.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.5",
+      "name": "v1.0.5 for MC 1.21.50 & Canopy 1.3.7",
+      "publishedAt": "2024-12-22T08:56:05Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **`./player <name> swapheld`**: Swaps the item in your hand with the item in the SimPlayer's hand.\r\n- **`./player <name> inv`**: Prints the SimPlayer's inventory into chat.\r\n- **Logout on death**: SimPlayers now leave the game upon dying, replacing the removed `./player <name> respawn` command.\r\n## Improvements\r\n- **Selected item consistency**: SimPlayers now accurately display the item selected in their hand.\r\n- **Performance fix**: Resolved a bug causing lag in SimPlayers performing continuous actions.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.5",
+      "assets": [
+        {
+          "name": "Understudy-1.0.5.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.5/Understudy-1.0.5.mcpack",
+          "bytes": 116434,
+          "downloads": 253,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.5.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.5.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.4",
+      "name": "v1.0.4 for MC 1.21.50 & Canopy 1.3.6",
+      "publishedAt": "2024-12-06T22:43:20Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "Updated dependencies to Minecraft 1.21.50.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/v1.0.4",
+      "assets": [
+        {
+          "name": "Understudy-1.0.4.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/v1.0.4/Understudy-1.0.4.mcpack",
+          "bytes": 107317,
+          "downloads": 66,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.4.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/v1.0.4.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "1.21.41",
+      "name": "v1.0.3 for MC 1.21.41 & Canopy 1.3.5",
+      "publishedAt": "2024-10-22T22:46:52Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "Updated dependencies to Minecraft 1.21.41.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/1.21.41",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.3.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/1.21.41/Understudy-v1.0.3.mcpack",
+          "bytes": 110716,
+          "downloads": 211,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.41.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.41.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "1.21.30",
+      "name": "v1.0.2 for MC 1.21.30 & Canopy 1.3.3",
+      "publishedAt": "2024-09-19T18:53:15Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "Updated dependencies to Minecraft 1.21.30.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/1.21.30",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.2.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/1.21.30/Understudy-v1.0.2.mcpack",
+          "bytes": 107340,
+          "downloads": 77,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.30.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.30.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "1.21.23",
+      "name": "v1.0.1 for MC 1.21.23 & Canopy v1.3.2",
+      "publishedAt": "2024-09-15T23:09:33Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **Inventory saving**: Simulated player inventories are now saved and restored when they rejoin.\r\n- **Projectile saving**: Simulated players reclaim their projectiles upon rejoining.\r\n## Improvements\r\n- **Command renames** for consistency with other commands \r\n  - `dropStack` -> `dropstack`\r\n  - `dropAll` -> `dropall`",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/1.21.23",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.1.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/1.21.23/Understudy-v1.0.1.mcpack",
+          "bytes": 108143,
+          "downloads": 25,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.23.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.23.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "1.21.22",
+      "name": "v1.0.0 for MC 1.21.22 & Canopy v1.3.1",
+      "publishedAt": "2024-08-30T08:45:34Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## New Features\r\n- **`player <name> move [forward/back/left/right/block/entity/me/x y z]`**: Makes the simulated player navigate to a specified block, entity, or move continuously in a direction.\r\n- **`./player <name> attack [once/continuous/interval] [intervalDuration]`**: Allows the simulated player to attack once, continuously, or on a set interval.\r\n- **`player <name> interact [once/continuous/interval] [intervalDuration]`**: Makes the player interact with the block in front of them.\r\n- **`player <name> use [once/continuous/interval] [intervalDuration]`**: Enables the player to use their current item.\r\n- **`player <name> build [once/continuous/interval] [intervalDuration]`**: Allows the player to build with their current block.\r\n- **`player <name> break [once/continuous/interval] [intervalDuration]`**: Makes the player break the block in front of them.\r\n- **`player <name> drop [once/continuous/interval] [intervalDuration]`**: Commands the player to drop a single of their selected item.\r\n- **`player <name> dropStack [once/continuous/interval] [intervalDuration]`**: Commands the player to drop the entire stack of their selected item.\r\n- **`./player <name> dropAll [once/continuous/interval] [intervalDuration]`**: Commands the player to drop their entire inventory.\r\n- **`player <name> jump [once/continuous/interval] [intervalDuration]`**: Makes the player jump.\r\n- **`player <name> select [slotNumber]`**: Changes the player's selected inventory slot.\r\n- **`player <name> sprint`**: Commands the player to start sprinting.\r\n- **`./player <name> unsprint`**: Commands the player to stop sprinting.\r\n- **`./player <name> sneak`**: Commands the player to start sneaking.\r\n- **`./player <name> unsneak`**: Commands the player to stop sneaking.\r\n- **`./player <name> claimprojectiles [radius]`**: Makes the player the owner of any projectiles within a specified radius (default 25 blocks).\r\n- **`./player <name> stop`**: Stops all ongoing actions of the player.\r\n- **`./player prefix <prefix>`**: Sets a nametag prefix for all simulated players.\r\n- **`/scriptevent understudy:<command>`**: This vanilla command can be used to run Understudy commands from a command block.\r\n## Improvements\r\n- **`./player <name> look [args]`**: Added directions (`up, down, north, south, east, west`) and `pitch yaw` as valid arguments.\r\n- **General stability improvements**: Enhanced stability, preventing GameTest from disabling gamerules like `randomtickspeed`, `dodaylightcycle`, and `domobspawning`.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/1.21.22",
+      "assets": [
+        {
+          "name": "Understudy-v1.0.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/1.21.22/Understudy-v1.0.0.mcpack",
+          "bytes": 571821,
+          "downloads": 57,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.22.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.22.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "1.21.21",
+      "name": "v0.1.0 for MC 1.21.21",
+      "publishedAt": "2024-08-20T11:37:20Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "## Features\r\n- **`./player <name> join`**: Spawns a simulated player with the given name at your current location and game mode.\r\n- **`./player <name> leave`**: Removes the simulated player with the given name.\r\n- **`./player <name> rejoin`**: Respawns the player with the given name at its last known location.\r\n- **`./player <name> tp`**: Teleports the simulated player to your current location.\r\n- **`./player <name> respawn`**: Respawns the simulated player.\r\n- **`./player <name> look [block/entity/me/x y z]`**: Makes the simulated player look at a specified target, including blocks, entities, yourself, or coordinates.",
+      "htmlUrl": "https://github.com/ForestOfLight/Understudy/releases/tag/1.21.21",
+      "assets": [
+        {
+          "name": "Understudy-v.0.1.0.mcpack",
+          "downloadUrl": "https://github.com/ForestOfLight/Understudy/releases/download/1.21.21/Understudy-v.0.1.0.mcpack",
+          "bytes": 247655,
+          "downloads": 33,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.21.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Understudy/archive/refs/tags/1.21.21.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 213,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Vector",
+      "kind": "function",
+      "signature": "(x = 0, y = 0, z = 0)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 6,
+      "exported": true
+    },
+    {
+      "name": "actionCommand",
+      "kind": "method",
+      "signature": "(_origin, playername, action, timingOption = TIMING_OPTIONS.ONCE, ticks)",
+      "file": "packs/BP/scripts/commands/action.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "addNametagPrefix",
+      "kind": "method",
+      "signature": "(understudy)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "addPreCallback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "addQueueTask",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "addRule",
+      "kind": "method",
+      "signature": "(rule)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "allKeys",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "allKeysP",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 135,
+      "exported": false
+    },
+    {
+      "name": "Array",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 306,
+      "exported": false
+    },
+    {
+      "name": "buildWindowsPromptScript",
+      "kind": "function",
+      "signature": "(currentVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "bumpVersion",
+      "kind": "function",
+      "signature": "(versionStr, type)",
+      "file": "filters/bump_version/main.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "catch",
+      "kind": "method",
+      "signature": "(e)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "catch",
+      "kind": "method",
+      "signature": "(e)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "claimProjectiles",
+      "kind": "method",
+      "signature": "(radius)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 204,
+      "exported": false
+    },
+    {
+      "name": "claimprojectilesCommand",
+      "kind": "method",
+      "signature": "(_origin, playername, radius = 25)",
+      "file": "packs/BP/scripts/commands/claimprojectiles.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 176,
+      "exported": false
+    },
+    {
+      "name": "clear",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 130,
+      "exported": false
+    },
+    {
+      "name": "clearLookTarget",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "clearStorage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "collection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.d.ts",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "collection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 164,
+      "exported": false
+    },
+    {
+      "name": "collectionSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.d.ts",
+      "line": 190,
+      "exported": false
+    },
+    {
+      "name": "collectionSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 168,
+      "exported": false
+    },
+    {
+      "name": "commandSourceIsNotAllowed",
+      "kind": "method",
+      "signature": "(source)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 129,
+      "exported": false
+    },
+    {
+      "name": "create",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "create_listener",
+      "kind": "function",
+      "signature": "(endpoint, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 483,
+      "exported": false
+    },
+    {
+      "name": "createPlayerMock",
+      "kind": "function",
+      "signature": "()",
+      "file": "__tests__/commands/tp.test.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "cross",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 171,
+      "exported": false
+    },
+    {
+      "name": "delete",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "deleteMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "deleteMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 129,
+      "exported": false
+    },
+    {
+      "name": "dequeue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(str: string)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "deserialize",
+      "kind": "function",
+      "signature": "(strings: string[])",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "dot",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "enqueue",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "ensure_capacity",
+      "kind": "method",
+      "signature": "(size)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "fetch",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "find",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 158,
+      "exported": false
+    },
+    {
+      "name": "findMany",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 161,
+      "exported": false
+    },
+    {
+      "name": "fixGameRules",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "floor",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const gamerule in newGameRules)",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const gamerule in world.gameRules)",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < invContainer.size; i++)",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 110,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const understudy of Understudies.understudies)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const entity of radiusEntities)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 218,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const projectileComponent of projectileComponents)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 228,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < inventoryContainer.size; i++)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const equipmentSlot in EquipmentSlot)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < inventoryContainer.size; i++)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const equipmentSlot in EquipmentSlot)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < playerInventory.size; i++)",
+      "file": "packs/BP/scripts/commands/inventory.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let s = 0; s < value; s++)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key of keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of items)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 177,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const ruleID of this.customCommand.contingentRules || [])",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < hex_str.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < value.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 247,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 255,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 292,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const key in obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 298,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const item of array)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 311,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 319,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 330,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < values.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 336,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 374,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < size; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 395,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < uint8array.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 422,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < strings.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 447,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let j = 0; j < str.length; j++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 449,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < listeners.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 477,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < serialized_packets.length; i++)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 522,
+      "exported": false
+    },
+    {
+      "name": "forEach",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "from_uint8array",
+      "kind": "method",
+      "signature": "(array)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "generate_id",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 499,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(type)",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerInfoSaver.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 114,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 74,
+      "exported": false
+    },
+    {
+      "name": "getAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 137,
+      "exported": false
+    },
+    {
+      "name": "getAllAsync",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "getAllKeys",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 136,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getAllowedValues",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getAlreadyOnlineMessage",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "getAsync",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "getContigentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "getCurrentVersion",
+      "kind": "function",
+      "signature": "()",
+      "file": "filters/bump_version/main.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "getDBS",
+      "kind": "method",
+      "signature": "(table)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "getDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "getDescription",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "getGameRules",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "getID",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "getIndependentRuleIDs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "getInventory",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 252,
+      "exported": false
+    },
+    {
+      "name": "getItems",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 165,
+      "exported": false
+    },
+    {
+      "name": "getKeyByValue",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 180,
+      "exported": false
+    },
+    {
+      "name": "getLocationInfoFromSource",
+      "kind": "function",
+      "signature": "(source)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "getLookAtLocation",
+      "kind": "function",
+      "signature": "(baseLocation, targetRotation)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "getLookAtRotation",
+      "kind": "function",
+      "signature": "(baseLocation, targetLocation)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "getMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 121,
+      "exported": false
+    },
+    {
+      "name": "getMany",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 123,
+      "exported": false
+    },
+    {
+      "name": "getManyAsync",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 122,
+      "exported": false
+    },
+    {
+      "name": "getManySync",
+      "kind": "method",
+      "signature": "(keys)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "getNotOnlineMessage",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "getOnce",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "getPackVersion",
+      "kind": "function",
+      "signature": "()",
+      "file": "filters/package_mcpack/main.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "getRuleValue",
+      "kind": "method",
+      "signature": "(ruleID)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getSource",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getSync",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 118,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getType",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "getValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "getValueRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "handle",
+      "kind": "function",
+      "signature": "(channel, deserializer, serializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 587,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(type)",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 151,
+      "exported": false
+    },
+    {
+      "name": "has",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "hasAsync",
+      "kind": "method",
+      "signature": "(key)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 135,
+      "exported": false
+    },
+    {
+      "name": "hasSync",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 155,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(type === 'major')",
+      "file": "filters/bump_version/main.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(-not $choice)",
+      "file": "filters/bump_version/main.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "($choice -eq '2')",
+      "file": "filters/bump_version/main.js",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(world.gameRules[gamerule] !== newGameRules[gamerule])",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(savedAmount > 1)",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 93,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(understudy !== void 0)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prefix === '')",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.#lookTarget instanceof Entity)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(target instanceof Block)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 138,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(inventoryContainer !== void 0)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(equippable !== void 0)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(itemWithoutNBT !== void 0)",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(itemStack !== void 0)",
+      "file": "packs/BP/scripts/commands/inventory.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(prefix === '-none')",
+      "file": "packs/BP/scripts/commands/prefix.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(v[0] != oldKey)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!this.processing)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(existingStructure)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 84,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(existingStructure)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 145,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(new.target)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(player?.isValid)",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 142,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.enums)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.customCommand.aliases)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(valueRange.range)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(value === 'undefined' || value === void 0)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 102,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this._length > 0)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.end + size > this._buffer.length)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(optional !== undefined)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 348,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(defined)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 354,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(acc_size + char_size > max_size)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 426,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code > 0xff)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 431,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(char_code <= 0xff)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 451,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(event.sourceType === ScriptEventSource.Server && listeners)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 474,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!listeners)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 485,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(listeners.length === 0)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 494,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!fragment)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 532,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(payload.final)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 536,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(playersToRejoin)",
+      "file": "packs/BP/scripts/rules/simplayerRejoining.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!firstJoin && player?.isValid)",
+      "file": "packs/BP/scripts/setup.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(typeof gameMode === 'string')",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "init",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "inventoryCommand",
+      "kind": "method",
+      "signature": "(_origin, playername)",
+      "file": "packs/BP/scripts/commands/inventory.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "invoke",
+      "kind": "function",
+      "signature": "(channel, serializer, value, deserializer)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 560,
+      "exported": false
+    },
+    {
+      "name": "isActionTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "isCheatsRequired",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "isConnected",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "isEmpty",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "isInDomain",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/FloatRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/IntegerRule.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "isInRange",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 90,
+      "exported": false
+    },
+    {
+      "name": "isOnline",
+      "kind": "method",
+      "signature": "(name)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 97,
+      "exported": false
+    },
+    {
+      "name": "isRegistered",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/CanopyExtension.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "join",
+      "kind": "method",
+      "signature": "({ location, dimension, rotation = { x: 0, y: 0 }, gameMode = GameMode.Survival })",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "joinCommand",
+      "kind": "method",
+      "signature": "(origin, playername)",
+      "file": "packs/BP/scripts/commands/join.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "keys",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 128,
+      "exported": false
+    },
+    {
+      "name": "keysSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 132,
+      "exported": false
+    },
+    {
+      "name": "leave",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "leaveCommand",
+      "kind": "method",
+      "signature": "(origin, playername)",
+      "file": "packs/BP/scripts/commands/leave.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "length",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 81,
+      "exported": false
+    },
+    {
+      "name": "lerp",
+      "kind": "method",
+      "signature": "(vec, t)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "listen",
+      "kind": "function",
+      "signature": "(endpoint, serializer, callback)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 528,
+      "exported": false
+    },
+    {
+      "name": "load",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "load",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "load",
+      "kind": "method",
+      "signature": "(id)",
+      "file": "vitest.config.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "loadInventoryAndProjectileOwnership",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerInfoSaver.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "loadZone",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "look",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 136,
+      "exported": false
+    },
+    {
+      "name": "lookCommand",
+      "kind": "method",
+      "signature": "(origin, playername, lookOption, location)",
+      "file": "packs/BP/scripts/commands/look.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "signature": "()",
+      "file": "filters/bump_version/main.js",
+      "line": 145,
+      "exported": false
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "signature": "()",
+      "file": "filters/package_mcpack/main.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "makeEntityOrigin",
+      "kind": "function",
+      "signature": "(overrides = {})",
+      "file": "__tests__/commands/look.test.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "makeEntityOrigin",
+      "kind": "function",
+      "signature": "(overrides = {})",
+      "file": "__tests__/commands/move.test.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "makePlayerOrigin",
+      "kind": "function",
+      "signature": "()",
+      "file": "__tests__/commands/join.test.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "makePlayerOrigin",
+      "kind": "function",
+      "signature": "()",
+      "file": "__tests__/commands/rejoin.test.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "map",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "Map",
+      "kind": "function",
+      "signature": "(key, value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 362,
+      "exported": false
+    },
+    {
+      "name": "moveCommand",
+      "kind": "method",
+      "signature": "(origin, playername, moveOption, location)",
+      "file": "packs/BP/scripts/commands/move.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "moveLocation",
+      "kind": "method",
+      "signature": "(target)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 165,
+      "exported": false
+    },
+    {
+      "name": "moveRelative",
+      "kind": "method",
+      "signature": "(direction)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 174,
+      "exported": false
+    },
+    {
+      "name": "Object",
+      "kind": "function",
+      "signature": "(obj)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 289,
+      "exported": false
+    },
+    {
+      "name": "on",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 571,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "method",
+      "signature": "(type, afterTicks = void 0)",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "once",
+      "kind": "function",
+      "signature": "(channel, deserializer, listener)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 578,
+      "exported": false
+    },
+    {
+      "name": "onConnectedTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerInfoSaver.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "onConnectedTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "onEntityDie",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "onGameRuleChange",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "onLoad",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "onModifyBool",
+      "kind": "method",
+      "signature": "(newValue)",
+      "file": "packs/BP/scripts/lib/canopy/BooleanRule.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "onPlayerGameModeChange",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "onScriptReload",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/setup.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "onShutdown",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/rules/simplayerRejoining.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "onStartup",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "onStartup",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/rules/simplayerRejoining.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "onTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "onTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "onValidWorld",
+      "kind": "function",
+      "signature": "()",
+      "file": "packs/BP/scripts/setup.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "Optional",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 344,
+      "exported": false
+    },
+    {
+      "name": "parseRuleValueString",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 100,
+      "exported": false
+    },
+    {
+      "name": "perform",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "portOldGameModeToNewUpdate",
+      "kind": "function",
+      "signature": "(gameMode)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "prefixCommand",
+      "kind": "method",
+      "signature": "(_origin, prefix)",
+      "file": "packs/BP/scripts/commands/prefix.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "projection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "promptBumpType",
+      "kind": "function",
+      "signature": "(currentVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "promptBumpTypeUnix",
+      "kind": "function",
+      "signature": "(currentVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 103,
+      "exported": false
+    },
+    {
+      "name": "promptBumpTypeWindows",
+      "kind": "function",
+      "signature": "(currentVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 83,
+      "exported": false
+    },
+    {
+      "name": "read",
+      "kind": "method",
+      "signature": "(amount = 1)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "reflect",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "refreshHeldItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 271,
+      "exported": false
+    },
+    {
+      "name": "registerAliasCommands",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 88,
+      "exported": false
+    },
+    {
+      "name": "registerCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "registerEnums",
+      "kind": "method",
+      "signature": "(customCommandRegistry)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "registerSingleCommand",
+      "kind": "method",
+      "signature": "(customCommandRegistry, name = this.customCommand.name)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "rejection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "rejoin",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 115,
+      "exported": false
+    },
+    {
+      "name": "rejoinCommand",
+      "kind": "method",
+      "signature": "(origin, playername)",
+      "file": "packs/BP/scripts/commands/rejoin.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(type)",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(understudy)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "removeAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "repeat",
+      "kind": "method",
+      "signature": "(type, intervalTicks = 0)",
+      "file": "packs/BP/scripts/classes/Actions.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "resetStorage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "resetToDefaultValue",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "resolveCommandOrigin",
+      "kind": "method",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "resolveId",
+      "kind": "method",
+      "signature": "(id)",
+      "file": "vitest.config.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "save",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerInfoSaver.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "save",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "saveData",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "savePlayerInfo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "saveWithoutNBT",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/UnderstudyInventorySaver.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "scale",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "selectCommand",
+      "kind": "method",
+      "signature": "(_origin, playername, slotNumber)",
+      "file": "packs/BP/scripts/commands/select.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "selectSlot",
+      "kind": "method",
+      "signature": "(slotNumber)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 191,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "function",
+      "signature": "(channel, serializer, value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 555,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/BlockCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/CommandOrigin.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/EntityCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/PlayerCommandOrigin.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "sendMessage",
+      "kind": "method",
+      "signature": "(message)",
+      "file": "packs/BP/scripts/lib/canopy/ServerCommandOrigin.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "serialize",
+      "kind": "function",
+      "signature": "(byte_queue: PROTO.ByteQueue, max_size?: number)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.d.ts",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(value, e)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "set",
+      "kind": "method",
+      "signature": "(key, itemStack)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "Set",
+      "kind": "function",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 384,
+      "exported": false
+    },
+    {
+      "name": "setDefaultArgs",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "setGameRules",
+      "kind": "method",
+      "signature": "(newGameRules)",
+      "file": "packs/BP/scripts/classes/GameRuleCertifier.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "setInterval",
+      "kind": "method",
+      "signature": "(newIntervalTicks)",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "setItems",
+      "kind": "method",
+      "signature": "(key, items)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "setMany",
+      "kind": "method",
+      "signature": "(data)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "setMany",
+      "kind": "method",
+      "signature": "(items)",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/ItemDatabase.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "setNametagPrefix",
+      "kind": "method",
+      "signature": "(prefix)",
+      "file": "packs/BP/scripts/classes/Understudies.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "setupForRegistry",
+      "kind": "method",
+      "signature": "(startupEvent)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "setValue",
+      "kind": "method",
+      "signature": "(value)",
+      "file": "packs/BP/scripts/lib/canopy/Rule.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "sneak",
+      "kind": "method",
+      "signature": "(shouldSneak)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "sprint",
+      "kind": "method",
+      "signature": "(shouldSprint)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 196,
+      "exported": false
+    },
+    {
+      "name": "sprintCommand",
+      "kind": "method",
+      "signature": "(_origin, playername, shouldSneak)",
+      "file": "packs/BP/scripts/commands/sneak.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "sprintCommand",
+      "kind": "method",
+      "signature": "(_origin, playername, shouldSprint)",
+      "file": "packs/BP/scripts/commands/sprint.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "stopAll",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 236,
+      "exported": false
+    },
+    {
+      "name": "stopCommand",
+      "kind": "method",
+      "signature": "(_origin, playername)",
+      "file": "packs/BP/scripts/commands/stop.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "stopLooking",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 152,
+      "exported": false
+    },
+    {
+      "name": "stopMoving",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 187,
+      "exported": false
+    },
+    {
+      "name": "subscribeToEvent",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/rules/simplayerRejoining.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "subtract",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "swapHeldCommand",
+      "kind": "method",
+      "signature": "(origin, playername)",
+      "file": "packs/BP/scripts/commands/swapheld.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "swapHeldItemWithPlayer",
+      "kind": "method",
+      "signature": "(targetPlayer)",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 258,
+      "exported": false
+    },
+    {
+      "name": "swapSlots",
+      "kind": "function",
+      "signature": "(invContainer, slotNumber1, slotNumber2)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this.type)",
+      "file": "packs/BP/scripts/classes/RepeatableAction.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(timingOption)",
+      "file": "packs/BP/scripts/commands/action.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(lookOption)",
+      "file": "packs/BP/scripts/commands/look.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(moveOption)",
+      "file": "packs/BP/scripts/commands/move.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(origin.sourceType)",
+      "file": "packs/BP/scripts/lib/canopy/Command.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "teleport",
+      "kind": "method",
+      "signature": "({ location, dimension, rotation = { x: 0, y: 0 } })",
+      "file": "packs/BP/scripts/classes/Understudy.js",
+      "line": 126,
+      "exported": false
+    },
+    {
+      "name": "teleportCommand",
+      "kind": "method",
+      "signature": "(origin, playername)",
+      "file": "packs/BP/scripts/commands/tp.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "to_uint8array",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "toString",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "truncate",
+      "kind": "method",
+      "signature": "(decimals)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "Tuple",
+      "kind": "function",
+      "signature": "(...values)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 327,
+      "exported": false
+    },
+    {
+      "name": "unsubscribeFromEvent",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/rules/simplayerRejoining.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "updateMainJs",
+      "kind": "function",
+      "signature": "(filePath, newVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "updateManifest",
+      "kind": "function",
+      "signature": "(filePath, newVersion)",
+      "file": "filters/bump_version/main.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "values",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 144,
+      "exported": false
+    },
+    {
+      "name": "valuesSync",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/SRCItemDatabase/Database.js",
+      "line": 148,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(value >= 0x80)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 200,
+      "exported": false
+    },
+    {
+      "name": "write",
+      "kind": "method",
+      "signature": "(...values)",
+      "file": "packs/BP/scripts/lib/ipc/ipc.js",
+      "line": 44,
+      "exported": false
+    }
+  ],
+  "commands": [
+    {
+      "command": "/b",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "tudy_logo_banner.png) <div align=\"center\"> <p><b>Precise Control for Simulated Players</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Understudy/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Understud"
+    },
+    {
+      "command": "/div",
+      "source": "repository:README.md",
+      "line": 11,
+      "context": "buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://buymeacoffee.com/forestoflight) </div> Understudy gives you complete control over simulated players in your Minecraft Bedrock world. Afk your farms, load areas, and more -- all through a set of powerful, intuitive co"
+    },
+    {
+      "command": "/p",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "_logo_banner.png) <div align=\"center\"> <p><b>Precise Control for Simulated Players</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Understudy/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Understudy/re"
+    },
+    {
+      "command": "/simplayer:action",
+      "source": "repository:README.md",
+      "line": 49,
+      "context": "y z\\>` will make the simulated player move towards the specified coordinates. **Usage: `/simplayer:action <name: string> <action: attack/interact/use/build/break/drop/dropstack/dropall/jump> [timingOption: once/after/continuous/interval/stop] [ticks: int]`** Make the simulated pl"
+    },
+    {
+      "command": "/simplayer:claimprojectiles",
+      "source": "repository:README.md",
+      "line": 80,
+      "context": "an>`** Make the simulated player with the given name sneak or stop sneaking. **Usage: `/simplayer:claimprojectiles <playername: string> [radius: int]`** Make the simulated player with the given name become the owner of all projectiles within a block radius. If no radius is specif"
+    },
+    {
+      "command": "/simplayer:inventory",
+      "source": "repository:README.md",
+      "line": 89,
+      "context": "tem of the simulated player with the given name with the item you are holding. **Usage: `/simplayer:inventory <playername: string>`** Shows the inventory of the simulated player with the given name in chat. **Usage: `/simplayer:prefix <prefix: string>`** Set a nametag prefix for "
+    },
+    {
+      "command": "/simplayer:join",
+      "source": "repository:README.md",
+      "line": 23,
+      "context": "nopy** here!](https://github.com/ForestOfLight/Canopy) ## Usage ### Commands **Usage: `/simplayer:join <playername: string>`** Spawn a simulated player with the given name at your current location in your current game mode. **Usage: `/simplayer:leave <playername: string>`** Re"
+    },
+    {
+      "command": "/simplayer:leave",
+      "source": "repository:README.md",
+      "line": 26,
+      "context": "player with the given name at your current location in your current game mode. **Usage: `/simplayer:leave <playername: string>`** Remove the simulated player with the given name. **Usage: `/simplayer:rejoin <playername: string>`** Spawn a simulated player with the given name at"
+    },
+    {
+      "command": "/simplayer:look",
+      "source": "repository:README.md",
+      "line": 35,
+      "context": "Teleport the simulated player with the given name to your current location. **Usage: `/simplayer:look <playername: string> [lookOption: up/down/noth/south/east/west/block/entity/me/at] [x y z: location]`** Make the simulated player with the given name look at the specified targe"
+    },
+    {
+      "command": "/simplayer:move",
+      "source": "repository:README.md",
+      "line": 42,
+      "context": "t \\<x y z\\>` will make the simulated player look at the specified coordinates. **Usage: `/simplayer:move <playername: string> [moveOption: forward/backward/left/right/block/entity/me/to] [location: x y z]`** Make the simulated player with the given name move in the specified dire"
+    },
+    {
+      "command": "/simplayer:prefix",
+      "source": "repository:README.md",
+      "line": 92,
+      "context": "`** Shows the inventory of the simulated player with the given name in chat. **Usage: `/simplayer:prefix <prefix: string>`** Set a nametag prefix for all simulated players. Use `-none` to remove the prefix. ### Rules These rules can be toggled in **Canopy**. - **`simplayerRejoin"
+    },
+    {
+      "command": "/simplayer:rejoin",
+      "source": "repository:README.md",
+      "line": 29,
+      "context": "ve <playername: string>`** Remove the simulated player with the given name. **Usage: `/simplayer:rejoin <playername: string>`** Spawn a simulated player with the given name at its last location, if it has one. **Usage: `/simplayer:tp <playername: string>`** Teleport the simulat"
+    },
+    {
+      "command": "/simplayer:select",
+      "source": "repository:README.md",
+      "line": 71,
+      "context": "argument. - `stop` will make the simulated player stop performing the action. **Usage: `/simplayer:select <playername: string> <slotNumber: int>`** Make the simulated player with the given name select the item in the specified hotbar slot. **Usage: `/simplayer:sprint <playername:"
+    },
+    {
+      "command": "/simplayer:sneak",
+      "source": "repository:README.md",
+      "line": 77,
+      "context": ">`** Make the simulated player with the given name sprint or stop sprinting. **Usage: `/simplayer:sneak <playername: string> <shouldSneak: boolean>`** Make the simulated player with the given name sneak or stop sneaking. **Usage: `/simplayer:claimprojectiles <playername: string>"
+    },
+    {
+      "command": "/simplayer:sprint",
+      "source": "repository:README.md",
+      "line": 74,
+      "context": "lated player with the given name select the item in the specified hotbar slot. **Usage: `/simplayer:sprint <playername: string> <shouldSprint: boolean>`** Make the simulated player with the given name sprint or stop sprinting. **Usage: `/simplayer:sneak <playername: string> <shou"
+    },
+    {
+      "command": "/simplayer:stop",
+      "source": "repository:README.md",
+      "line": 83,
+      "context": "es within a block radius. If no radius is specified, it defaults to 25 blocks. **Usage: `/simplayer:stop <playername: string>`** Stop all actions the simulated player with the given name is doing. **Usage: `/simplayer:swapheld <playername: string>`** Swaps the held item of the s"
+    },
+    {
+      "command": "/simplayer:swapheld",
+      "source": "repository:README.md",
+      "line": 86,
+      "context": "ring>`** Stop all actions the simulated player with the given name is doing. **Usage: `/simplayer:swapheld <playername: string>`** Swaps the held item of the simulated player with the given name with the item you are holding. **Usage: `/simplayer:inventory <playername: string>`**"
+    },
+    {
+      "command": "/simplayer:tp",
+      "source": "repository:README.md",
+      "line": 32,
+      "context": "wn a simulated player with the given name at its last location, if it has one. **Usage: `/simplayer:tp <playername: string>`** Teleport the simulated player with the given name to your current location. **Usage: `/simplayer:look <playername: string> [lookOption: up/down/noth/sou"
+    },
+    {
+      "command": "/understudy_logo_banner",
+      "source": "repository:README.md",
+      "line": 1,
+      "context": "![Understudy Logo](./understudy_logo_banner.png) <div align=\"center\"> <p><b>Precise Control for Simulated Players</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Understudy/total?label"
+    }
+  ],
+  "globalRules": [
+    {
+      "name": "Donate",
+      "source": "repository:README.md"
+    }
+  ],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Usage",
+      "headings": [
+        "Usage",
+        "Commands",
+        "Rules",
+        "Donate"
+      ],
+      "bytes": 6556
+    }
+  ],
+  "counts": {
+    "versions": 21,
+    "releaseAssets": 63,
+    "contributors": 1,
+    "functions": 324,
+    "commands": 19,
+    "globalRules": 1,
+    "documents": 1
+  }
+}

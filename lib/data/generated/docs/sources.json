@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T16:38:29.552401+00:00",
+  "sources": [
+    {
+      "repository": "add-on-registry",
+      "projectId": "add-on-registry",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "15c8ffafcaf45483892e4cbf445696f9ae652d7b",
+      "fileCount": 1
+    },
+    {
+      "repository": "AddonAPIKit",
+      "projectId": "addon-api-kit",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "186e7b5f138e0060d2cb8befe697b30170fb76b7",
+      "fileCount": 4
+    },
+    {
+      "repository": "AmelixSMPViewer",
+      "projectId": "amelixsmpviewer",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "497150f22f720e5228944a8ba30cfaf88f1a06f5",
+      "fileCount": 1
+    },
+    {
+      "repository": "Bedrock-SRC-ItemStack-Database",
+      "projectId": "bedrock-src-itemstack-database",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "b821bb10749b3c4a2ee7ca7903899c1d380019a3",
+      "fileCount": 1
+    },
+    {
+      "repository": "Boreal",
+      "projectId": "boreal",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "5a4ee3f16c1a6fd4a8df22680a42248ef1c8d1b8",
+      "fileCount": 1
+    },
+    {
+      "repository": "Canopy",
+      "projectId": "canopy",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "e82227b3141fe649d0c71a8e6168ebf6a5a7cd4f",
+      "fileCount": 2
+    },
+    {
+      "repository": "Canopy",
+      "projectId": "canopy",
+      "sourceType": "wiki",
+      "branch": "master",
+      "revision": "56523dc92818a47771fdaeecc831a0f002992a6b",
+      "fileCount": 6
+    },
+    {
+      "repository": "Canopy-Extension-Example",
+      "projectId": "canopy-extension-example",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "41ec42cc538b432c912dae5542c8c000e824dc54",
+      "fileCount": 1
+    },
+    {
+      "repository": "Construct",
+      "projectId": "construct",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "28588f8a8f72bb7e5c2d1c571a995ff380814f3a",
+      "fileCount": 5
+    },
+    {
+      "repository": "CoralFans",
+      "projectId": "coralfans",
+      "sourceType": "repository",
+      "branch": "develop",
+      "revision": "2cc65f7b48fd2bfa6d87c78ab5ed13f61c11a26d",
+      "fileCount": 1
+    },
+    {
+      "repository": "minecraft-vitest-mocks",
+      "projectId": "minecraft-vitest-mocks",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "23ae1d7ac2656ae81a4ea513ec1bbd6372dba924",
+      "fileCount": 1
+    },
+    {
+      "repository": "Nudge",
+      "projectId": "nudge",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "f97b926449cddc6b5f896f9a59d47788ab5d78b3",
+      "fileCount": 1
+    },
+    {
+      "repository": "skyoobguide",
+      "projectId": "skyoobguide",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "b8e9d27ba64538a3a51fd8577814ac26902b7a9d",
+      "fileCount": 13
+    },
+    {
+      "repository": "Statistic-Display",
+      "projectId": "statistic-display",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "cd4c89e86f5d79c224f3c28dafdde4d3c9576e3e",
+      "fileCount": 1
+    },
+    {
+      "repository": "Toontown-Rewritten-Bot",
+      "projectId": "toontown-rewritten-bot",
+      "sourceType": "repository",
+      "branch": "master",
+      "revision": "ef44b1c337df4a5ff780e493c5e5a92faaccee31",
+      "fileCount": 1
+    },
+    {
+      "repository": "Understudy",
+      "projectId": "understudy",
+      "sourceType": "repository",
+      "branch": "main",
+      "revision": "1382e26ea02d5e38d57d1ebfd11b37b8d13981a0",
+      "fileCount": 1
+    }
+  ],
+  "failures": []
+}

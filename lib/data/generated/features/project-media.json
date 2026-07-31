@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "candidateUrls": 4,
+  "mirroredAssets": 1,
+  "downloadedReferences": 1,
+  "fallbackReferences": 3,
+  "sourceReplacements": 4,
+  "changedFiles": [
+    "lib/data/addons.ts"
+  ],
+  "remainingRuntimeGithubImages": [],
+  "downloads": [
+    {
+      "source": "https://raw.githubusercontent.com/ForestOfLight/Canopy/main/canopylogo_banner.jpg",
+      "path": "/_project-media/6170169d0da576b8e6cfa262.jpg",
+      "bytes": 42673,
+      "hash": "6170169d0da576b8e6cfa262ef036c2b5bed2baa921146ef48c4eb38d011ce37"
+    }
+  ],
+  "fallbacks": [
+    {
+      "source": "https://opengraph.githubassets.com/forest-01/ForestOfLight/${repository}",
+      "path": "/icon.svg",
+      "reason": "dynamic URL replaced with local fallback"
+    },
+    {
+      "source": "https://opengraph.githubassets.com/forest-02/ForestOfLight/${repository}",
+      "path": "/icon.svg",
+      "reason": "dynamic URL replaced with local fallback"
+    },
+    {
+      "source": "https://opengraph.githubassets.com/forest-03/ForestOfLight/${repository}",
+      "path": "/icon.svg",
+      "reason": "dynamic URL replaced with local fallback"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "slug": "add-on-registry",
+  "name": "add-on-registry",
+  "fullName": "ForestOfLight/add-on-registry",
+  "description": "A registry for Minecraft Bedrock Add-Ons and their basic meta-data. This is intended to be used by features such as WAILA-add-ons to display accurate information about packs.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/add-on-registry",
+  "defaultBranch": "main",
+  "language": "",
+  "license": "MIT",
+  "fork": true,
+  "archived": false,
+  "createdAt": "2025-11-29T06:50:08Z",
+  "updatedAt": "2025-11-29T06:50:08Z",
+  "pushedAt": "2025-11-29T07:00:24Z",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "topics": [],
+  "releases": [
+    {
+      "tag": "v1.0.6",
+      "name": "v1.0.6",
+      "publishedAt": "",
+      "prerelease": false,
+      "draft": false,
+      "notes": "",
+      "htmlUrl": "https://github.com/ForestOfLight/add-on-registry/tree/v1.0.6",
+      "assets": [],
+      "sourceZipUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.6.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.6.tar.gz",
+      "formalRelease": false
+    },
+    {
+      "tag": "v1.0.5",
+      "name": "v1.0.5",
+      "publishedAt": "",
+      "prerelease": false,
+      "draft": false,
+      "notes": "",
+      "htmlUrl": "https://github.com/ForestOfLight/add-on-registry/tree/v1.0.5",
+      "assets": [],
+      "sourceZipUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.5.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.5.tar.gz",
+      "formalRelease": false
+    },
+    {
+      "tag": "v1.0.4",
+      "name": "v1.0.4",
+      "publishedAt": "",
+      "prerelease": false,
+      "draft": false,
+      "notes": "",
+      "htmlUrl": "https://github.com/ForestOfLight/add-on-registry/tree/v1.0.4",
+      "assets": [],
+      "sourceZipUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.4.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.4.tar.gz",
+      "formalRelease": false
+    },
+    {
+      "tag": "v1.0.3",
+      "name": "v1.0.3",
+      "publishedAt": "",
+      "prerelease": false,
+      "draft": false,
+      "notes": "",
+      "htmlUrl": "https://github.com/ForestOfLight/add-on-registry/tree/v1.0.3",
+      "assets": [],
+      "sourceZipUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.3.tar.gz",
+      "formalRelease": false
+    },
+    {
+      "tag": "v1.0.2",
+      "name": "v1.0.2",
+      "publishedAt": "",
+      "prerelease": false,
+      "draft": false,
+      "notes": "",
+      "htmlUrl": "https://github.com/ForestOfLight/add-on-registry/tree/v1.0.2",
+      "assets": [],
+      "sourceZipUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/add-on-registry/archive/refs/tags/v1.0.2.tar.gz",
+      "formalRelease": false
+    }
+  ],
+  "contributors": [
+    {
+      "login": "JannisX11",
+      "contributions": 34,
+      "profileUrl": "https://github.com/JannisX11",
+      "avatar": "/_archive-media/contributors/jannisx11.png",
+      "type": "User"
+    },
+    {
+      "login": "ThijsHankelMC",
+      "contributions": 22,
+      "profileUrl": "https://github.com/ThijsHankelMC",
+      "avatar": "/_archive-media/contributors/thijshankelmc.png",
+      "type": "User"
+    },
+    {
+      "login": "8Crafter",
+      "contributions": 9,
+      "profileUrl": "https://github.com/8Crafter",
+      "avatar": "/_archive-media/contributors/8crafter.png",
+      "type": "User"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 7,
+      "profileUrl": "https://github.com/apps/github-actions",
+      "avatar": "/_archive-media/contributors/github-actions-bot.png",
+      "type": "Bot"
+    },
+    {
+      "login": "JeanLucasMCPE",
+      "contributions": 3,
+      "profileUrl": "https://github.com/JeanLucasMCPE",
+      "avatar": "/_archive-media/contributors/jeanlucasmcpe.png",
+      "type": "User"
+    },
+    {
+      "login": "SirLich",
+      "contributions": 3,
+      "profileUrl": "https://github.com/SirLich",
+      "avatar": "/_archive-media/contributors/sirlich.png",
+      "type": "User"
+    },
+    {
+      "login": "bogumidu",
+      "contributions": 2,
+      "profileUrl": "https://github.com/bogumidu",
+      "avatar": "/_archive-media/contributors/bogumidu.png",
+      "type": "User"
+    },
+    {
+      "login": "jigarbov",
+      "contributions": 2,
+      "profileUrl": "https://github.com/jigarbov",
+      "avatar": "/_archive-media/contributors/jigarbov.png",
+      "type": "User"
+    },
+    {
+      "login": "Keyyard",
+      "contributions": 2,
+      "profileUrl": "https://github.com/Keyyard",
+      "avatar": "/_archive-media/contributors/keyyard.png",
+      "type": "User"
+    },
+    {
+      "login": "legopitstop",
+      "contributions": 2,
+      "profileUrl": "https://github.com/legopitstop",
+      "avatar": "/_archive-media/contributors/legopitstop.png",
+      "type": "User"
+    },
+    {
+      "login": "oosakadayo",
+      "contributions": 2,
+      "profileUrl": "https://github.com/oosakadayo",
+      "avatar": "/_archive-media/contributors/oosakadayo.png",
+      "type": "User"
+    },
+    {
+      "login": "sparks0",
+      "contributions": 2,
+      "profileUrl": "https://github.com/sparks0",
+      "avatar": "/_archive-media/contributors/sparks0.png",
+      "type": "User"
+    },
+    {
+      "login": "abrightmoore",
+      "contributions": 1,
+      "profileUrl": "https://github.com/abrightmoore",
+      "avatar": "/_archive-media/contributors/abrightmoore.png",
+      "type": "User"
+    },
+    {
+      "login": "bidule995",
+      "contributions": 1,
+      "profileUrl": "https://github.com/bidule995",
+      "avatar": "/_archive-media/contributors/bidule995.png",
+      "type": "User"
+    },
+    {
+      "login": "CallumPearl",
+      "contributions": 1,
+      "profileUrl": "https://github.com/CallumPearl",
+      "avatar": "/_archive-media/contributors/callumpearl.png",
+      "type": "User"
+    },
+    {
+      "login": "housejumper",
+      "contributions": 1,
+      "profileUrl": "https://github.com/housejumper",
+      "avatar": "/_archive-media/contributors/housejumper.png",
+      "type": "User"
+    },
+    {
+      "login": "innova67",
+      "contributions": 1,
+      "profileUrl": "https://github.com/innova67",
+      "avatar": "/_archive-media/contributors/innova67.png",
+      "type": "User"
+    },
+    {
+      "login": "jeanmajid",
+      "contributions": 1,
+      "profileUrl": "https://github.com/jeanmajid",
+      "avatar": "/_archive-media/contributors/jeanmajid.png",
+      "type": "User"
+    },
+    {
+      "login": "JuliusScizzor",
+      "contributions": 1,
+      "profileUrl": "https://github.com/JuliusScizzor",
+      "avatar": "/_archive-media/contributors/juliusscizzor.png",
+      "type": "User"
+    },
+    {
+      "login": "JWForever5504",
+      "contributions": 1,
+      "profileUrl": "https://github.com/JWForever5504",
+      "avatar": "/_archive-media/contributors/jwforever5504.png",
+      "type": "User"
+    },
+    {
+      "login": "LukasPAH",
+      "contributions": 1,
+      "profileUrl": "https://github.com/LukasPAH",
+      "avatar": "/_archive-media/contributors/lukaspah.png",
+      "type": "User"
+    },
+    {
+      "login": "r4isen1920",
+      "contributions": 1,
+      "profileUrl": "https://github.com/r4isen1920",
+      "avatar": "/_archive-media/contributors/r4isen1920.png",
+      "type": "User"
+    },
+    {
+      "login": "Scaietele",
+      "contributions": 1,
+      "profileUrl": "https://github.com/Scaietele",
+      "avatar": "/_archive-media/contributors/scaietele.png",
+      "type": "User"
+    },
+    {
+      "login": "StarkTMA",
+      "contributions": 1,
+      "profileUrl": "https://github.com/StarkTMA",
+      "avatar": "/_archive-media/contributors/starktma.png",
+      "type": "User"
+    },
+    {
+      "login": "Stervma",
+      "contributions": 1,
+      "profileUrl": "https://github.com/Stervma",
+      "avatar": "/_archive-media/contributors/stervma.png",
+      "type": "User"
+    },
+    {
+      "login": "stirante",
+      "contributions": 1,
+      "profileUrl": "https://github.com/stirante",
+      "avatar": "/_archive-media/contributors/stirante.png",
+      "type": "User"
+    },
+    {
+      "login": "ThomasOrs",
+      "contributions": 1,
+      "profileUrl": "https://github.com/ThomasOrs",
+      "avatar": "/_archive-media/contributors/thomasors.png",
+      "type": "User"
+    },
+    {
+      "login": "tomhmagic",
+      "contributions": 1,
+      "profileUrl": "https://github.com/tomhmagic",
+      "avatar": "/_archive-media/contributors/tomhmagic.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "createRegister",
+      "kind": "function",
+      "signature": "(object, indent = 0)",
+      "file": "scripts/build-registry.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const file of allFiles)",
+      "file": "scripts/build-registry.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const file of allFiles)",
+      "file": "scripts/validate-registry.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "formatValues",
+      "kind": "function",
+      "signature": "(value, indent = 1)",
+      "file": "scripts/build-registry.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(typeof value === \"string\")",
+      "file": "scripts/build-registry.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(typeof value === \"object\" && value !== null)",
+      "file": "scripts/build-registry.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(hasDuplicate)",
+      "file": "scripts/build-registry.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nonJsonFiles.length > 0)",
+      "file": "scripts/validate-registry.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(validationErrors.length > 0)",
+      "file": "scripts/validate-registry.js",
+      "line": 26,
+      "exported": false
+    }
+  ],
+  "commands": [],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Add-On Registry ! npm version https://img.shields.io/npm/v/@bedrock-oss/add-on-registry https://www.npmjs.com/package/@bedrock-oss/add-on-re",
+      "headings": [
+        "Add-On Registry ! npm version https://img.shields.io/npm/v/@bedrock-oss/add-on-registry https://www.npmjs.com/package/@bedrock-oss/add-on-re",
+        "Contribution",
+        "Steps",
+        "Notes",
+        "Including it in your pack"
+      ],
+      "bytes": 2160
+    }
+  ],
+  "counts": {
+    "versions": 5,
+    "releaseAssets": 10,
+    "contributors": 28,
+    "functions": 9,
+    "commands": 0,
+    "globalRules": 0,
+    "documents": 1
+  }
+}

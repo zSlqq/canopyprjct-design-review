@@ -1,0 +1,3619 @@
+{
+  "schemaVersion": 1,
+  "slug": "nudge",
+  "name": "Nudge",
+  "fullName": "ForestOfLight/Nudge",
+  "description": "An addon that adds intuitive, powerful creative building tools to Minecraft Bedrock.",
+  "homepage": "",
+  "repositoryUrl": "https://github.com/ForestOfLight/Nudge",
+  "defaultBranch": "main",
+  "language": "JavaScript",
+  "license": "MIT",
+  "fork": false,
+  "archived": false,
+  "createdAt": "2025-09-19T15:59:16Z",
+  "updatedAt": "2026-07-19T01:57:51Z",
+  "pushedAt": "2026-07-10T00:55:33Z",
+  "stars": 5,
+  "forks": 0,
+  "openIssues": 2,
+  "topics": [],
+  "releases": [
+    {
+      "tag": "v1.0.4",
+      "name": "v1.0.4 for MC 26.30",
+      "publishedAt": "2026-06-20T02:43:01Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.30 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Nudge/releases/tag/v1.0.4",
+      "assets": [
+        {
+          "name": "Nudge-v1.0.4.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Nudge/releases/download/v1.0.4/Nudge-v1.0.4.mcaddon",
+          "bytes": 203048,
+          "downloads": 43,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.4.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.4.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.3",
+      "name": "v1.0.3 for MC 26.20",
+      "publishedAt": "2026-05-08T00:17:06Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.20 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Nudge/releases/tag/v1.0.3",
+      "assets": [
+        {
+          "name": "Nudge-v1.0.3.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Nudge/releases/download/v1.0.3/Nudge-v1.0.3.mcaddon",
+          "bytes": 203083,
+          "downloads": 31,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.3.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.3.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.2",
+      "name": "v1.0.2 for MC 26.10",
+      "publishedAt": "2026-03-28T01:42:37Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.10 Support__**",
+      "htmlUrl": "https://github.com/ForestOfLight/Nudge/releases/tag/v1.0.2",
+      "assets": [
+        {
+          "name": "Nudge-v1.0.2.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Nudge/releases/download/v1.0.2/Nudge-v1.0.2.mcaddon",
+          "bytes": 203062,
+          "downloads": 30,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.2.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.2.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.1",
+      "name": "v1.0.1 for MC 26.0",
+      "publishedAt": "2026-02-11T21:29:23Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "### __What's new__\r\n- **__Minecraft 26.0 Support__**\r\n### __Fixes__\r\n- No longer force-disables Vibrant Visuals.",
+      "htmlUrl": "https://github.com/ForestOfLight/Nudge/releases/tag/v1.0.1",
+      "assets": [
+        {
+          "name": "Nudge-v1.0.1.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Nudge/releases/download/v1.0.1/Nudge-v1.0.1.mcaddon",
+          "bytes": 197794,
+          "downloads": 34,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.1.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.1.tar.gz",
+      "formalRelease": true
+    },
+    {
+      "tag": "v1.0.0",
+      "name": "v1.0.0 for MC 1.21.130",
+      "publishedAt": "2026-01-25T03:15:31Z",
+      "prerelease": false,
+      "draft": false,
+      "notes": "This is the first release of Nudge!\r\n\r\nIt features these roadmap items:\r\n\r\n-  Selection system\r\n-  Nudge system\r\n-  Move edit\r\n-  Undo / Redo\r\n-  Clone edit\r\n-  Selection rotation / mirroring\r\n-  Delete edit\r\n-  Stack edit\r\n-  Arbitrarily sized edits\r\n-  Ticking areas for edits\r\n-  Entities affected by edits\r\n-  Translation support\r\n-  Magic Delete edit\r\n-  Extrude edit\r\n-  Symmetry Building",
+      "htmlUrl": "https://github.com/ForestOfLight/Nudge/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "Nudge-v1.0.0.mcaddon",
+          "downloadUrl": "https://github.com/ForestOfLight/Nudge/releases/download/v1.0.0/Nudge-v1.0.0.mcaddon",
+          "bytes": 197774,
+          "downloads": 40,
+          "contentType": "application/octet-stream"
+        }
+      ],
+      "sourceZipUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.0.zip",
+      "sourceTarUrl": "https://github.com/ForestOfLight/Nudge/archive/refs/tags/v1.0.0.tar.gz",
+      "formalRelease": true
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ForestOfLight",
+      "contributions": 111,
+      "profileUrl": "https://github.com/ForestOfLight",
+      "avatar": "/_archive-media/contributors/forestoflight.png",
+      "type": "User"
+    }
+  ],
+  "functions": [
+    {
+      "name": "forceShow",
+      "kind": "function",
+      "signature": "(player, form, timeout = Infinity)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 4,
+      "exported": true
+    },
+    {
+      "name": "getVectorByDirection",
+      "kind": "function",
+      "signature": "(direction)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 16,
+      "exported": true
+    },
+    {
+      "name": "Vector",
+      "kind": "function",
+      "signature": "(x = 0, y = 0, z = 0)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 5,
+      "exported": true
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builders.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "add",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "addNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 197,
+      "exported": false
+    },
+    {
+      "name": "allowMovement",
+      "kind": "method",
+      "signature": "(enable)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "applySymmetry",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 113,
+      "exported": false
+    },
+    {
+      "name": "assertFullyLoaded",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "assertFullyLoaded",
+      "kind": "method",
+      "signature": "(tickingAreas)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "assertInDimensionBounds",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "buildForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/ModeSelectionForm.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "buildForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryForm.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "buildModifySymmetryForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryForm.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "buildSetupSymmetryForm",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryForm.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "changeEditMode",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 83,
+      "exported": false
+    },
+    {
+      "name": "clampToSize",
+      "kind": "method",
+      "signature": "(vector)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "clearArea",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "clearConnectedBlocks",
+      "kind": "method",
+      "signature": "(clearLocation = void 0)",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "clearEntities",
+      "kind": "method",
+      "signature": "(min, span)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteConnectedMode.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "(edit)",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "(edit)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "confirmEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "confirmExtrude",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "confirmIntrude",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "confirmSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "confirmSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "confirmSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "confirmSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "confirmSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "createCurvedLine",
+      "kind": "method",
+      "signature": "(start, end, curveDistance = 1.25, segments = 8)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 134,
+      "exported": false
+    },
+    {
+      "name": "createNewEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "createNewEdit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "createPartitionedStructure",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "createSingleBlockStructure",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetricTransform.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "createSingleStructure",
+      "kind": "method",
+      "signature": "(min, max, { includeEntities = true } = {})",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "cross",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "deselect",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "deselect",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "deselect",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/StaticCuboidRenderer.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "destroy",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryRenderer.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "disableMovementMode",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vector)",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "distance",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/CloneEdit.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteConnectedEdit.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteVolumeEdit.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/ExtrudeEdit.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/IntrudeEdit.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MoveEdit.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "do",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "dot",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "draw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "drawCuboid",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "drawCuboid",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "drawCuboid",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "drawCuboid",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/StaticCuboidRenderer.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "drawDirectionArrow",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 117,
+      "exported": false
+    },
+    {
+      "name": "drawEdgeShape",
+      "kind": "method",
+      "signature": "(shape)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "drawFaceGrid",
+      "kind": "method",
+      "signature": "(startVertex, endVertex)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "drawGridOnFaces",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "drawMarker",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryRenderer.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "drawOffsetText",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 145,
+      "exported": false
+    },
+    {
+      "name": "drawShape",
+      "kind": "method",
+      "signature": "(shape)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "enableMovementMode",
+      "kind": "method",
+      "signature": "(playerMovement)",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "endNudge",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "enterNudgeMode",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "exitNudgeMode",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "exitNudgeMode",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "extendSelection",
+      "kind": "method",
+      "signature": "(to)",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "extendSelection",
+      "kind": "method",
+      "signature": "(to)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "extendTo",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "floor",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 66,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < this.queue.length; i++)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const direction of directions)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const directionSet of directions)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const direction of directionSet)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const nudgeItemType of nudgeItemTypes)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 182,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotIndex = 0; slotIndex < inventoryContainer.size; slotIndex++)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 223,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let slotIndex = 0; slotIndex < inventoryContainer.size; slotIndex++)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 235,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let numUndone = 0; numUndone < num; numUndone++)",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let numRedone = 0; numRedone < num; numRedone++)",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = min.x; x <= max.x; x += 16)",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = min.z; z <= max.z; z += 16)",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 42,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const blockStructure of blockStructures)",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = this.pasteBounds.min.y; y <= this.pasteBounds.max.y; y += this.stackableSize.y)",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = this.pasteBounds.min.x; x <= this.pasteBounds.max.x; x += this.stackableSize.x)",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = this.pasteBounds.min.z; z <= this.pasteBounds.max.z; z += this.stackableSize.z)",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < structures.length; i++)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const entity of entities)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 76,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let i = 0; i < segments; i++)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 141,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const [startIdx, endIdx] of edges)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const { start, end } of linesOnThisFace)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = faceMin.y; y < faceMax.y; y += this.selectionSize.y)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = faceMin.z; z < faceMax.z; z += this.selectionSize.z)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = faceMin.x; x < faceMax.x; x += this.selectionSize.x)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 82,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let z = faceMin.z; z < faceMax.z; z += this.selectionSize.z)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = faceMin.x; x < faceMax.x; x += this.selectionSize.x)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let y = faceMin.y; y < faceMax.y; y += this.selectionSize.y)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const mirror of mirrors)",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const rotation of rotations)",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const { newLocation, mirrorAxis, rotation } of transforms)",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetricTransform.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const tickingArea of tickingAreas)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(let x = this.min.x; x <= this.max.x; x += this.partitionSize)",
+      "file": "packs/BP/scripts/classes/VolumePartitioner.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "for",
+      "kind": "method",
+      "signature": "(const playerId in this.playerHotbarSlotsThisTick)",
+      "file": "packs/BP/scripts/events/PlayerChangeHotbarSlotEvent.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "freeze",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "get",
+      "kind": "method",
+      "signature": "(id)",
+      "file": "packs/BP/scripts/classes/Builders.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "getArrowLocation",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 139,
+      "exported": false
+    },
+    {
+      "name": "getBlocksAsStructures",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "getBounds",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "getCenterpoint",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "getColorByAxis",
+      "kind": "method",
+      "signature": "(startLocation, endLocation)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/CloneEdit.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteConnectedEdit.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteVolumeEdit.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/ExtrudeEdit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/IntrudeEdit.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MoveEdit.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "getDoingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 112,
+      "exported": false
+    },
+    {
+      "name": "getDuringSelectionFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "getEdges",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "getEdgeShape",
+      "kind": "method",
+      "signature": "(startVertex, endVertex)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 94,
+      "exported": false
+    },
+    {
+      "name": "getElapsedMovementTicks",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "getFaceIndexes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getFreeMovementFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "getFreeMovementFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "getFreeMovementFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 120,
+      "exported": false
+    },
+    {
+      "name": "getFreeMovementFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteConnectedMode.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 108,
+      "exported": false
+    },
+    {
+      "name": "getHoldItemFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "getLinesForFace",
+      "kind": "method",
+      "signature": "(startVertex, endVertex)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "getMajorDirectionFacing",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "getMirrorOrRotationFeedback",
+      "kind": "method",
+      "signature": "(mirrorOrRotation)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 163,
+      "exported": false
+    },
+    {
+      "name": "getMirrorShapes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 49,
+      "exported": false
+    },
+    {
+      "name": "getMovementVector",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "getMovingCuboidEdgeShapes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 80,
+      "exported": false
+    },
+    {
+      "name": "getNext",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/IDGenerator.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getNextMirrorOrRotation",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 148,
+      "exported": false
+    },
+    {
+      "name": "getNudgeOffset",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "getOffset",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "getOffset",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerMove.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "getOffset",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "getOffsetText",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 156,
+      "exported": false
+    },
+    {
+      "name": "getPartitionAt",
+      "kind": "method",
+      "signature": "(x, y, z)",
+      "file": "packs/BP/scripts/classes/VolumePartitioner.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "getPartitions",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/VolumePartitioner.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "getPartitionsLayer",
+      "kind": "method",
+      "signature": "(y)",
+      "file": "packs/BP/scripts/classes/VolumePartitioner.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "getPlayer",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "getPlayerMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 65,
+      "exported": false
+    },
+    {
+      "name": "getPlayersWhoChangedHotbarSlots",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/PlayerChangeHotbarSlotEvent.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "getRotatedSize",
+      "kind": "method",
+      "signature": "(structureSize, rotation)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "getRotationShapes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 96,
+      "exported": false
+    },
+    {
+      "name": "getSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "getSize",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 101,
+      "exported": false
+    },
+    {
+      "name": "getStartNudgingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 86,
+      "exported": false
+    },
+    {
+      "name": "getStartNudgingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "getStartNudgingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 116,
+      "exported": false
+    },
+    {
+      "name": "getStartNudgingFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 72,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/CloneEdit.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteConnectedEdit.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteVolumeEdit.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/ExtrudeEdit.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/IntrudeEdit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MoveEdit.js",
+      "line": 50,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 56,
+      "exported": false
+    },
+    {
+      "name": "getSuccessFeedback",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "getSymmetry",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 157,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/MirrorXTransform.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/MirrorXZTransform.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/MirrorZTransform.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/RotationTransform.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "getTransforms",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetricTransform.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "getVelocityFromMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerMove.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "getVelocityFromMovement",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "getVertexIndexes",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "getXMirrorShapes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "getZMirrorShapes",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 79,
+      "exported": false
+    },
+    {
+      "name": "givePlayerMenuItem",
+      "kind": "function",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/commands/nudge.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "handleResponse",
+      "kind": "method",
+      "signature": "(formValues)",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryForm.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "handleSelection",
+      "kind": "method",
+      "signature": "(selection)",
+      "file": "packs/BP/scripts/classes/ModeSelectionForm.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "hasNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 229,
+      "exported": false
+    },
+    {
+      "name": "hasSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "hasSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "hasSymmetry",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 171,
+      "exported": false
+    },
+    {
+      "name": "hereCommand",
+      "kind": "function",
+      "signature": "(origin)",
+      "file": "packs/BP/scripts/commands/here.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "hitIcon",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(corners)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(fromGameMode === GameMode.Creative && toGameMode !== GameMode.Creative)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!inventoryContainer)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 95,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nudgeItemSlot !== void 0)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 184,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(nudgeItemSlot)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 208,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(selection < numModes)",
+      "file": "packs/BP/scripts/classes/ModeSelectionForm.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.nudger?.isSuspended)",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!blockRaycastHit)",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error.name === 'UnloadedVolumeError')",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(error.name === 'UnloadedVolumeError')",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.nudger?.isSuspended)",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!blockRaycast)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(!block)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.runner)",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(this.cuboidShape)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(startVertex.x === endVertex.x)",
+      "file": "packs/BP/scripts/classes/Renderer/StackingRenderer.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(mirror !== StructureMirrorAxis.None)",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(mirror === StructureMirrorAxis.X)",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(success)",
+      "file": "packs/BP/scripts/commands/nudge.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "if",
+      "kind": "method",
+      "signature": "(new.target)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "isHoldingNudgeItem",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 58,
+      "exported": false
+    },
+    {
+      "name": "isInEffectiveRange",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 109,
+      "exported": false
+    },
+    {
+      "name": "isJumping",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "isMirroringX",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 128,
+      "exported": false
+    },
+    {
+      "name": "isMirroringZ",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 132,
+      "exported": false
+    },
+    {
+      "name": "isNudgingSuspended",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 104,
+      "exported": false
+    },
+    {
+      "name": "isNudgingSuspended",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 87,
+      "exported": false
+    },
+    {
+      "name": "isRotating",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 136,
+      "exported": false
+    },
+    {
+      "name": "isSneaking",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "isTracking",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "jumpIcon",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "lerp",
+      "kind": "method",
+      "signature": "(vec, t)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 60,
+      "exported": false
+    },
+    {
+      "name": "loadArea",
+      "kind": "method",
+      "signature": "(dimension, min, max)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "loadChunkRadius",
+      "kind": "method",
+      "signature": "(dimension, location, chunkRadius)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "makeKey",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "matchesSearch",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Edits/DeleteConnectedEdit.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "matchesSearch",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Edits/ExtrudeEdit.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "matchesSearch",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Edits/IntrudeEdit.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "matchesSearch",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 31,
+      "exported": false
+    },
+    {
+      "name": "mirrorOrRotate",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 124,
+      "exported": false
+    },
+    {
+      "name": "move",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "multiply",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 70,
+      "exported": false
+    },
+    {
+      "name": "nudgeItemInSlot",
+      "kind": "method",
+      "signature": "(player, slotIndex)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 64,
+      "exported": false
+    },
+    {
+      "name": "nudgeOffset",
+      "kind": "method",
+      "signature": "(minOffset, maxOffset)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "onEntityHitBlock",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 75,
+      "exported": false
+    },
+    {
+      "name": "onEntitySpawn",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 78,
+      "exported": false
+    },
+    {
+      "name": "onGameModeChange",
+      "kind": "method",
+      "signature": "(fromGameMode, toGameMode)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 55,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Modes/DeleteConnectedMode.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "onHit",
+      "kind": "method",
+      "signature": "(player, block)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "onItemStartUseOn",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 83,
+      "exported": false
+    },
+    {
+      "name": "onItemUse",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "onJoin",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builders.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "onLeave",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "onLeave",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builders.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "onNudgeTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 40,
+      "exported": false
+    },
+    {
+      "name": "onPlayerAttack",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "onPlayerBreakBlock",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 9,
+      "exported": false
+    },
+    {
+      "name": "onPlayerChangeHotbarSlot",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "onPlayerGameModeChange",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 73,
+      "exported": false
+    },
+    {
+      "name": "onPlayerPlaceBreakOrInteractWithBlock",
+      "kind": "method",
+      "signature": "(event)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 92,
+      "exported": false
+    },
+    {
+      "name": "onStartHoldNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "onTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 68,
+      "exported": false
+    },
+    {
+      "name": "onTick",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteConnectedMode.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 6,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/ExtrudeMode.js",
+      "line": 7,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 11,
+      "exported": false
+    },
+    {
+      "name": "onUse",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/PlayerInteractions.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "onUseWhileNudging",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "onUseWhileNudging",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "onUseWhileNudging",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "pasteBlockStructures",
+      "kind": "method",
+      "signature": "(blockStructures, pasteLocation = void 0)",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 71,
+      "exported": false
+    },
+    {
+      "name": "pastePartitionedStructure",
+      "kind": "method",
+      "signature": "(partitionedStructure, location, mirrorAxis = void 0, rotation = void 0)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "pasteSingleStructure",
+      "kind": "method",
+      "signature": "(structure, location, structurePlaceOptions = {})",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "pasteSingleStructure",
+      "kind": "method",
+      "signature": "(structure, location, structurePlaceOptions = {})",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetricTransform.js",
+      "line": 39,
+      "exported": false
+    },
+    {
+      "name": "populateConnectedBlocks",
+      "kind": "method",
+      "signature": "(location, { corners = true, maxBlocks = 128 })",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "projection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 61,
+      "exported": false
+    },
+    {
+      "name": "provideEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "provideEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/PlayerChangeHotbarSlotEvent.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "redo",
+      "kind": "method",
+      "signature": "(num = 1)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 149,
+      "exported": false
+    },
+    {
+      "name": "redo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "redoLastEdit",
+      "kind": "function",
+      "signature": "(origin, number = 1)",
+      "file": "packs/BP/scripts/commands/redo.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "redoMany",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "reflect",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 62,
+      "exported": false
+    },
+    {
+      "name": "rejection",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 63,
+      "exported": false
+    },
+    {
+      "name": "remove",
+      "kind": "method",
+      "signature": "(playerId)",
+      "file": "packs/BP/scripts/classes/Builders.js",
+      "line": 12,
+      "exported": false
+    },
+    {
+      "name": "removeCallback",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 44,
+      "exported": false
+    },
+    {
+      "name": "removeNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 217,
+      "exported": false
+    },
+    {
+      "name": "removeSymmetry",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 166,
+      "exported": false
+    },
+    {
+      "name": "render",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 53,
+      "exported": false
+    },
+    {
+      "name": "replaceBlockInArea",
+      "kind": "method",
+      "signature": "(min, max, replaceBlock, newBlock)",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 85,
+      "exported": false
+    },
+    {
+      "name": "replaceModeItemInHand",
+      "kind": "method",
+      "signature": "(newEditMode)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 131,
+      "exported": false
+    },
+    {
+      "name": "run",
+      "kind": "method",
+      "signature": "(location, isSameTypeCallback, { corners = false, maxFound = 128 } = {})",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "save",
+      "kind": "method",
+      "signature": "(edit)",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 8,
+      "exported": false
+    },
+    {
+      "name": "scaleByButtonHold",
+      "kind": "method",
+      "signature": "(velocity)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerMove.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "scaleByButtonHold",
+      "kind": "method",
+      "signature": "(velocity)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "select",
+      "kind": "method",
+      "signature": "(dimension, from, to)",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "select",
+      "kind": "method",
+      "signature": "(dimension, from, to)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "send",
+      "kind": "method",
+      "signature": "(player, message)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 4,
+      "exported": false
+    },
+    {
+      "name": "sendEvents",
+      "kind": "method",
+      "signature": "(events)",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 34,
+      "exported": false
+    },
+    {
+      "name": "setColor",
+      "kind": "method",
+      "signature": "(rgba)",
+      "file": "packs/BP/scripts/classes/Renderer/StaticCuboidRenderer.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "setEditMode",
+      "kind": "method",
+      "signature": "(newEditMode)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 103,
+      "exported": false
+    },
+    {
+      "name": "setEditModeByHeldItemId",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 91,
+      "exported": false
+    },
+    {
+      "name": "setFrom",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "setLocation",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Renderer/CuboidRenderer.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "setLocation",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 24,
+      "exported": false
+    },
+    {
+      "name": "setLocation",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "setMirrorAxis",
+      "kind": "method",
+      "signature": "(structureMirrorAxis)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "setMirrorAxis",
+      "kind": "method",
+      "signature": "(mirrorAxis)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "setMirrorAxis",
+      "kind": "method",
+      "signature": "(mirrorAxis)",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "setMirrorAxis",
+      "kind": "method",
+      "signature": "(mirrorAxis)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "setMovementLocation",
+      "kind": "method",
+      "signature": "(nudgedMin, nudgedMax)",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "setNudgeLocation",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 91,
+      "exported": false
+    },
+    {
+      "name": "setNudgeLocation",
+      "kind": "method",
+      "signature": "(min)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "setOutlineLocation",
+      "kind": "method",
+      "signature": "(min, max)",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "setRotation",
+      "kind": "method",
+      "signature": "(structureRotation)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 33,
+      "exported": false
+    },
+    {
+      "name": "setRotation",
+      "kind": "method",
+      "signature": "(rotation)",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 57,
+      "exported": false
+    },
+    {
+      "name": "setRotation",
+      "kind": "method",
+      "signature": "(rotation)",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "setRotation",
+      "kind": "method",
+      "signature": "(rotation)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "setSelection",
+      "kind": "method",
+      "signature": "(selection)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 36,
+      "exported": false
+    },
+    {
+      "name": "setSymmetry",
+      "kind": "method",
+      "signature": "(symmetry)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 161,
+      "exported": false
+    },
+    {
+      "name": "setTo",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "shouldDirectionArrowMove",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/NudgingCuboidRenderer.js",
+      "line": 131,
+      "exported": false
+    },
+    {
+      "name": "shouldHaveNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 192,
+      "exported": false
+    },
+    {
+      "name": "shouldMove",
+      "kind": "method",
+      "signature": "(minOffset, maxOffset)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 74,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/ModeSelectionForm.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "show",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetryForm.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "snapToStackingGrid",
+      "kind": "method",
+      "signature": "(location)",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 89,
+      "exported": false
+    },
+    {
+      "name": "sneakIcon",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "start",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 14,
+      "exported": false
+    },
+    {
+      "name": "start",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "startDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "startNudge",
+      "kind": "method",
+      "signature": "(playerMovement)",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 54,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "(dimension, location)",
+      "file": "packs/BP/scripts/classes/Modes/CloneMode.js",
+      "line": 48,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "(dimension, location)",
+      "file": "packs/BP/scripts/classes/Modes/DeleteVolumeMode.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/MagicMode.js",
+      "line": 35,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "(dimension, location)",
+      "file": "packs/BP/scripts/classes/Modes/MoveMode.js",
+      "line": 47,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "startSelection",
+      "kind": "method",
+      "signature": "(dimension, location)",
+      "file": "packs/BP/scripts/classes/Modes/StackMode.js",
+      "line": 41,
+      "exported": false
+    },
+    {
+      "name": "startTrackingEvent",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "stop",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "stop",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudgerStack.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "stopDraw",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Renderer/SelectionRenderer.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "stopTrackingEvent",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 52,
+      "exported": false
+    },
+    {
+      "name": "subscribe",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "subscribeToEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 59,
+      "exported": false
+    },
+    {
+      "name": "subtract",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 69,
+      "exported": false
+    },
+    {
+      "name": "suspend",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 28,
+      "exported": false
+    },
+    {
+      "name": "suspendNudge",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 92,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(newEditMode)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 105,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(inputMode)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 10,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(inputMode)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(inputMode)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(inputMode)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 43,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(selection)",
+      "file": "packs/BP/scripts/classes/ModeSelectionForm.js",
+      "line": 46,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(mirrorOrRotation)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 165,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(mirrorOrRotation)",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 175,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this.mirrorAxis)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(this.rotation)",
+      "file": "packs/BP/scripts/classes/Renderer/MirrorRotateRenderer.js",
+      "line": 99,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(rotation)",
+      "file": "packs/BP/scripts/classes/Symmetry/EightDirectionalMirrorTransform.js",
+      "line": 15,
+      "exported": false
+    },
+    {
+      "name": "switch",
+      "kind": "method",
+      "signature": "(direction)",
+      "file": "packs/BP/scripts/utils.js",
+      "line": 18,
+      "exported": false
+    },
+    {
+      "name": "toString",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 77,
+      "exported": false
+    },
+    {
+      "name": "transform",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/SymmetricTransform.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "tryApplySymmetry",
+      "kind": "method",
+      "signature": "(block)",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 103,
+      "exported": false
+    },
+    {
+      "name": "tryVisit",
+      "kind": "method",
+      "signature": "(location, isSameTypeCallback)",
+      "file": "packs/BP/scripts/classes/BlockBreadthFirstSearch.js",
+      "line": 81,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "(num = 1)",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 141,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/CloneEdit.js",
+      "line": 38,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteConnectedEdit.js",
+      "line": 20,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/DeleteVolumeEdit.js",
+      "line": 22,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/Edit.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/ExtrudeEdit.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/IntrudeEdit.js",
+      "line": 25,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 19,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/MoveEdit.js",
+      "line": 37,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/StackEdit.js",
+      "line": 45,
+      "exported": false
+    },
+    {
+      "name": "undo",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Edits/VolumeEdit.js",
+      "line": 17,
+      "exported": false
+    },
+    {
+      "name": "undoLastEdit",
+      "kind": "function",
+      "signature": "(origin, number = 1)",
+      "file": "packs/BP/scripts/commands/undo.js",
+      "line": 13,
+      "exported": false
+    },
+    {
+      "name": "undoMany",
+      "kind": "method",
+      "signature": "(num)",
+      "file": "packs/BP/scripts/classes/EditLog.js",
+      "line": 26,
+      "exported": false
+    },
+    {
+      "name": "unfreeze",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/PlayerMovement.js",
+      "line": 30,
+      "exported": false
+    },
+    {
+      "name": "unloadArea",
+      "kind": "method",
+      "signature": "(tickingArea)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 23,
+      "exported": false
+    },
+    {
+      "name": "unloadAreas",
+      "kind": "method",
+      "signature": "(tickingAreas)",
+      "file": "packs/BP/scripts/classes/TickingAreaUtils.js",
+      "line": 27,
+      "exported": false
+    },
+    {
+      "name": "unsubscribe",
+      "kind": "method",
+      "signature": "(callback)",
+      "file": "packs/BP/scripts/events/Event.js",
+      "line": 16,
+      "exported": false
+    },
+    {
+      "name": "unsubscribeFromEvents",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Symmetry/Symmetry.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "unsuspend",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Nudges/BuildNudger.js",
+      "line": 32,
+      "exported": false
+    },
+    {
+      "name": "unsuspendNudge",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Modes/NudgableMode.js",
+      "line": 98,
+      "exported": false
+    },
+    {
+      "name": "updatePlayerHotbarSlots",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/events/PlayerChangeHotbarSlotEvent.js",
+      "line": 21,
+      "exported": false
+    },
+    {
+      "name": "updateRendererLocation",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Selection.js",
+      "line": 106,
+      "exported": false
+    },
+    {
+      "name": "updateShouldHaveNudgeItem",
+      "kind": "method",
+      "signature": "()",
+      "file": "packs/BP/scripts/classes/Builder.js",
+      "line": 175,
+      "exported": false
+    },
+    {
+      "name": "useIcon",
+      "kind": "method",
+      "signature": "(player)",
+      "file": "packs/BP/scripts/classes/Feedback.js",
+      "line": 29,
+      "exported": false
+    },
+    {
+      "name": "volume",
+      "kind": "method",
+      "signature": "(vec)",
+      "file": "packs/BP/scripts/lib/Vector.js",
+      "line": 67,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(iteratorResult.done === false)",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 51,
+      "exported": false
+    },
+    {
+      "name": "while",
+      "kind": "method",
+      "signature": "(iteratorResult.done === false)",
+      "file": "packs/BP/scripts/classes/Edits/MagicEdit.js",
+      "line": 65,
+      "exported": false
+    }
+  ],
+  "commands": [
+    {
+      "command": "/a",
+      "source": "repository:README.md",
+      "line": 4,
+      "context": "/icon.png\"> <img src=\"./icon.png\" alt=\"Nudge Icon\" width=\"130\" height=\"130\"> </a> <p><b>Nudge</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Nudge/total?label=Github%20downloads&logo=github)](https://github.com/ForestOf"
+    },
+    {
+      "command": "/b",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "<img src=\"./icon.png\" alt=\"Nudge Icon\" width=\"130\" height=\"130\"> </a> <p><b>Nudge</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Nudge/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Nudge/releases"
+    },
+    {
+      "command": "/demo",
+      "source": "repository:README.md",
+      "line": 32,
+      "context": "ols. <div align=\"center\"> <a href=\"https://youtu.be/HvZ565d1T4w\"> <img src=\"./demo.jpeg\" alt=\"Nudge Editing Demo\" height=\"350\"> </a> <p><i><a href=\"https://youtu.be/HvZ565d1T4w\">Click here to watch a brief demo of Nudge</a></i></p> </div> ## Usage Down"
+    },
+    {
+      "command": "/div",
+      "source": "repository:README.md",
+      "line": 12,
+      "context": "buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://buymeacoffee.com/forestoflight) </div> --- Nudge is a powerful creative building addon for Minecraft Bedrock Edition. Inspired by the simple tools from moulberry's Axiom, it is designed to give creators quick, intui"
+    },
+    {
+      "command": "/i",
+      "source": "repository:README.md",
+      "line": 34,
+      "context": "p><i><a href=\"https://youtu.be/HvZ565d1T4w\">Click here to watch a brief demo of Nudge</a></i></p> </div> ## Usage Download the latest release of **Nudge** from the [Releases Page](https://github.com/ForestOfLight/Nudge/releases). Install it like any other addon, making"
+    },
+    {
+      "command": "/icon",
+      "source": "repository:README.md",
+      "line": 2,
+      "context": "<div align=\"center\"> <a href=\"./icon.png\"> <img src=\"./icon.png\" alt=\"Nudge Icon\" width=\"130\" height=\"130\"> </a> <p><b>Nudge</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/Fores"
+    },
+    {
+      "command": "/nudge:here",
+      "source": "repository:README.md",
+      "line": 62,
+      "context": "l. **`/nudge:redo <amount: int>`** - Redoes the last undone edit action, or several. **`/nudge:here`** - Starts, extends, or nudges your selection to your current location. ### Server Installation Before installing on a server, make sure the `config/default/permissions.json` f"
+    },
+    {
+      "command": "/nudge:nudge",
+      "source": "repository:README.md",
+      "line": 50,
+      "context": "e Nudge not to render properly. ### Getting Started Once installed on a world: 1. Use `/nudge:nudge` to get the Nudge item. 2. \"Hit\" with the item to start selecting an area or \"Use\" it to change the edit mode. 3. Instructions in-game will guide you through making edits. Nudge"
+    },
+    {
+      "command": "/nudge:redo",
+      "source": "repository:README.md",
+      "line": 60,
+      "context": "Commands **`/nudge:undo <amount: int>`** - Undoes the last edit action, or several. **`/nudge:redo <amount: int>`** - Redoes the last undone edit action, or several. **`/nudge:here`** - Starts, extends, or nudges your selection to your current location. ### Server Installatio"
+    },
+    {
+      "command": "/nudge:undo",
+      "source": "repository:README.md",
+      "line": 58,
+      "context": "l natural and quick - a companion tool for faster iteration. ### Additional Commands **`/nudge:undo <amount: int>`** - Undoes the last edit action, or several. **`/nudge:redo <amount: int>`** - Redoes the last undone edit action, or several. **`/nudge:here`** - Starts, extends"
+    },
+    {
+      "command": "/p",
+      "source": "repository:README.md",
+      "line": 5,
+      "context": "src=\"./icon.png\" alt=\"Nudge Icon\" width=\"130\" height=\"130\"> </a> <p><b>Nudge</b></p> [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Nudge/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Nudge/releases/lat"
+    }
+  ],
+  "globalRules": [],
+  "documents": [
+    {
+      "source": "repository:README.md",
+      "title": "Usage",
+      "headings": [
+        "Usage",
+        "Getting Started",
+        "Additional Commands",
+        "Server Installation",
+        "Join the Community",
+        "Roadmap",
+        "Issues & Suggestions",
+        "Adding Translations",
+        "Donate"
+      ],
+      "bytes": 4368
+    }
+  ],
+  "counts": {
+    "versions": 5,
+    "releaseAssets": 15,
+    "contributors": 1,
+    "functions": 423,
+    "commands": 11,
+    "globalRules": 0,
+    "documents": 1
+  }
+}
